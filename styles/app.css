@@ -1,0 +1,499 @@
+/* AZUL : 340083 */
+/* VERMELHO : #FF2020 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700');
+*{
+
+}
+
+body{
+    color:blue;
+    font-family: 'Montserrat', sans-serif !important;
+    min-width: 340px;
+}
+
+
+p{font-size: 14px;color:#5D6970;}
+
+.bg-primary-m{
+    background-color: #391C66  !important;
+
+}
+.bg-danger-m {
+    background-color: #FF2020 !important;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #FF2020 !important;
+    border-color: #FF2020 !important;
+}
+
+nav{
+    z-index: 999;
+    font-size: 11px;
+}
+.navbar-collapse > div{
+    display: flex;
+    align-items: center;
+}
+nav .text-primary {
+    color: #391C66 !important;
+}
+
+@media (min-width:768px) {
+    .navbar{
+        position: absolute !important;
+        z-index: 999;
+        width: 100%;
+    }
+}
+.text-primary-main{
+    color: #391C66 !important;
+    /* #340083 */
+}
+a.btn.btn-primary.text-white.rounded-pill.p-2.shadow-sm.nav-link {
+    box-shadow: 4px 1px 5px #8a9298 !important;
+}
+
+.text-secundary-main {
+    color: #FF2020 !important;
+}
+
+.border.border-primary-main{
+    border: 1px solid #391C66 !important; 
+}
+
+.highligts .card {
+     border-radius: 17px;
+    box-shadow: 10px 5px 11px #e2dfdf;
+      height: 170px;
+
+     
+}
+@media(min-width:767px) and (max-width:1100px){
+    .highligts .card-body {
+    padding:5px ;
+    }
+    .highligts h2{ 
+    font-size: 15px !important;
+    }
+    .highligts p{ 
+    font-size: 12px !important;
+    }
+}
+@media(min-width:768px){
+
+
+    .highligts .card { 
+        margin: 0 auto 20px;  
+    }
+}
+
+@media(max-width:767px){
+    
+
+    section.highligts p br {
+        display: none;
+    }
+
+    .highligts .card {
+      background-color: #340083;
+        
+    }
+    .highligts .card p{ 
+        color: white !important;
+        font-size: 1.4rem !important;
+        
+          
+    }
+    .highligts .card h2 { 
+        height: 57px;
+        color: white;
+    }
+
+    .highligts .card p {font-size: 13px !important;}
+
+
+}
+
+
+
+.highligts h2 {
+    font-size: 18px;
+    font-weight: revert;
+}
+.card h2.main,.card-body  {
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif !important;
+    color: #340083;
+
+}
+
+
+
+/* SECTION - SKILLS */
+.skills i {
+    font-size: 8rem;
+    opacity: 0.6;
+    color: #c52534 !important;
+}
+.skills h2 {
+    top: 5%;
+}
+#skill p.card-text,.experience p.card-text {
+    padding: 0 24px !important;
+}
+
+.border-top-m {
+    border-top: 1px solid #f1f1f1 !important;
+}
+
+@media(min-width:768px){
+    .navbar-collapse a{
+        margin-left: 50px; 
+ 
+    }
+    .navbar-collapse .btn-primary{
+    margin-left: 390px; 
+    font-size: 14px;
+
+    }
+    .skills h2 {
+        top: 20%;
+    }
+    
+}
+.btn {
+    width: 155px;
+    height: 40px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px !important;
+}
+
+.btn-primary{
+    background-color: #340083 !important;
+    border: #340083 !important;
+}
+.text-left.carousel-caption{ 
+    color: #340083 !important;
+    padding: 5px 20px;
+    border-left: 4px solid !important; 
+    border-color:#FF2020 !important;
+
+}
+
+
+
+
+
+.carousel {
+    max-height: 450px; 
+}
+.carousel-caption{
+    bottom: inherit !important;
+    top: 25% !important;
+    left: 10.5% !important;
+}
+.carousel-caption{
+    max-width: 680px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 50px !important;
+    height: 50px !important;
+    background: inherit !important;
+    opacity: 1!important;
+}
+.carousel-control-prev-icon {
+    background-image: url('/right.png') !important;
+    background-repeat: no-repeat !important;
+
+   
+}
+.carousel-control-next-icon {
+    background-image: url('/left.png') !important;
+    background-repeat: no-repeat !important;
+
+}
+
+
+.carousel-indicators li {
+    width: 8px  !important;
+    height: 8px  !important;
+    border-radius: 50% !important;
+    background-color: #BDBDBD !important;
+    border-bottom: inherit !important;
+    border-top: inherit !important;
+
+} 
+
+ol.carousel-indicators .active {
+    background-color: #FF2020 !important;
+    width: 32px !important;
+    height: 7px !important;
+    border-radius: 28px !important ;
+
+}
+.carousel-control-prev {
+    right: 280px !important;
+    left: inherit !important;
+}
+.carousel-control-next {
+    right: 220px  !important;
+}
+.carousel-control-prev, .carousel-control-next{
+    background-color: transparent !important;
+    /* border:2px solid red; */
+    color: red;
+    width:50px  !important;
+    height: 50px  !important;
+    top: inherit  !important;
+    bottom: 5px !important;
+    border-radius: 60%;
+    z-index: 999 !important;
+    opacity: 1 !important;  
+
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next{
+    transition:.3s; 
+    opacity: 1 !important; 
+
+
+}
+ 
+@media(max-width:575px){
+    .carousel-caption { 
+        top: 50vh !important; 
+    }
+}
+@media(max-width:768px){
+    .carousel-caption h1 {
+        font-size: 29px;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        display:none !important;
+    }
+  
+    .carousel-caption h1,h2 {
+        font-size: 1.8rem !important;
+    }
+
+
+   
+    
+}
+
+@media(min-width:768px){
+   
+    .carousel-caption h1{
+        /* width: 760px; */
+    }
+    .second-slide{
+        display: none;
+    }
+    
+    
+    h2,h1, .h1 {
+        font-size: 1.5rem !important; 
+        line-height: 1.3;
+    }
+    .card h2  {
+        font-size: 1.2rem !important; 
+        line-height: 1.2;
+    }
+    .card p  {
+        font-size: 0.7rem !important; 
+
+    }
+      
+    .full-banner { 
+        position: relative !important;
+        height: 310px; 
+        background: red;
+    }
+    .carousel-inner{
+        height: 350px;
+    }
+}
+@media(min-width:1100px){
+    .card p {
+        font-size: 0.9rem !important;
+    }
+    
+    
+}
+@media(min-width:1024px){
+   
+   
+    .full-banner .carousel img{
+        position: relative;
+        bottom: 90px;
+    }
+   
+    .full-banner { 
+        position: relative !important;
+        height: 450px;
+        background: red;
+    }
+    .carousel-inner{
+        height: 90vh;
+    }
+   
+}
+
+
+/* RESETS */
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 540px;
+    min-width: 90%;}
+
+}
+
+
+
+
+
+
+
+
+/* CAROUSEL / PORTFÓLIO */
+@media(max-width:768px){
+
+    .carousel-item {
+      text-align: center;
+    }
+}
+@media(min-width:768px){
+
+    .p-0.slide-portfolio  {
+        position: absolute;
+        right: 0;
+        top:0;
+    }
+}
+ .slide-portfolio a.carousel-control-prev,.slide-portfolio a.carousel-control-next{
+display: none;
+}
+/* SWIPER */
+
+/* .swiper-container{
+    overflow: inherit !important;
+} */
+
+.swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
+
+  @media(min-width:1200px){
+    .swiper-slide {
+        margin:0 25px 0 0 !important
+    }
+    h1, .h1 {
+        font-size: 2.3rem !important;
+    }
+    
+
+  }
+
+
+/* DOWNLOAD */
+ @media(min-width:768px){
+    section.download .container > div {
+        position: relative;
+        width: 100%;
+        z-index: 999;
+        left: 0;
+        top: -73px;
+    }
+    .portfolio-section {
+        height:640px ;
+    }
+    section.download {
+        position: relative;
+        /* background: red; */
+        /* height: 70px; */
+    }
+    
+    #portfolio img {
+        position:absolute !important;
+        right: 0 !important;
+    }
+
+ }
+
+
+
+
+
+
+.radius-m{
+    border-radius: 17px !important;
+}
+
+
+/* FOOTER */
+
+
+
+@media (max-width:768px){
+    footer .list-group-item {
+        font-size: 0.6rem;
+    }
+    
+}
+@media (min-width:769px){
+    footer .list-group-item {
+        font-size: 0.8rem;
+    }
+    
+}
+
+
+
+/* PARALLAX */
+.parallax {
+    background-image: url(/parallax_img.jpg);
+    min-height: 369px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width:560px){
+    .parallax {
+     
+        background-position: -118px 7px !important;
+       
+    } 
+    
+}
+@media (min-width:768px){
+    .parallax {
+      
+        min-height: 300px;
+
+       
+    } 
+    
+}
+
+
+
+/* PROGRESS */
+
+.progress{
+    height: 7px !important; 
+}
+
+.progress-bar{
+    background-color: #340083 !important;
+}
