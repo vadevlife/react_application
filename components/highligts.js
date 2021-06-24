@@ -38,7 +38,7 @@ import {
                         <Card.Body >
                           <Card.Title className="text-primary-main fw-bolde">
                             <h2>
-                              Designer<br/>  Gráfico  
+                              Design<br/>  Gráfico  
                             </h2>
                           </Card.Title>
                           <Card.Text className="pt-2 pr-lg-5 d-lg-block">Direção de arte, criação de peças<br/> publicitárias e interfaces digitais.</Card.Text>
@@ -62,7 +62,7 @@ import {
                         <Card.Body>
                           <Card.Title className="text-white-main fw-bolde">
                             <h2 className="text-white"> 
-                                Integrador <br/>de E-commerce
+                                Integração <br/>de E-commerce
                             </h2>
                           </Card.Title>
                           <Card.Text className="pt-2"><p className="text-white">Desenvolvedor de lojas online, em diferentes plataformas.</p></Card.Text>

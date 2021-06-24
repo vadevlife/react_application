@@ -4,6 +4,7 @@
 *{
 
 }
+ 
 
 body{
     color:blue;
@@ -14,6 +15,14 @@ body{
 
 p{font-size: 14px;color:#5D6970;}
 
+.shadow-lg-m{
+    
+    box-shadow:4px 11px 9px #e8e8e8 !important;
+}
+.card {
+    border-radius: 15px !important;
+}
+ 
 .bg-primary-m{
     background-color: #391C66  !important;
 
@@ -64,7 +73,7 @@ a.btn.btn-primary.text-white.rounded-pill.p-2.shadow-sm.nav-link {
 
 .highligts .card {
      border-radius: 17px;
-    box-shadow: 10px 5px 11px #e2dfdf;
+    box-shadow: 4px 11px 9px #e8e8e8;
       height: 170px;
 
      
@@ -106,8 +115,9 @@ a.btn.btn-primary.text-white.rounded-pill.p-2.shadow-sm.nav-link {
           
     }
     .highligts .card h2 { 
-        height: 57px;
+        /* height: 57px; */
         color: white;
+        font-size: 1.2rem !important;
     }
 
     .highligts .card p {font-size: 13px !important;}
@@ -312,8 +322,7 @@ ol.carousel-indicators .active {
       
     .full-banner { 
         position: relative !important;
-        height: 310px; 
-        background: red;
+        height: 310px;  
     }
     .carousel-inner{
         height: 350px;
@@ -336,8 +345,7 @@ ol.carousel-indicators .active {
    
     .full-banner { 
         position: relative !important;
-        height: 450px;
-        background: red;
+        height: 450px; 
     }
     .carousel-inner{
         height: 90vh;
@@ -379,12 +387,14 @@ ol.carousel-indicators .active {
  .slide-portfolio a.carousel-control-prev,.slide-portfolio a.carousel-control-next{
 display: none;
 }
+
+/* benefits */
+.benefits .card p{
+   margin-bottom: 0 !important;
+}
 /* SWIPER */
 
-/* .swiper-container{
-    overflow: inherit !important;
-} */
-
+ 
 .swiper-slide:nth-child(2n) {
     width: 60%;
   }
@@ -461,7 +471,7 @@ display: none;
 
 /* PARALLAX */
 .parallax {
-    background-image: url(/parallax_img.jpg);
+    background-image: url(/bnn_parallax.png);
     min-height: 369px;
     background-attachment: fixed;
     background-position:center;

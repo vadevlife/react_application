@@ -16,7 +16,7 @@ import {
                     <Container>
                         <Row>
                         
-                            <Col md={5} lg={4} className="text-white mt-md-5">
+                            <Col md={5} lg={5} className="text-white mt-md-5">
                                 <div className="p-0 d-flex align-items-center">
                                     <span class="badge badge-pill badge-danger text-danger align-items-center">.</span>
                                     <h6 className="text-white pt-2 ml-2">Portfólio </h6>

@@ -13,6 +13,8 @@ import {
   // import from 'react-bootstrap';
   
   import Header from '../components/header';
+  import Parallax from '../components/parallax';
+  // import Skills from '../components/skills'; 
   import Fullbanner from '../components/fullbanner';
   import Highligts from '../components/highligts';
   import Benefits from '../components/benefits';
@@ -37,7 +39,7 @@ import {
       <Benefits></Benefits>
 
       {/* banner_parallax */}
-      {/* <Parallax></Parallax> */}
+      <Parallax></Parallax>
      
       {/* Skills */}
       {/* <Skills></Skills> */}
