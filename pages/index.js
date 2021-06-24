@@ -13,6 +13,7 @@ import {
   // import from 'react-bootstrap';
   
   import Header from '../components/header';
+  import Fullbanner from '../components/fullbanner';
   
 
 
@@ -25,7 +26,7 @@ import {
       <Header></Header>
       
       {/* banner_top */}
-      {/* <Fullbanner></Fullbanner>          */}
+      <Fullbanner></Fullbanner>         
    
       {/* Highligts */}
       {/* <Highligts></Highligts> */}
