@@ -14,6 +14,7 @@ import {
   
   import Header from '../components/header';
   import Fullbanner from '../components/fullbanner';
+  import Highligts from '../components/highligts';
   
 
 
@@ -29,7 +30,7 @@ import {
       <Fullbanner></Fullbanner>         
    
       {/* Highligts */}
-      {/* <Highligts></Highligts> */}
+      <Highligts></Highligts>
 
       {/* vantagens */}
       {/* <Benefits></Benefits> */}
