@@ -15,8 +15,9 @@ import {
   import Header from '../components/header';
   import Fullbanner from '../components/fullbanner';
   import Highligts from '../components/highligts';
+  import Benefits from '../components/benefits';
+  import Footer from '../components/footer';
   
-
 
  
 
@@ -33,7 +34,7 @@ import {
       <Highligts></Highligts>
 
       {/* vantagens */}
-      {/* <Benefits></Benefits> */}
+      <Benefits></Benefits>
 
       {/* banner_parallax */}
       {/* <Parallax></Parallax> */}
@@ -48,7 +49,7 @@ import {
       {/* <Download></Download> */}
 
       {/* footer _ Rodape */}
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     
  </div>
   }
