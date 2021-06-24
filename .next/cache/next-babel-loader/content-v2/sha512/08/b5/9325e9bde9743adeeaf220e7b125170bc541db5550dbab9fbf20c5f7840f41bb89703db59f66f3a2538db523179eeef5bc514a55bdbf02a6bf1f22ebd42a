@@ -1,0 +1,1 @@
+{"ast":null,"code":"import '../app.css';","map":{"version":3,"sources":["C:/Users/vinicius.araujo/Documents/shared/react_application/pages/_app.js"],"names":[],"mappings":"AAAA,OAAO,YAAP","sourcesContent":["import '../app.css'\r\n\r\n "]},"metadata":{},"sourceType":"module"}
