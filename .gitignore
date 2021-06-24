@@ -1,0 +1,4 @@
+node_modules/
+.next/
+.vscode/
+.pages/index_backup.js
