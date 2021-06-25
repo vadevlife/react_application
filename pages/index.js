@@ -18,6 +18,8 @@ import {
   import Fullbanner from '../components/fullbanner';
   import Highligts from '../components/highligts';
   import Benefits from '../components/benefits';
+  import Portfolio from '../components/portfolio';
+  import Download from '../components/download';
   import Footer from '../components/footer';
   
 
@@ -45,10 +47,10 @@ import {
       <Skills></Skills>
         
       {/* work */}
-      {/* <Portfolio></Portfolio> */}
+      <Portfolio></Portfolio>
 
       {/* Download */}
-      {/* <Download></Download> */}
+      <Download></Download>
 
       {/* footer _ Rodape */}
       <Footer></Footer>
