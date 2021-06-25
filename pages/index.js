@@ -14,7 +14,7 @@ import {
   
   import Header from '../components/header';
   import Parallax from '../components/parallax';
-  // import Skills from '../components/skills'; 
+  import Skills from '../components/skills'; 
   import Fullbanner from '../components/fullbanner';
   import Highligts from '../components/highligts';
   import Benefits from '../components/benefits';
@@ -42,7 +42,7 @@ import {
       <Parallax></Parallax>
      
       {/* Skills */}
-      {/* <Skills></Skills> */}
+      <Skills></Skills>
         
       {/* work */}
       {/* <Portfolio></Portfolio> */}

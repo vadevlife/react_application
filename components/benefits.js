@@ -17,7 +17,10 @@ import {
       <Container>
         <Row>
             <Col className="col-12 col-md-5 col-lg-4">
-                
+                 <div className="p-0 d-flex align-items-center mb-2">
+                    <span class="badge badge-pill badge-danger text-danger align-items-center">.</span>
+                    <h6 className="text-muted pt-2 ml-2">Vantagens </h6>
+                    </div>
                 <h2  className="h1 text-primary-main mb-3">
                     Aplicações rápidas que  <strong> otimizam o envolvimento.</strong>
                 </h2>
@@ -45,6 +48,7 @@ import {
                 <Card className="mt-0 mb-4 border-0 shadow-lg-m p-2 mr-4 ml-3 " >
                 <Card.Body >
                     <Card.Title className="text-primary-main fw-bold">
+                    
                     <h6>
                     <i class="far fa-chart-bar mr-2 "></i> 
                         <strong> 
