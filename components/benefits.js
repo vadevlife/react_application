@@ -25,10 +25,11 @@ import {
                     Aplicações rápidas que  <strong> otimizam o envolvimento.</strong>
                 </h2>
                 <p className="mt-4 mb-4">
-                Designer e Desenvolvedor Front-End de Lojas Virtuais e aplicações responsivas.
+                    Conheça vantagens de se obter uma aplicação fluida e de auto desempenho para seu negócio.
                 </p>
                 <div className="buttons d-flex pt-md-4">
-                    <Button className="rounded-pill mr-2" variant="danger">Portfólio</Button>{' '}
+                    <a className="rounded-pill mr-2b btn btn-danger" href="#portfolio">Portfólio</a>
+                    
                     <Button className="rounded-pill" variant="transparent border border-primary-main text-primary-main">Habilidades</Button>{' '}
                 </div>
             </Col>

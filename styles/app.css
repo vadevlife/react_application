@@ -15,6 +15,10 @@ body{
 
 p{font-size: 14px;color:#5D6970;}
 
+.text-small {
+    font-size: 14px !important;
+}
+
 .shadow-lg-m{
     
     box-shadow:4px 11px 9px #e8e8e8 !important;

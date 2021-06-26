@@ -1,10 +1,13 @@
+ 
+import { Swiper, SwiperSlide } from 'swiper/react'; 
+import 'swiper/swiper.min.css';
 import {
     
     Row,
     Container,
-    Col,  
-    Carousel,
-    Button
+    Col,   
+    Button,
+    Card
 
     }from 'react-bootstrap';
   import Image from 'next/image'; 
@@ -12,7 +15,7 @@ import {
  
   function Portfolio(){
     return   <div>
-                <section className="portfolio-section bg-primary-m mt-5 pt-5 position-relative">
+                <section id="portfolio" className="portfolio-section bg-primary-m mt-5 pt-5 position-relative">
                     <Container>
                         <Row>
                         
@@ -34,66 +37,48 @@ import {
                             </Col>
 
 
-                            <Col md={7} className="slide-portfolio mt-5 mb-5">
-
-                                <Carousel id="portfolio" className="p-0  ">
-
-                                <Carousel.Item>
-                                    <img
-                                        className="d-sm-none img-fluid" //img mob
-                                        src="/job_detran_mob.png"
-                                        alt="First slide"
-                                    /> 
-                                    <img
-                                        className="d-none d-sm-block img-fluid" //img desktop
-                                        src="/job_detran.png"
-                                        alt="First slide"
-                                    /> 
-                                </Carousel.Item>
-
-                                <Carousel.Item>
-                                    <img
-                                        className="d-sm-none img-fluid" //img mob
-                                        src="/job_poupa_mob.png"
-                                        alt="First slide"
-                                    /> 
-                                    <img
-                                        className="d-none d-sm-block img-fluid" //img desktop
-                                        src="/job_poupa.png"
-                                        alt="First slide"
-                                    /> 
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-sm-none img-fluid" //img mob
-                                        src="/job_oufati_mob.png"
-                                        alt="First slide"
-                                    /> 
-                                    <img
-                                        className="d-none d-sm-block img-fluid" //img desktop
-                                        src="/job_oufati.png"
-                                        alt="First slide"
-                                    /> 
-                                </Carousel.Item>
-
-                                <Carousel.Item>
-                                    <img
-                                        className="d-sm-none img-fluid" //img mob
-                                        src="/site_defensoria_publica_gov_sp_mob.png"
-                                        alt="First slide"
-                                    /> 
-                                    <img
-                                        className="d-none d-sm-block img-fluid" //img desktop
-                                        src="/site_defensoria_publica_gov_sp.png"
-                                        alt="First slide"
-                                    /> 
-                                </Carousel.Item>
-
-                                  
-                                    
-                                </Carousel>
-
-                            </Col>
+                            <Col md={12} className="slide-portfolio mt-5 mb-5">
+                                
+                    <Swiper
+                    spaceBetween={0} 
+                
+                 
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    breakpoints={{
+                        
+                      320: { 
+                        slidesPerView: 1, 
+                      }, 
+                      768: { 
+                        slidesPerView: 2,
+                      }
+                    }}
+                  >
+                    <SwiperSlide>
+                        <img
+                            className="img-fluid"  
+                            src="/job_detran_1.png"
+                            alt="First slide"
+                        /> 
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img
+                            className="img-fluid"  
+                            src="/job_poupa_1.png"
+                            alt="First slide"
+                        /> 
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img
+                            className="img-fluid"  
+                            src="/job_detran_1.png"
+                            alt="First slide"
+                        /> 
+                    </SwiperSlide>
+                    
+                  </Swiper>
+                </Col>
 </Row>
 </Container> 
 </section>

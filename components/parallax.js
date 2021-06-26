@@ -41,46 +41,8 @@ import {
                     <Container className="pt-5 pb-5">
                         <Row>
                             <Col className="pt-4 pb-4 d-flex flex-wrap justify-content-between">
-                                <img
-                                    className="img-fluid" //icon _ html
-                                    src="/html_5.png"
-                                    alt="icon_html5"
-                                /> 
-                                <img
-                                    className="img-fluid" //icon _ html
-                                    src="/css_3.png"
-                                    alt="icon_css3"
-                                /> 
-                                <img
-                                    className="img-fluid" //icon _ html
-                                    src="/js.png"
-                                    alt="icon_js"
-                                /> 
-                                <img
-                                    className="img-fluid" //icon _ html
-                                    src="/git.png"
-                                    alt="icon_git"
-                                /> 
-                                <img
-                                    className="img-fluid" //icon _ html
-                                    src="/npm.png"
-                                    alt="icon_npm"
-                                /> 
-                                <img
-                                    className="img-fluid" //icon _ html
-                                    src="/react.png"
-                                    alt="icon_react"
-                                /> 
-                                <img
-                                    className="img-fluid" //icon _ html
-                                    src="/wordpress.png"
-                                    alt="icon_wordpress"
-                                /> 
-                                <img
-                                    className="img-fluid" //icon _ html
-                                    src="/figma.png"
-                                    alt="icon_figma"
-                                /> 
+                            <i class="fab fa-html5"></i>
+
                             </Col>
                         </Row>
                     </Container>

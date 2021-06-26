@@ -50,10 +50,10 @@ import {
                         <Card.Body>
                           <Card.Title className="text-primary-main fw-bolde">
                             <h2>
-                              Desenvolvimento<br/> FrontEnd 
+                              Desenvolvimento<br/> Front-End 
                             </h2>
                           </Card.Title>
-                          <Card.Text className="pt-2">Aplicações Dinamicas e responsivas em diferentes linguagens</Card.Text>
+                          <Card.Text className="pt-2">Aplicações fluidas dinâmicas<br></br> e responsivas.</Card.Text>
                         </Card.Body>
                       </Card>
                     </SwiperSlide>
@@ -65,7 +65,7 @@ import {
                                 Integração <br/>de E-commerce
                             </h2>
                           </Card.Title>
-                          <Card.Text className="pt-2"><p className="text-white">Desenvolvedor de lojas online, em diferentes plataformas.</p></Card.Text>
+                          <Card.Text className="pt-2"><p className="text-white">Desenvolvimento de lojas online <br></br>em diferentes plataformas.</p></Card.Text>
                         </Card.Body>
                       </Card>
                     </SwiperSlide>
