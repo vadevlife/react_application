@@ -504,6 +504,18 @@ display: none;
     
 }
 
+/* icons_skills */
+
+.icons_skills i {
+    font-size: 75px;
+    color: #E3DBEE;
+}
+@media (max-width:768px){
+    .icons_skills i {
+        margin: 15px 10px 0;
+    }
+}
+
 
 
 /* PROGRESS */

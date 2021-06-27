@@ -28,7 +28,7 @@ import {
                     Conheça vantagens de se obter uma aplicação fluida e de auto desempenho para seu negócio.
                 </p>
                 <div className="buttons d-flex pt-md-4">
-                    <a className="rounded-pill mr-2b btn btn-danger" href="#portfolio">Portfólio</a>
+                    <a className="rounded-pill mr-2 btn btn-danger" href="#portfolio">Portfólio</a>
                     
                     <Button className="rounded-pill" variant="transparent border border-primary-main text-primary-main">Habilidades</Button>{' '}
                 </div>

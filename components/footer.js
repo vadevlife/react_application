@@ -24,7 +24,8 @@ import {
                 />  
 
             <p className="fw-bolde mt-3">
-              <strong>Lorem ipsum dolor</strong> sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            Conheça vantagens de se obter uma aplicação de<br></br> auto desempenho para seu negócio.
+              
             </p>
 
             {/* icones */}

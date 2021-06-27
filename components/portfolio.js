@@ -18,7 +18,6 @@ import {
                 <section id="portfolio" className="portfolio-section bg-primary-m mt-5 pt-5 position-relative">
                     <Container>
                         <Row>
-                        
                             <Col md={5} lg={5} className="text-white mt-md-5">
                                 <div className="p-0 d-flex align-items-center">
                                     <span class="badge badge-pill badge-danger text-danger align-items-center">.</span>
@@ -36,56 +35,56 @@ import {
                                 </div>
                             </Col>
 
-
                             <Col md={12} className="slide-portfolio mt-5 mb-5">
+                                            
+                                <Swiper
+                                spaceBetween={0} 
+                            
+                            
+                                onSlideChange={() => console.log('slide change')}
+                                onSwiper={(swiper) => console.log(swiper)}
+                                breakpoints={{
+                                    
+                                  320: { 
+                                    slidesPerView: 1, 
+                                  }, 
+                                  768: { 
+                                    slidesPerView: 2,
+                                  }
+                                }}
+                              >
+                                <SwiperSlide>
+                                    <img
+                                        className="img-fluid"  
+                                        src="/job_detran_1.png"
+                                        alt="First slide"
+                                    /> 
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img
+                                        className="img-fluid"  
+                                        src="/job_poupa_1.png"
+                                        alt="First slide"
+                                    /> 
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img
+                                        className="img-fluid"  
+                                        src="/job_detran_1.png"
+                                        alt="First slide"
+                                    /> 
+                                </SwiperSlide>
                                 
-                    <Swiper
-                    spaceBetween={0} 
-                
-                 
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
-                    breakpoints={{
-                        
-                      320: { 
-                        slidesPerView: 1, 
-                      }, 
-                      768: { 
-                        slidesPerView: 2,
-                      }
-                    }}
-                  >
-                    <SwiperSlide>
-                        <img
-                            className="img-fluid"  
-                            src="/job_detran_1.png"
-                            alt="First slide"
-                        /> 
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img
-                            className="img-fluid"  
-                            src="/job_poupa_1.png"
-                            alt="First slide"
-                        /> 
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img
-                            className="img-fluid"  
-                            src="/job_detran_1.png"
-                            alt="First slide"
-                        /> 
-                    </SwiperSlide>
-                    
-                  </Swiper>
-                </Col>
-</Row>
-</Container> 
-</section>
+                              </Swiper>
+                           
+                            </Col>
+                          </Row>
+                        </Container> 
+          </section>
 
 
 
-            </div>
+        </div>
   }
 
 export default Portfolio

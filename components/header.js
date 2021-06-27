@@ -31,7 +31,7 @@ import {
                             <Nav.Link className="text-primary" href="#home">Vantagens </Nav.Link>
                             <Nav.Link className="text-primary" href="#portfolio">Portfólio</Nav.Link>
                             <Nav.Link className="text-primary" href="#skills">Habilidades</Nav.Link>
-                            <Nav.Link className="text-primary" href="#link">Lembrete</Nav.Link>
+                            {/* <Nav.Link className="text-primary" href="#link">Lembrete</Nav.Link> */}
                             <Nav.Link className="btn btn-primary text-white rounded-pill p-2 shadow-sm" href="https://wa.me/+5512983171532?text=">Contrate &nbsp; <i className="fab text-sucess fa-whatsapp"></i></Nav.Link>
                            
                           </Nav>
