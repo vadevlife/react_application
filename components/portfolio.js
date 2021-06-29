@@ -24,10 +24,10 @@ import {
                                     <h6 className="text-muted pt-2 ml-2">Portfólio </h6>
                                 </div>
                                 <h2 className="h1 text-white pt-2 mb-3 mb-sm-0">
-                                   Desenvolvedor Front-End<br></br><strong>Integração, Design e Prototipação.</strong>
+                                   Desenvolvimento Front-end<br></br><strong>Integração, Design e Prototipação.</strong>
                                 </h2>
                                 <p class="text-white mt-3 mb-5">
-                                Tem habil de desenvolvimento 2 semanas, com recursos re interação com o usuário.
+                                    pela criação de aplicações de auto desempenho.
                                 </p>
                                 <div className="buttons d-none d-lg-flex">
                                     <Button className="rounded-pill mr-2" variant="danger">Contato</Button>{' '}
@@ -39,7 +39,7 @@ import {
                           </Row>
                         </Container> 
 
-                        <Col md={12} className="slide-portfolio mt-5 mb-5 pt-md-3 pl-0 pr-0">
+                        <Col md={12} className="slide-portfolio mt-5 mb-5 pt-md-3 pl-0 pr-0 ">
                                             
                                 <Swiper
                                 spaceBetween={0} 
@@ -63,28 +63,28 @@ import {
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
-                                        src="/job_detran_1.png"
+                                        src="/job_detran_2.png"
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
-                                        src="/job_poupa_1.png"
+                                        src="/job_poupa_2.png"
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
-                                        src="/job_detran_1.png"
+                                        src="/job_olfati_2.png"
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
-                                        src="/job_detran_1.png"
+                                        src="/job_poupa_2.png"
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
