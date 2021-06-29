@@ -86,7 +86,7 @@ import {
 
                     </h6>
                     </Card.Title> 
-                    <Card.Text><p>Otimização de Sites é o conjunto de estratégias com o objetivo.</p> </Card.Text>
+                    <Card.Text><p>Otimização de Sites é o conjunto de estratégias com objetivo.</p> </Card.Text>
 
                 </Card.Body>
                 </Card>
