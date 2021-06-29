@@ -23,7 +23,7 @@ import {
                                 E-commerce: o setor que<strong> cresceu 75% em meio à pandemia</strong>
                             </h2>
                             <p className="mt-4 mb-4 text-white">
-                                Posso desenvolver sua loja e contribuir para seu e-commerce, fale comigo!
+                                Posso desenvolver sua loja online e ajuda-lo a otimizar para aumentar sua conversão.
                             </p>
 
                             <div className="buttons d-flex">
