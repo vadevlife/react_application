@@ -27,7 +27,9 @@ import {
                                         </Col>
 
                                         <Col md={3} className="text-center">
-                                            <Button className="rounded-pill m-auto" variant="danger">Download <i class="fas fa-cloud-download-alt ml-2"></i></Button>{' '}
+                                        
+                                            <a className="rounded-pill m-auto btn btn-danger" target="_blank" href="/curriculum-va.pdf">Download <i class="fas fa-cloud-download-alt ml-2"></i></a>
+ 
                                         </Col>
                                         </Row>
                                         
