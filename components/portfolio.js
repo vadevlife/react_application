@@ -63,28 +63,28 @@ import {
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
-                                        src="/job_detran_2.png"
+                                        src="/job_detran_3.png"
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
-                                        src="/job_poupa_2.png"
+                                        src="/job_poupa_3.png"
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
-                                        src="/job_olfati_2.png"
+                                        src="/job_olfati_3.png"
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
-                                        src="/job_poupa_2.png"
+                                        src="/job_poupa_3.png"
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
