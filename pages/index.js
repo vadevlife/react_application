@@ -21,10 +21,7 @@ import {
   import Portfolio from '../components/portfolio';
   import Download from '../components/download';
   import Footer from '../components/footer';
-  
-
  
-
   function Home(){
     return   <div>
       

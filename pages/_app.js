@@ -1,6 +1,8 @@
 // import App from 'next/app'
 import '../styles/app.css';  
-
+export function reportWebVitals(metric) {
+  console.log(metric)
+}
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
   }
