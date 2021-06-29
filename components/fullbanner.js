@@ -21,7 +21,7 @@
                       alt="First slide"
                       />
                     <Carousel.Caption className="text-primary text-left border bord er-start border-danger border-top-0 border-bottom-0 border-right-0">
-                      <h1 className="d-none d-sm-block">Designer Desenvolvedor de <strong> Aplicações Digitais</strong>
+                      <h1 className="d-none d-sm-block">Profissional Designer,<br></br><strong>Desenvolvedor de aplicações Web em React.Js </strong>
                         
                       </h1>
 
