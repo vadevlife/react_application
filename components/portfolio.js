@@ -42,7 +42,7 @@ import {
                         <Col md={12} className="slide-portfolio mt-5 mb-5 pt-md-3 pl-0 pr-0 ">
                                             
                                 <Swiper
-                                spaceBetween={0} 
+                                spaceBetween={13} 
                             
                             
                                 onSlideChange={() => console.log('slide change')}
@@ -88,13 +88,7 @@ import {
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
-                                <SwiperSlide>
-                                    <img
-                                        className="img-fluid"  
-                                        src="/job_detran_1.png"
-                                        alt="First slide"
-                                    /> 
-                                </SwiperSlide>
+                                 
                                 
                               </Swiper>
                            

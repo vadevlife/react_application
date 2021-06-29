@@ -20,10 +20,10 @@ import {
                         <Col className="col-md-8 pt-3 pb-3 text-white">
                     
                             <h2  className="h1 mb-3">
-                            E-commerce: o setor que<strong> cresceu 75% em meio à pandemia</strong>
+                                E-commerce: o setor que<strong> cresceu 75% em meio à pandemia</strong>
                             </h2>
                             <p className="mt-4 mb-4 text-white">
-                            Designer e Desenvolvedor Front-End de Lojas Virtuais e aplicações responsivas.
+                                Posso desenvolver sua loja e contribuir para seu e-commerce, fale comigo!
                             </p>
 
                             <div className="buttons d-flex">
