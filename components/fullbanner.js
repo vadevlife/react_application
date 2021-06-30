@@ -25,7 +25,7 @@
                         
                       </h1>
 
-                      <h1 className="d-block  d-sm-none">Soluções Digitais <strong> Que resolvem. </strong>
+                      <h1 className="d-block  d-sm-none">Profissional<strong>  Desenvolvedor Web </strong>
                       
                       </h1>
                       {/* 

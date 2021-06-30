@@ -1,8 +1,9 @@
 // import App from 'next/app'
 import '../styles/app.css';  
-export function reportWebVitals(metric) {
-  console.log(metric)
-}
+import Router from "next/router";
+import withGA from "next-ga";
+
+
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
   }
@@ -19,4 +20,8 @@ function MyApp({ Component, pageProps }) {
   //   return { ...appProps }
   // }
   
-  export default MyApp
+  // export default MyApp
+
+export default withGA("G-S53TZ2FD4T ", Router)(MyApp); 
+
+  // pass your GA code as first argument
