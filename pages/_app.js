@@ -9,4 +9,4 @@ function MyApp({ Component, pageProps }) {
   
 
   
-export default withGA("G-S53TZ2FD4T", Router)(MyApp);
+export default withGA("S53TZ2FD4T", Router)(MyApp);
