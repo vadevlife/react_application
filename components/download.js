@@ -21,7 +21,7 @@ import {
                                             <h3  className="text-primary-main">
                                             <strong>Fale comigo, e se precisar, pode me contratar também!</strong>
                                             </h3>
-                                            <p>
+                                            <p className="d-none">
                                             Fale comigo, e se precisar de um Profissional, pode me contratar também
                                             </p>
                                         </Col>

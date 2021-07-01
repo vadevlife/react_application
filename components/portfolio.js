@@ -27,11 +27,11 @@ import {
                                    Desenvolvimento Front-end<br></br><strong>Integração, Design e Prototipação.</strong>
                                 </h2>
                                 <p class="text-white mt-3 mb-5">
-                                    pela criação de aplicações de auto desempenho.
+                                    Criação de aplicações Web de auto desempenho.
                                 </p>
-                                <div className="buttons d-none d-lg-flex">
-                                    <Button className="rounded-pill mr-2" variant="danger">Contato</Button>{' '}
-                                    <Button className="rounded-pill" variant="transparent border border-light text-white">Habilidades</Button>{' '}
+                                <div className="buttons d-flex">
+                                  <a href="https://wa.me/+5512983171532?text=" target="_blank" className="btn btn-danger text-white rounded-pill p-2 shadow-sm mr-2" >Fale comigo &nbsp; <i className="fab text-sucess fa-whatsapp"></i></a>
+                                  <a href="#experiences" className="rounded-pill btn btn-transparent border border-light text-white ">Experiências</a>
                                 </div>
                             </Col>
 
@@ -42,11 +42,7 @@ import {
                         <Col md={12} className="slide-portfolio mt-5 mb-5 pt-md-3 pl-0 pr-0 ">
                                             
                                 <Swiper
-                                spaceBetween={13} 
-                            
-                            
-                                onSlideChange={() => console.log('slide change')}
-                                onSwiper={(swiper) => console.log(swiper)}
+                                spaceBetween={13}    
                                 breakpoints={{
                                     
                                   320: { 

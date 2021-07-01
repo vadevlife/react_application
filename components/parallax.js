@@ -20,15 +20,15 @@ import {
                         <Col className="col-md-8 pt-3 pb-3 text-white">
                     
                             <h2  className="h1 mb-3">
-                                E-commerce: o setor que<strong> cresceu 75% em meio à pandemia</strong>
+                                E-commerce: o setor que<strong> cresceu 75% em meio à pandemia!</strong>
                             </h2>
                             <p className="mt-4 mb-4 text-white">
-                                Posso desenvolver sua loja online e ajuda-lo a otimizar para aumentar sua conversão.
+                               Posso fazer a integração de lojas online e ajuda-lo a aumentar a conversão.
                             </p>
 
                             <div className="buttons d-flex">
-                                <Button className="rounded-pill mr-2" variant="danger">Portfólio</Button>{' '}
-                                <Button className="rounded-pill" variant="transparent border border-white text-white">Contato</Button>{' '}
+                                <a href="https://wa.me/+5512983171532?text=" target="_blank" className="btn btn-danger text-white rounded-pill p-2 shadow-sm mr-2" >Fale comigo &nbsp; <i className="fab text-sucess fa-whatsapp"></i></a>
+                                <a href="#portfolio" className="rounded-pill btn btn-transparent border border-light text-white ">Portfólio</a>
                             </div>
                             
                         </Col>

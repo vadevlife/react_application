@@ -11,13 +11,13 @@ import {
    
     function Benefits(){
       return   <div>
-    <section className="mt-5 pt-5">
+    <section id="experiences" className="mt-5 pt-5">
         <Container>
             <Row>
                 <Col md={5}>
                     <div className="p-0 d-flex align-items-center">
                         <span class="badge badge-pill badge-danger text-danger align-items-center">.</span>
-                        <h6 className="text-primary-m pt-2 ml-2">Experiências </h6>
+                        <h6 className="text-muted pt-2 ml-2">Experiências </h6>
                     </div>
                     
                     <h2  className="h1 text-primary-main mb-3">
@@ -62,7 +62,7 @@ import {
                             </Card.Body>
                         </Card>
                             
-                        <Card className="mt-0 mb-4 border-0 shadow-lg-m p-2" >
+                        <Card className="mt-0 mb-4 border-0 shadow-lg-m p-2 d-none" >
                             <Card.Body >
                                 <div className="d-flex justify-content-end align-items-center text-small">
                                     <span> <strong>2020 - 2021 </strong> </span>
