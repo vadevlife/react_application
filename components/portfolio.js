@@ -42,17 +42,20 @@ import {
                         <Col md={12} className="slide-portfolio mt-5 mb-5 pt-md-3 pl-0 pr-0 ">
                                             
                                 <Swiper
-                                spaceBetween={13}    
+                                spaceBetween={13} 
+                                slidesPerView= {3} 
+                            
+                            
+                                onSlideChange={() => console.log('slide change')}
+                                onSwiper={(swiper) => console.log(swiper)}
                                 breakpoints={{
                                     
                                   320: { 
                                     slidesPerView: 1, 
                                   }, 
+                               
                                   768: { 
-                                    slidesPerView: 2,
-                                  },
-                                  1200: { 
-                                    slidesPerView: 3,
+                                    slidesPerView:4,
                                   }
                                 }}
                               >
@@ -80,7 +83,14 @@ import {
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
-                                        src="/job_poupa_3.png"
+                                        src="/case_charlie_kirk.png"
+                                        alt="First slide"
+                                    /> 
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img
+                                        className="img-fluid"  
+                                        src="/job_colonial_1.png"
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>

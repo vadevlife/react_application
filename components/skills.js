@@ -25,7 +25,7 @@ import {
                     </h2>
 
                     <p className="mt-4 mb-4">
-                        Conheça vantagens de se obter uma aplicação fluida e de auto desempenho para seu negócio.
+                     Busco harmonizar a relação entre produtos e pessoas, aproximar de maneira agrádavel o melhor de um produto, a necessidade de seu consumidor ideal.
                     </p>
 
                     <div className="buttons d-flex pt-md-4">

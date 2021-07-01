@@ -24,11 +24,11 @@ import {
                 <h2  className="h1 text-primary-main mb-3">
                     Aplicações rápidas que  <strong> otimizam o envolvimento.</strong>
                 </h2>
-                <p className="mt-4 mb-4">
+                <p className="mt-4 mb-4 ">
                     Conheça vantagens de se obter uma aplicação fluida e de auto desempenho para seu negócio.
                 </p>
                 <div className="buttons d-flex pt-md-4">
-                    <a className="rounded-pill mr-2 btn btn-danger" href="#portfolio">Portfólio</a>
+                    <a className="rounded-pill mr-2 btn btn-danger" href="#portfolio">Ver Portfólio</a>
                     
                     <Button className="rounded-pill" variant="transparent border border-primary-main text-primary-main">Habilidades</Button>{' '}
                 </div>

@@ -7,6 +7,6 @@ function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
   }
   
-
   
 export default withGA("S53TZ2FD4T", Router)(MyApp);
+
