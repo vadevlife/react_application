@@ -5,8 +5,7 @@ import {
     Container,
     Col,
    
-    }from 'react-bootstrap';
-  import Image from 'next/image'; 
+    }from 'react-bootstrap'; 
 
 
   function Header(){
@@ -31,12 +30,13 @@ import {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0 p-0" />
                         <Navbar.Collapse id="basic-navbar-nav">
                           <Nav className="ml-auto">
-                            <Nav.Link className="text-primary" href="#home">Vantagens </Nav.Link>
+                            <Nav.Link className="text-primary" href="#benefits">Vantagens </Nav.Link>
                             <Nav.Link className="text-primary" href="#portfolio">Portfólio</Nav.Link>
-                            <Nav.Link className="text-primary" href="#skills">Habilidades</Nav.Link>
-                            {/* <Nav.Link className="text-primary" href="#link">Lembrete</Nav.Link> */}
-                            <Nav.Link className="btn btn-primary text-white rounded-pill p-2 shadow-sm" href="https://wa.me/+5512983171532?text=">Contrate &nbsp; <i className="fab text-sucess fa-whatsapp"></i></Nav.Link>
-                           
+                            <Nav.Link className="text-primary" href="#experiences">Habilidades</Nav.Link> 
+                            <Nav.Link className="btn btn-danger text-white rounded-pill p-2 shadow-sm" target="_blank" href="https://wa.me/+5512983171532?text=">Chama no whats&nbsp; <i className="fab text-sucess fa-whatsapp"></i></Nav.Link>
+                            
+                            <Nav.Link className=" h4 text-primary mt-2" target="_blank" href="https://github.com/vadevlife">  <i class="fab fa-github"></i></Nav.Link>
+
                           </Nav>
                         </Navbar.Collapse>
                       </Navbar>
