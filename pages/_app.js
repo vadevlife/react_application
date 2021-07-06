@@ -10,11 +10,4 @@ function MyApp({ Component, pageProps }) {
   
 export default MyApp;
  
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S53TZ2FD4T"></script>
- 
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-S53TZ2FD4T');
  

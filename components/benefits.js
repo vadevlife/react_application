@@ -13,7 +13,7 @@ import {
  
   function Benefits(){
     return   <div>
-                <section className="benefits mt-5 pt-md-3 pb-3">
+                <section id="benefits" className="benefits mt-5 pt-md-3 pb-3">
       <Container>
         <Row>
             <Col className="col-12 col-md-5 col-lg-4">

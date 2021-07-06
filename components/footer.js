@@ -12,59 +12,38 @@ import {
     return   <div> 
                    <footer className="container-fluid ">
         <Container>
-        <Row className="align-items-center pt-5 pb-4">
-
-          <Col xs={12} sm={12} md={4} lg={6} className="col-12 text-xs-center">
-
+          <Row>
+            <Col>
               <Image
-                src="/logo.png"
-                alt="Picture of the author"
-                width={80}
-                height={13}
-                />  
-
-            <p className="fw-bolde mt-3">
-            Conheça vantagens de se obter uma aplicação de<br></br> auto desempenho para seu negócio.
-              
-            </p>
-
-            {/* icones */}
-            <ListGroup className="social-media mt-xs-3 mb-4" horizontal>
-              <ListGroup.Item className="text-secundary-main border border-0 pl-0"><i class="fab fa-facebook-f"></i></ListGroup.Item>
-              <ListGroup.Item className="text-secundary-main border border-0 pl-0"><i class="fab fa-behance"></i></ListGroup.Item>
-              <ListGroup.Item className="text-secundary-main border border-0 pl-0"><i class="fab fa-github"></i></ListGroup.Item>
-              <ListGroup.Item className="text-secundary-main border border-0 pl-0"><i class="fab fa-linkedin-in"></i></ListGroup.Item>
-            </ListGroup>
-
-          </Col>
-
-          <Col xs={6} sm={6} md={4} lg={3} className="col-6">
-          <ListGroup className="border border-0  m-0">
-            <h6><strong>Produtos</strong></h6>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">Identidade Visual</ListGroup.Item>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">SPA's - Single Page App </ListGroup.Item>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">Habilidades</ListGroup.Item>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">Experiências</ListGroup.Item>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">Contato</ListGroup.Item>
-          </ListGroup>  
-          </Col>
-
-          <Col xs={6} sm={6} md={4} lg={3} className="col-6">
-          <ListGroup className="border border-0">
-            <h6><strong>Navegue</strong></h6>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">Portfólio 2021</ListGroup.Item>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">Download do CV</ListGroup.Item>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">Habilidades</ListGroup.Item>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">Experiências</ListGroup.Item>
-            <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 ">Contato</ListGroup.Item>
-          </ListGroup>  
-          </Col>
-
-        </Row>
-        
+                  src="/logo.png"
+                  alt="Picture of the author"
+                  width={80}
+                  height={13}
+              />  
+              <p className="fw-bolde mt-3">
+                Conheça vantagens de se obter uma aplicação de<br></br> auto desempenho para seu negócio.
+              </p>
+            </Col>
+            <Col>
+              <div className="d-flex justify-content-end">
+                <ListGroup className="border border-0" horizontal>
+                  <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 "><a className="text-muted" href="#benefits">Vantagens </a></ListGroup.Item>
+                  <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 "><a className="text-muted" href="#portfolio">Portfólio</a></ListGroup.Item>
+                  <ListGroup.Item  className="text-muted border border-0 pt-1 pl-0 "><a className="text-muted" href="#experiences">Habilidades</a></ListGroup.Item>
+                </ListGroup>
+              </div>
+              <div className="d-flex justify-content-end">
+                  <ListGroup className="social-media mt-xs-3 mb-4" horizontal>
+                  {/* <ListGroup.Item className="text-secundary-main border border-0 pl-0"><i class="fab fa-facebook-f"></i></ListGroup.Item> */}
+                  {/* <ListGroup.Item className="text-secundary-main border border-0 pl-0"><i class="fab fa-behance"></i></ListGroup.Item> */}
+                  <ListGroup.Item className="text-secundary-main border border-0 pl-0"><a className="text-danger" href="https://github.com/vadevlife" target="_blank"><i class="fab fa-github"></i></a></ListGroup.Item>
+                  <ListGroup.Item className="text-secundary-main border border-0 pl-0"><a className="text-danger" href="https://www.linkedin.com/in/vinicius-araujo-1418649b/" target="_blank"><i class="fab fa-linkedin-in"></i></a></ListGroup.Item>
+                </ListGroup>  
+              </div> 
+            </Col>
+          </Row>
         <hr>
         </hr>
-
         <Row>
           <Col>
             <p className="fw-bolde text-center mt-3">
@@ -72,11 +51,10 @@ import {
             </p>
           </Col>
         </Row>
-        </Container>
-        
-      </footer>
+      </Container>
+    </footer>
 
-            </div>
+  </div>
   }
 
 export default Footer
