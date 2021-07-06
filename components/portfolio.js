@@ -55,7 +55,7 @@ import {
                                   }, 
                                
                                   768: { 
-                                    slidesPerView:4,
+                                    slidesPerView:2,
                                   }
                                 }}
                               >

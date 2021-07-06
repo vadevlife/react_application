@@ -11,7 +11,7 @@ import {
    
     function Benefits(){
       return   <div>
-    <section id="experiences" className="mt-5 pt-5">
+    <section id="experiences" className="mt-5 pt-5 pb-5">
         <Container>
             <Row>
                 <Col md={5}>
@@ -24,8 +24,8 @@ import {
                         Empresas e Projetos, <br></br> <strong> que contribui nos últimos anos.</strong>
                     </h2>
 
-                    <p className="mt-4 mb-4">
-                     Busco harmonizar a relação entre produtos e pessoas, aproximar de maneira agrádavel o melhor de um produto, a necessidade de seu consumidor ideal.
+                    <p className="mt-4 mb-4 ">
+                     Busco harmonizar a relação entre produtos e pessoas, aproximar de maneira agrádavel o melhor de um produto, a necessidade do consumidor ideal.
                     </p>
 
                     <div className="buttons d-flex pt-md-4">
