@@ -23,7 +23,7 @@ import {
                                     <h6 className="text-muted pt-2 ml-2">Portfólio </h6>
                                 </div>
                                 <h2 className="h1 text-white pt-2 mb-3 mb-sm-0">
-                                   Desenvolvimento Front-end<br></br><strong>Integração, Design e Prototipação.</strong>
+                                   Desenvolvimento Front-end<br></br><strong>Integrações, Design e Prototipação.</strong>
                                 </h2>
                                 <p class="text-white mt-3 mb-5">
                                     Criação de aplicações Web de auto desempenho.
