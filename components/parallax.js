@@ -1,13 +1,9 @@
 import {
-    Navbar,
-    Nav, 
-    Carousel,
+   
     Row,
     Container,
     Col,
-    Card,
-    Button,
-    ListGroup
+   
     }from 'react-bootstrap';
   
  
@@ -18,6 +14,10 @@ import {
                 <Container className="mt-3 mb-0 pt-5 pb-5">
                     <Row className="justify-content-start">
                         <Col className="col-md-8 pt-3 pb-3 text-white">
+                            <div className="p-0 d-flex align-items-center mb-2">
+                                <span class="badge badge-pill badge-danger text-danger align-items-center">.</span>
+                                <h6 className="text-muted pt-2 ml-2">Habilidades </h6>
+                            </div>
                     
                             <h2  className="h1 mb-3">
                                 E-commerce: o setor que<strong> cresceu 75% em meio à pandemia!</strong>
