@@ -27,11 +27,12 @@ import {
                 <p className="mt-4 mb-4 ">
                     Conheça vantagens de se obter uma aplicação fluida e de auto desempenho para seu negócio.
                 </p>
-                <div className="buttons d-flex pt-md-4">
-                    <a className="rounded-pill mr-2 btn btn-danger" href="#portfolio">Ver Portfólio</a>
-                    
-                    <Button className="rounded-pill" variant="transparent border border-primary-main text-primary-main">Habilidades</Button>{' '}
+
+                <div className="buttons d-flex">
+                    <a href="https://wa.me/+5512983171532?text=" target="_blank" className="btn btn-danger text-white rounded-pill p-2 shadow-sm mr-2" >Fale comigo &nbsp; <i className="fab text-sucess fa-whatsapp"></i></a>
+                    <a href="#portfolio" className="rounded-pill btn btn-transparent border border-primary-main ">Portfólio</a>
                 </div>
+                
             </Col>
 
             <Col  className="col-md-6 col-lg-4 justify-content-center  align-items-start d-none d-lg-flex pt-md-2"> 

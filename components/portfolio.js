@@ -6,8 +6,7 @@ import {
     Row,
     Container,
     Col,   
-    Button,
-    Card
+    
 
     }from 'react-bootstrap';
   import Image from 'next/image'; 
@@ -59,6 +58,13 @@ import {
                                   }
                                 }}
                               >
+                                 <SwiperSlide>
+                                    <img
+                                        className="img-fluid"  
+                                        src="/case_charlie_kirk.png"
+                                        alt="First slide"
+                                    /> 
+                                </SwiperSlide>
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
@@ -80,13 +86,7 @@ import {
                                         alt="First slide"
                                     /> 
                                 </SwiperSlide>
-                                <SwiperSlide>
-                                    <img
-                                        className="img-fluid"  
-                                        src="/case_charlie_kirk.png"
-                                        alt="First slide"
-                                    /> 
-                                </SwiperSlide>
+                               
                                 <SwiperSlide>
                                     <img
                                         className="img-fluid"  
