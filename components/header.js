@@ -35,7 +35,7 @@ import {
                             <Nav.Link className="text-primary" href="#experiences">Habilidades</Nav.Link> 
                             <Nav.Link className="btn btn-danger text-white rounded-pill p-2 shadow-sm" target="_blank" href="https://wa.me/+5512983171532?text=">Fale Comigo &nbsp; <i className="fab text-sucess fa-whatsapp"></i></Nav.Link>
                             
-                            <Nav.Link className=" h4 text-primary mt-2" target="_blank" href="https://github.com/vadevlife">  <i class="fab fa-github"></i></Nav.Link>
+                            <Nav.Link className=" h4 text-primary mt-2" target="_blank" href="https://github.com/vadevlife">  <i className="fab fa-github"></i></Nav.Link>
 
                           </Nav>
                         </Navbar.Collapse>
