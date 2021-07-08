@@ -27,31 +27,31 @@ import {
       
      
       {/* header */}
-      {/* <Header></Header> */}
+      <Header></Header>
       
       {/* banner_top */}
-      {/* <Fullbanner></Fullbanner>          */}
+      <Fullbanner></Fullbanner>         
    
       {/* Highligts */}
-      {/* <Highligts></Highligts> */}
+      <Highligts></Highligts>
 
       {/* vantagens */}
-      {/* <Benefits></Benefits> */}
+      <Benefits></Benefits>
 
       {/* banner_parallax */}
-      {/* <Parallax></Parallax> */}
+      <Parallax></Parallax>
      
       {/* Skills */}
-      {/* <Skills></Skills> */}
+      <Skills></Skills>
         
       {/* work */}
-      {/* <Portfolio></Portfolio> */}
+      <Portfolio></Portfolio>
 
       {/* Download */}
-      {/* <Download></Download> */}
+      <Download></Download>
 
       {/* footer _ Rodape */}
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     
  </div>
   }
