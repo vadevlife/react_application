@@ -68,7 +68,7 @@ import {
                     <h6> 
                     <i class="fas fa-chess mr-2"></i>
                     <strong> 
-                    Experiências do Usuário
+                    Experiência do Usuário
                     </strong>
                     </h6>
                     </Card.Title>
