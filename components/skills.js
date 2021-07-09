@@ -25,8 +25,8 @@ import {
                     </h2>
 
                     <p className="mt-4 mb-4 ">
-                     Busco harmonizar a relação entre produtos e pessoas, aproximar de maneira agrádavel o melhor de um produto, a necessidade do consumidor ideal.
-                    </p>
+                    Busco harmonizar a relação entre produtos e pessoas, aproximar de maneira agradável o melhor de um produto, a necessidade do consumidor ideal.
+                     </p>
 
                     <div className="buttons d-flex pt-md-4">
                         <Button className="rounded-pill mr-2" variant="danger">Portfólio</Button>{' '}
