@@ -9,7 +9,7 @@ import {
     }from 'react-bootstrap';
  
   function Download(){
-    return   <div>  
+    return   <div className="d-none d-sm-block">  
                 <section className="download d-sm-block">
                     <Container>
                         <Row className="justify-content-center">
@@ -20,7 +20,7 @@ import {
                                         <Col md={7} className="text-primary-main fw-bolde">
                                             <h3  className="text-primary-main">
                                             Fale comigo, e se precisar... 
-                                            <strong>Pode me contratar também!</strong>
+                                            <strong className="d-inline-block pt-1">Pode me contratar também!</strong>
                                             
                                             </h3>
                                             <p className="d-none">

@@ -47,7 +47,7 @@ import {
         <Row>
           <Col>
             <p className="fw-bolde text-center mt-3">
-               Direitos reservados 2021 <strong>TypeAs.</strong> 
+             <strong>TypeAs.</strong> 
             </p>
           </Col>
         </Row>

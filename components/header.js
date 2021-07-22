@@ -17,7 +17,7 @@ import {
                 <Container>
                   <Row>
                     <Col>
-                      <Navbar bg="transparent" expand="lg" className=" p-0 pt-2 pb-2">
+                      <Navbar bg="transparent" expand="md" className=" p-0 pt-2 pb-2">
                         <Navbar.Brand href="#home">
                            
                               <img
@@ -35,7 +35,7 @@ import {
                             <Nav.Link className="text-primary" href="#experiences">Habilidades</Nav.Link> 
                             <Nav.Link className="btn btn-danger text-white rounded-pill p-2 shadow-sm" target="_blank" href="https://wa.me/+5512983171532?text=">Fale Comigo &nbsp; <i className="fab text-sucess fa-whatsapp"></i></Nav.Link>
                             
-                            <Nav.Link className=" h4 text-primary mt-2" target="_blank" href="https://github.com/vadevlife">  <i className="fab fa-github"></i></Nav.Link>
+                            <Nav.Link className=" h4 text-primary mt-2 d-none d-lg-block" target="_blank" href="https://github.com/vadevlife">  <i className="fab fa-github"></i></Nav.Link>
 
                           </Nav>
                         </Navbar.Collapse>
