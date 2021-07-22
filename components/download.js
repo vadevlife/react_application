@@ -17,9 +17,9 @@ import {
                                 <Card className="border-0 shadow-lg rounded-pull p-4 radius-m">
                                     <Card.Body>
                                         <Row className="justify-content-center align-items-center">
-                                        <Col md={8} className="text-primary-main fw-bolde">
+                                        <Col md={7} className="text-primary-main fw-bolde">
                                             <h3  className="text-primary-main">
-                                            Fale comigo, e se precisar...<br></br>
+                                            Fale comigo, e se precisar... 
                                             <strong>Pode me contratar também!</strong>
                                             
                                             </h3>
@@ -27,7 +27,7 @@ import {
                                             </p>
                                         </Col>
 
-                                        <Col md={4} className="text-center ">
+                                        <Col md={5} className="text-center ">
                                             <div className="buttons d-flex">
 
                                             <a  target="_blank" href="/curriculum-va.pdf" className="rounded-pill btn btn-transparent border border-primary-main text-primary-main mr-2">Download <i class="fas fa-cloud-download-alt ml-2"></i></a>

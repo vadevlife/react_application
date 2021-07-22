@@ -43,7 +43,7 @@
       {/* <Contact></Contact> */}
 
       {/* Download */}
-      {/* <Download></Download> */}
+      <Download></Download>
 
       {/* footer _ Rodape */}
       <Footer></Footer>

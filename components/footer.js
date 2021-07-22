@@ -21,7 +21,7 @@ import {
                   height={13}
               />  
               <p className="fw-bolde mt-3">
-                Conheça vantagens de se obter uma aplicação de<br></br> auto desempenho para seu negócio.
+                Conheça vantagens de se obter uma aplicação de auto desempenho para seu negócio.
               </p>
             </Col>
             <Col>
