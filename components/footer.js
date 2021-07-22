@@ -36,8 +36,8 @@ import {
                   <ListGroup className="social-media mt-xs-3 mb-4" horizontal>
                   {/* <ListGroup.Item className="text-secundary-main border border-0 pl-0"><i class="fab fa-facebook-f"></i></ListGroup.Item> */}
                   {/* <ListGroup.Item className="text-secundary-main border border-0 pl-0"><i class="fab fa-behance"></i></ListGroup.Item> */}
-                  <ListGroup.Item className="text-secundary-main border border-0 pl-0"><a className="text-danger " href="https://github.com/vadevlife" target="_blank"><i class="fab fa-github"></i></a></ListGroup.Item>
-                  <ListGroup.Item className="text-secundary-main border border-0 pl-0"><a className="text-danger " href="https://www.linkedin.com/in/vinicius-araujo-1418649b/" target="_blank"><i class="fab fa-linkedin-in"></i></a></ListGroup.Item>
+                  <ListGroup.Item className="text-secundary-main border border-0 pl-0"><a className="text-danger " href="https://github.com/vadevlife" target="_blank"><i className="fab fa-github"></i></a></ListGroup.Item>
+                  <ListGroup.Item className="text-secundary-main border border-0 pl-0"><a className="text-danger " href="https://www.linkedin.com/in/vinicius-araujo-1418649b/" target="_blank"><i className="fab fa-linkedin-in"></i></a></ListGroup.Item>
                 </ListGroup>  
               </div> 
             </Col>
@@ -54,6 +54,9 @@ import {
       </Container>
     </footer>
 
+    <div>
+
+    </div>
   </div>
   }
 

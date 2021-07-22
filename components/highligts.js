@@ -29,6 +29,9 @@ import {
                         slidesPerView: 1, 
                       }, 
                       768: { 
+                        slidesPerView: 2,
+                      },
+                      1024: { 
                         slidesPerView: 3,
                       }
                     }}
@@ -53,7 +56,7 @@ import {
                               Desenvolvimento<br/> Front-End 
                             </h2>
                           </Card.Title>
-                          <Card.Text className="pt-2">Aplicações dinâmicas<br></br> e responsivas.</Card.Text>
+                          <Card.Text className="pt-2">Aplicações responsivas e de auto desempenho.</Card.Text>
                         </Card.Body>
                       </Card>
                     </SwiperSlide>

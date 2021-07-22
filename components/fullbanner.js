@@ -28,9 +28,7 @@
                       <h1 className="d-block  d-sm-none">Profissional<strong>  Desenvolvedor Web </strong>
                       
                       </h1>
-                      {/* 
-                      <p>Que que resolvem problemas reais do seu empreendimento para seu consumidor.</p>
-                      */}
+                    
                     </Carousel.Caption>
                   </Carousel.Item>
 

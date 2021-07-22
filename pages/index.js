@@ -1,16 +1,7 @@
-import {
-  Navbar,
-  Nav, 
-  Carousel,
-  Row,
-  Container,
-  Col,
-  Card,
-  Button, 
-  }from 'react-bootstrap';
+ 
   import '@fortawesome/fontawesome-free/css/all.css'; 
   import 'bootstrap/dist/css/bootstrap.css'; 
-  // import from 'react-bootstrap';
+  
   
   import Header from '../components/header';
   import Parallax from '../components/parallax';
@@ -20,6 +11,7 @@ import {
   import Benefits from '../components/benefits';
   import Portfolio from '../components/portfolio';
   import Download from '../components/download';
+  import Contact from '../components/contact';
   import Footer from '../components/footer';
  
   function Home(){
@@ -47,8 +39,11 @@ import {
       {/* work */}
       <Portfolio></Portfolio>
 
+      {/* Contact */}
+      {/* <Contact></Contact> */}
+
       {/* Download */}
-      <Download></Download>
+      {/* <Download></Download> */}
 
       {/* footer _ Rodape */}
       <Footer></Footer>
