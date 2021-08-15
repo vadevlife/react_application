@@ -1,10 +1,14 @@
-// import App from 'next/app'
-import '../styles/app.css';  
-// import Router from "next/router";
-// import withGA from "next-ga";
+import Layout from '../components/layout'
+import Head from 'next/head'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/app.css'
 
-function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+import '@fortawesome/fontawesome-free/css/all.css'; 
+
+ 
+function MyApp({ Component, pageProps }) { 
+  return <Component {...pageProps} />
+         
   }
   
   

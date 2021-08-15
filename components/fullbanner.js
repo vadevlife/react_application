@@ -1,65 +1,78 @@
- 
- import {
+import React, { useState } from 'react';
+import {
   Carousel,
-  }from 'react-bootstrap';
-  
-  function Fullbanner(){
-    return   <div>
-                 {/* Full Slide */}
+  CarouselItem,
+  CarouselControl,
+  CarouselIndicators,
+  CarouselCaption
+} from 'reactstrap';
 
-                 <Carousel class="full-banner position-relative">
-                  <Carousel.Item>
-                    <img
-                      className="d-block d-sm-none w-100 " 
-                      src="banner-mob.png" 
-                      alt="First slide"
-                      />
+const items = [
+  {
+    src: '/img_banner.png',
+    altText: 'FrontEnd Development',
+    caption: 'FrontEnd Development'
+  },
+  {
+    src: '/img_banner.png',
+    
+    altText: 'Slide 2',
+    caption: 'Slide 2'
+  },
+  {
+    src: '/img_banner.png',
+    
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  }
+];
 
-                      <img
-                      className="d-none d-sm-block w-100"
-                      src="/banner-top.png" 
-                      alt="First slide"
-                      />
-                    <Carousel.Caption className="text-primary text-left border bord er-start border-danger border-top-0 border-bottom-0 border-right-0">
-                      <h1 className="d-none d-sm-block">Profissional Designer,<br></br><strong>Desenvolvedor de aplicações Web em React.Js </strong>
-                        
-                      </h1>
+const Slide = (props) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [animating, setAnimating] = useState(false);
 
-                      <h1 className="d-block  d-sm-none">Profissional<strong>  Desenvolvedor Web </strong>
-                      
-                      </h1>
-                    
-                    </Carousel.Caption>
-                  </Carousel.Item>
-
-                  <Carousel.Item>
-
-                    <img
-                      className="d-block d-sm-none w-100"   //image mobile
-                      src="/bnn_mob_3.png" 
-                      alt="First slide"
-                      />
-
-                      <img
-                      className="d-none d-sm-block w-100"   //image desktop
-                      src="/bnn_top1.png" 
-                      alt="First slide"
-                      />
-                    <Carousel.Caption className="text-primary text-left border bord er-start border-danger border-top-0 border-bottom-0 border-right-0">
-                      <h1 className="d-none d-sm-block">Soluções Digitais  - <strong> Que resolvem  problemas reais </strong>
-                        do seu empreendimento.
-                      </h1>
-                      <h1 className="d-block  d-sm-none">Sua Empresa de Portas <strong> abertas para o Mundo. </strong></h1>
-                      
-                    </Carousel.Caption>
-                  </Carousel.Item>
-       
-                </Carousel>
-
-
-
-            </div>
+  const next = () => {
+    if (animating) return;
+    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+    setActiveIndex(nextIndex);
   }
 
-export default Fullbanner
- 
+  const previous = () => {
+    if (animating) return;
+    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+    setActiveIndex(nextIndex);
+  }
+
+  const goToIndex = (newIndex) => {
+    if (animating) return;
+    setActiveIndex(newIndex);
+  }
+
+  const slides = items.map((item) => {
+    return (
+      <CarouselItem
+        onExiting={() => setAnimating(true)}
+        onExited={() => setAnimating(false)}
+        key={item.src}
+      >
+        <img src={item.src} alt={item.altText} />
+        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+      </CarouselItem>
+    );
+  });
+
+  return (
+    <Carousel
+      activeIndex={activeIndex}
+      next={next}
+      previous={previous}
+    >
+      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+      {slides}
+      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+      <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+    </Carousel>
+  );
+}
+
+export default Slide;

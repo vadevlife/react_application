@@ -3,13 +3,16 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { GA_TRACKING_ID } from '../lib/gtag'
 
 
-
 export default class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
+         <title>Portfólio - Development</title>   
+         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet"></link>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
+      
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-S53TZ2FD4T`}
