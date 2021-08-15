@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Slide from '../components/fullBanner';
+import React, { useState } from 'react'; 
 import Footer from '../components/footer';
 import {
   Collapse,
