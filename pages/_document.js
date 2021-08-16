@@ -11,7 +11,6 @@ export default class MyDocument extends Document {
          <title>Portfólio - Development</title>   
          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet"></link>
-          {/* Global Site Tag (gtag.js) - Google Analytics */}
       
           <script
             async
