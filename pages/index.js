@@ -1,5 +1,4 @@
 import React, { useState } from 'react'; 
-import Footer from '../components/footer';
 import {
   Collapse,
   Navbar,
@@ -20,6 +19,8 @@ import {
   Row,
   Col
 } from 'reactstrap';
+
+import Footer from '../components/footer';
 
 
 const navitens = [{title:'Experiências'},{title:'Portfólio'},{title:'Lembrete'}]
@@ -76,10 +77,7 @@ export default function NavBar() {
         </Jumbotron>
 
         
-        {/* SLIDE  */}
-
-        {/* <Slide/> */}
-
+    
       
 
         <div className='section mt-5 mb-5'>
