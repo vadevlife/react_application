@@ -1,6 +1,5 @@
-import Layout from '../components/layout'
-import '../styles/app.css' 
-import Head from 'next/head'
+ 
+import '../styles/app.css'  
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '@fortawesome/fontawesome-free/css/all.css'; 
