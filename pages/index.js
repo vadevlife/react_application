@@ -67,8 +67,8 @@ export default function NavBar() {
               <Col md={3} className="d-flex flex-column   justify-content-center">
                 <strong className="h4">02</strong>
                 <h4 className="h6 fw-600">Projetos Favoritos </h4>
-                <a href="#">Novo Portal PoupaTempo </a> 
-                <a href="">Charlie kirk</a>
+                <a href="https://www.poupatempo.sp.gov.br/" target="_blank">Novo Portal PoupaTempo </a> 
+                <a href="https://charliekirk.com/" target="_blank">Charlie kirk</a>
               </Col>
             </Row> 
           </Container>
@@ -119,20 +119,21 @@ export default function NavBar() {
             </Card>  
             <Card className="col-md-3 " > 
                 <CardBody>
+                  <Badge href="#" color="light" className="purple rounded-pill">RIOSLUM</Badge> 
+                  <CardTitle tag="h5">Desenvolvedor<br/> Front-End </CardTitle>
+                  <CardText>Integração de web sites com API's administrativas. <br/><br/>Desenvimento front-end de Single Pages responsivas para públicidade</CardText>
+                  <p>2019  / 2020  - Freela</p>
+                </CardBody> 
+            </Card>     
+            <Card className="col-md-3 " > 
+                <CardBody>
                   <Badge href="#" color="warning" className="rounded-pill">HOME BRASIL</Badge> 
                   <CardTitle tag="h5">Desenvolvedor<br/> Front-End </CardTitle>
-                  <CardText>Criação e desenvolvimento de componentes responsivos com ferramentas client-side.</CardText>
+                  <CardText>Sites responsivos e recursos de interação Front-End com JavaScript.</CardText>
                   <p>2014  / 2015  - PJ</p>
                 </CardBody> 
             </Card>
-            <Card className="col-md-3 " > 
-                <CardBody>
-                  <Badge href="#" color="light" className="purple rounded-pill">PRODESP</Badge> 
-                  <CardTitle tag="h5">Desenvolvedor<br/> Front-End </CardTitle>
-                  <CardText>Criação e desenvolvimento de componentes responsivos com ferramentas client-side.</CardText>
-                  <p>2019  / 2020  - Full-Time</p>
-                </CardBody> 
-            </Card>     
+            
                   
             </div>   
           </Container>   
@@ -141,7 +142,7 @@ export default function NavBar() {
 
         <div className=" ">       
           <Container fluid>
-            <div className="d-flex flex-wrap justify-content-between">       
+            <div className="d-flex flex-wrap ">       
 
 
               <Card className="col-md-3" > 
@@ -152,6 +153,14 @@ export default function NavBar() {
                     <p>2021  -  Frella</p>
                   </CardBody> 
               </Card>  
+              <Card className="col-md-3" > 
+                  <CardBody>
+                    <Badge href="#" color="warning" className="warning rounded-pill">Collonial Village</Badge> 
+                    <CardTitle tag="h5">Desenvolvedor<br/> Front-End </CardTitle>
+                    <CardText >Integração Single Page App a CMS Wordpress.</CardText>
+                    <p>2020  -  Frella</p>
+                  </CardBody> 
+              </Card> 
 
             </div>      
           </Container>
