@@ -33,35 +33,35 @@ export default function NavBar() {
     <div>
           <Container fluid>
 
-            <Navbar light expand="md">
+            <Navbar light expand="md"> 
+                <NavbarBrand href="/"> 
+                    <Media object className="logo" src="/vini-logo.png" alt="Vini - Development" />
+                </NavbarBrand>
 
-            <NavbarBrand href="/"> 
-                <Media object className="logo" src="/vini-logo.png" alt="Vini - Development" />
-            </NavbarBrand>
+                <NavbarToggler className="border-0" onClick={toggle} />
+                  <Collapse  isOpen={isOpen} navbar> 
+                    <Nav className="ml-auto" navbar>
+                      
+                      {navitens.map((navitens,index) => ( 
+                        <NavItem key={index}>
+                          <NavLink >{navitens.title}</NavLink>
+                        </NavItem> 
+                      ))}  
 
-          <NavbarToggler className="border-0" onClick={toggle} />
-            <Collapse  isOpen={isOpen} navbar> 
-              <Nav className="ml-auto" navbar>
-                
-                {navitens.map((navitens,index) => ( 
-                  <NavItem key={index}>
-                    <NavLink >{navitens.title}</NavLink>
-                  </NavItem> 
-                ))}  
+                      <Button color="primary" className="rounded-pill">Fale Comigo</Button>{' '}
 
-                <Button color="primary" className="rounded-pill">Fale Comigo</Button>{' '}
+                    </Nav>
 
-              </Nav>
+                  </Collapse>
+            </Navbar>
 
-            </Collapse>
-          </Navbar>
-        </Container >
+        </Container>
 
         <Jumbotron fluid className="mb-0">
           <Container fluid>
             <Row>
               <Col md={9}>
-                <Badge href="#" color="primary ">PERFIL 2021</Badge>
+                <Badge href="#" color="primary rounded-pill">PERFIL 2021</Badge>
                 <h1 className="display-4">Minha UI<br/> e Aplicações</h1>
               </Col>
               <Col md={3} className="d-flex flex-column   justify-content-center">
@@ -82,7 +82,7 @@ export default function NavBar() {
           <Container fluid>
               <Row>
                 <Col md={9}>
-                  <Badge href="#" color="primary ">Experiências</Badge>
+                  <Badge href="#" color="primary rounded-pill">Experiências</Badge>
                   <h2 className="display-4"> Profissionais e builds Legais</h2>
                 </Col>
                 <Col md={3} className="d-flex flex-column   justify-content-center">

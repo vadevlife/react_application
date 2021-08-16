@@ -1,6 +1,6 @@
 /* Primary #0000FE */
 body{ 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 }
 a {
     font-size: .8rem;
