@@ -12,10 +12,11 @@ img.logo  {
 strong,.fw-600{
     font-weight: 600 !important;
 }
+
 @media (min-width: 576px) {
   
     .navbar {
-        padding: 1rem 0rem;
+        padding: .9rem 0rem !important;
     }
 
     .jumbotron {
@@ -43,6 +44,7 @@ strong,.fw-600{
     background: url('../public/back.png');
     background-size: cover;
     background-position: center;
+    background-color: transparent !important;
 }
 h1{ 
     font-size: 3.1rem !important; 
@@ -65,7 +67,8 @@ p {
 
 @media (min-width: 768px){
     .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 2.5rem;
+        padding-right: 2.3rem !important;
+        padding-left: 2.3rem !important;
     }
     h1{ 
         font-size: 4.5rem !important; 
