@@ -1,28 +1,41 @@
+import React, {Components}  from 'react'
+import SocialMedia from '../components/social'
 import { 
+    Badge,
     Media, 
     Container, 
     Row,
     Col
   } from 'reactstrap';
-  
-export default function Footer(){
-    return(
+
+   
+class Footer extends React.Component {
+
+     
+    render() {
+        return (
+ 
          <Container>
              <hr/>
-             <Row >
+             <Row>
+
                  <Col>
-                 <Media object className="" src="/logo_vini_footer.png" width={130} height={40}  alt="Vini - Development" />
+                    <Media object className="" src="/logo_vini_footer.png" width={130} height={40}  alt="Vini - Development" />
+                 </Col>
+
+                 <Col>
+                    <a href="#" className="text-muted"> Politica de Privacidade</a>
+                 </Col>
+
+                 <Col md={2} className="d-flex justify-content-between">
+                        
+                        <SocialMedia/>
 
                  </Col>
-                 <Col>
-                 <a > Politica de Privacidade</a>
-                 </Col>
-                 <Col md={1} className="d-flex justify-content-between">
-                 <i className="fab fa-facebook-f text-primary"></i>
-                 <i className="fab fa-github-alt text-primary"></i>
-                 <i className="fab fa-linkedin-in text-primary"></i>
-                 </Col>
+
              </Row>
          </Container>
     )
 }
+}
+export default Footer
