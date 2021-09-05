@@ -4,26 +4,28 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption
+  CarouselCaption,
+  Badge
 } from 'reactstrap';
 
+
+
 const items = [
-  {
-    src: '/img_banner.png',
+  { 
+    src: '/e-commerce.png',
     altText: 'FrontEnd Development',
-    caption: 'FrontEnd Development'
+    caption: 'Integrador de lojas virtuais, e recursos Ux para E-commerce.'
+  },
+  { 
+    src: '/web-sites.png', 
+    altText: 'FrontEnd Development',
+    caption: 'Sites de auto desempenho que se adaptam ao cliente.'
   },
   {
-    src: '/img_banner.png',
     
-    altText: 'Slide 2',
-    caption: 'Slide 2'
-  },
-  {
-    src: '/img_banner.png',
-    
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    src: '/e-commerce.png', 
+    altText: 'FrontEnd Development',
+    caption: 'Integrador de lojas virtuais, e recursos Ux para E-commerce.'
   }
 ];
 
@@ -55,8 +57,10 @@ const Slide = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
+         
+       <Badge href="#" color="primary rounded-pill">{item.altText}</Badge>
         <img src={item.src} alt={item.altText} />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        <CarouselCaption captionHeader={item.caption} />
       </CarouselItem>
     );
   });

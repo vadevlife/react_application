@@ -1,174 +1,132 @@
-import React, { useState } from 'react'; 
+import React from 'react'
+import Navbar from '../components/navbar'; 
+import Jumbotron from '../components/jumbotron'; 
+import Higlights from '../components/higlights'; 
+import Fullbanner from '../components/fullBanner'; 
+import Skills from '../components/skills'; 
+import Footer from '../components/footer'; 
+
+ 
 import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Badge,
-  Nav,
-  NavItem,
-  NavLink,  
-  Media,
-  Button,
-  Jumbotron, 
   Container,
-  Card,  
-  CardBody,
-  CardTitle, 
-  CardText,
   Row,
-  Col
+  Col,
+  Badge,
+  Card,
+  CardBody,
+  CardTitle,
+  CardText
 } from 'reactstrap';
-import Footer from '../components/footer';
-
-const navitens = [{title:'Experiências'},{title:'Portfólio'},{title:'Lembrete'}]
 
 
-export default function NavBar() {  
+const cardContent=[{
+  nome:'Prodesp',
+  cargo:'Desenvolvedor Front-End',
+  desc:'Criação, prototipação e desenvolvimento de componentes responsivos, dia-a-dia com ferramentas client-side.',
+  periodo:'2019  / 2020  - Full-Time',
+  skills:'Javascript', 
+  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3 bg-primary',
+  badge:'purple rounded-pill',
+  color:'warning'
+},
+{
+  nome:'Fastcommerce',
+  cargo:'E-commerce Dev. Front-End ',
+  desc:'Criação e desenvolvimento de componentes responsivos com ferramentas client-side',
+  periodo:'2019  / 2020  - Full-Time',
+  skills:'Javascript',
+  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  badge:'rounded-pill',
+  color:'primary'
+},
+{
+  nome:'RioSlum Studio',
+  cargo:'E-commerce Dev. Front-End ',
+  desc:'Criação e desenvolvimento de componentes responsivos com ferramentas client-side',
+  periodo:'2019  / 2020  - Full-Time',
+  skills:'Javascript',
+  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  badge:'purple rounded-pill',
+  color:'purple primary'
+},
+{
+  nome:'Home Brasil',
+  cargo:'Desenvolvedor Front-End',
+  desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
+  periodo:'2019  / 2020  - Full-Time',
+  skills:'Javascript',
+  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  badge:'warning rounded-pill',
+  color:'warning'
+},
+{
+  nome:'HelloPay',
+  cargo:'Desenvolvedor Front-End',
+  desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
+  periodo:'2019  / 2020  - Full-Time',
+  skills:'Javascript',
+  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  badge:'pink rounded-pill',
+  color:'pink'
+},
+{
+  nome:'Colonial Village ||',
+  cargo:'Desenvolvedor Front-End',
+  desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
+  periodo:'2019  / 2020  - Full-Time',
+  skills:'Javascript',
+  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  badge:'success rounded-pill',
+  color:'success'
+}
 
-  const [isOpen, setIsOpen] = useState(false); 
-  const toggle = () => setIsOpen(!isOpen);
-   
-  return (
-    <div>
-          <Container fluid>
 
-            <Navbar light expand="md"> 
-                <NavbarBrand href="/"> 
-                    <Media object className="logo" src="/vini-logo.png" alt="Vini - Development" />
-                </NavbarBrand>
+]
 
-                <NavbarToggler className="border-0" onClick={toggle} />
-                  <Collapse  isOpen={isOpen} navbar> 
-                    <Nav className="ml-auto" navbar>
-                      
-                      {navitens.map((navitens,index) => ( 
-                        <NavItem key={index}>
-                          <NavLink >{navitens.title}</NavLink>
-                        </NavItem> 
-                      ))}  
+export default function home() {
+  return(
+        <>
+        <Navbar/>
+        <Jumbotron/>
+        <Fullbanner/>
+        <Higlights/>
 
-                      <Button color="primary" className="rounded-pill">Fale Comigo</Button>{' '}
 
-                    </Nav>
 
-                  </Collapse>
-            </Navbar>
-
-        </Container>
-
-        <Jumbotron fluid className="mb-0">
-          <Container fluid>
-            <Row>
-              <Col md={9}>
-                <Badge href="#" color="primary rounded-pill">PERFIL 2021</Badge>
-                <h1 className="display-4">Minha UI<br/> e Aplicações</h1>
-              </Col>
-              <Col md={3} className="d-flex flex-column   justify-content-center">
-                <strong className="h4">02</strong>
-                <h4 className="h6 fw-600">Projetos Favoritos </h4>
-                <a href="https://www.poupatempo.sp.gov.br/" target="_blank">Novo Portal PoupaTempo </a> 
-                <a href="https://charliekirk.com/" target="_blank">Charlie kirk</a>
-              </Col>
-            </Row> 
-          </Container>
-        </Jumbotron>
-
-        
-    
-      
-
-        <div className='section mt-5 mb-5'>
-          <Container fluid>
+        <div id="experiencias" className='section mt-5 mb-5'>
+          <Container >
               <Row>
                 <Col md={9}>
-                  <Badge href="#" color="primary rounded-pill">Experiências</Badge>
-                  <h2 className="display-4"> Profissionais e builds Legais</h2>
+                  <span className="title_pathers d-none d-lg-flex">Experiências</span>
+                  <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
+                  <h2 className="display-4">Experiências Profissionais e builds Legais</h2>
                 </Col>
-                <Col md={3} className="d-flex flex-column   justify-content-center">
+                <Col md={3} className="d-flex flex-column justify-content-center">
                   
                 </Col>
               </Row> 
+              <Row className="p-4 ">
+                          
+                  {cardContent.map((cardContent)=>( 
+                   <Card className={cardContent.class}  > 
+                      <CardBody>
+                        <Badge href="#" color={cardContent.color} className={cardContent.badge}>{cardContent.nome}</Badge> 
+                        <CardTitle tag="h5">{cardContent.cargo}</CardTitle>
+                        <CardText color="muted">{cardContent.desc}</CardText>
+                        <p>{cardContent.periodo}</p> 
+                      </CardBody> 
+                   </Card>   
+                  ))}
+                
+
+              </Row>
           </Container>
         </div>   
-
-
-        <div className=" ">       
-          <Container fluid>
-        
-        
-          <div className="d-flex flex-wrap justify-content-between">       
-
-            <Card className="col-md-3 bg-primary" > 
-                <CardBody>
-                  <Badge href="#" color="light" className="purple rounded-pill">PRODESP</Badge> 
-                  <CardTitle tag="h5">Desenvolvedor<br/> Front-End </CardTitle>
-                  <CardText color="muted"> Criação, prototipação e desenvolvimento de componentes responsivos, dia-a-dia com ferramentas client-side.</CardText>
-                  <p>2019  / 2020  - Full-Time</p>
-                  <a href="#">Projetos </a> 
-                <a href="">Criações</a>
-                </CardBody> 
-            </Card>  
-            <Card className="col-md-3" > 
-                <CardBody>
-                  <Badge href="#" color="primary" className="purple rounded-pill">FASTCOMMERCE</Badge> 
-                  <CardTitle tag="h5">Integrador de <br/>E-commerce Front-End </CardTitle>
-                  <CardText >Integração de novos E-commerces, aplicações modulares focada em desempenho e corvenção nos modelos B2B e Marketplace.</CardText>
-                  <p>2016  / 2019  - Full-Time</p>
-                </CardBody> 
-            </Card>  
-            <Card className="col-md-3 " > 
-                <CardBody>
-                  <Badge href="#" color="light" className="purple rounded-pill">RIOSLUM</Badge> 
-                  <CardTitle tag="h5">Desenvolvedor<br/> Front-End </CardTitle>
-                  <CardText>Integração de web sites com API's administrativas. <br/><br/>Desenvimento front-end de Single Pages responsivas para públicidade</CardText>
-                  <p>2019  / 2020  - Freela</p>
-                </CardBody> 
-            </Card>     
-            <Card className="col-md-3 " > 
-                <CardBody>
-                  <Badge href="#" color="warning" className="rounded-pill">HOME BRASIL</Badge> 
-                  <CardTitle tag="h5">Desenvolvedor<br/> Front-End </CardTitle>
-                  <CardText>Sites responsivos e recursos de interação Front-End com JavaScript.</CardText>
-                  <p>2014  / 2015  - PJ</p>
-                </CardBody> 
-            </Card>
-            
-                  
-            </div>   
-          </Container>   
-        </div>      
-
-
-        <div className=" ">       
-          <Container fluid>
-            <div className="d-flex flex-wrap ">       
-
-
-              <Card className="col-md-3" > 
-                  <CardBody>
-                    <Badge href="#" color="pink" className="rounded-pill">HelloPay</Badge> 
-                    <CardTitle tag="h5">Desenvolvedor<br/> Front-End </CardTitle>
-                    <CardText >Criação e desenvolvimento de componentes responsivos com ferramentas client-side.</CardText>
-                    <p>2021  -  Frella</p>
-                  </CardBody> 
-              </Card>  
-              <Card className="col-md-3" > 
-                  <CardBody>
-                    <Badge href="#" color="warning" className="warning rounded-pill">Collonial Village</Badge> 
-                    <CardTitle tag="h5">Desenvolvedor<br/> Front-End </CardTitle>
-                    <CardText >Integração Single Page App a CMS Wordpress.</CardText>
-                    <p>2020  -  Frella</p>
-                  </CardBody> 
-              </Card> 
-
-            </div>      
-          </Container>
-        </div>        
-
-        {/* //Footer */}
+        <Skills/>
 
         <Footer/>
-    </div>
-  );
-} 
+
+        </>
+  )
+    
+}

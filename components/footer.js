@@ -15,24 +15,22 @@ class Footer extends React.Component {
     render() {
         return (
  
-         <Container>
+         <Container >
              <hr/>
              <Row>
-
-                 <Col>
-                    <Media object className="" src="/logo_vini_footer.png" width={130} height={40}  alt="Vini - Development" />
+                 <Col md={4} className="d-none d-md-flex">
+                    <Media object className="d-block" src="/logo_vini_footer.png" width={130} height={40}  alt="Vini - Development" />
                  </Col>
 
-                 <Col>
-                    <a href="#" className="text-muted"> Politica de Privacidade</a>
+                 <Col xs={12} md={4} >
+                    <a href="#" className="text-muted text-center d-block"> Politica de Privacidade</a>
                  </Col>
 
-                 <Col md={2} className="d-flex justify-content-between">
-                        
-                        <SocialMedia/>
-
+                 <Col xs={12} md={4} >
+                    
+                    {/* SOCIAL MEDIA */}
+                    <SocialMedia/>
                  </Col>
-
              </Row>
          </Container>
     )

@@ -1,0 +1,61 @@
+import React, { useState } from 'react';     
+import { Anchor } from 'antd'; 
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand, 
+  Nav,
+  NavItem,
+  NavLink,  
+  Media,
+  Button, 
+  Container,  
+} from 'reactstrap'; 
+const { Link } = Anchor;
+
+export default function NavBar() {  
+
+    const [isOpen, setIsOpen] = useState(false); 
+    const toggle = () => setIsOpen(!isOpen);
+  
+    const navitens = [{title:'Experiências',anchor:'#experiencias'},{title:'Softwares Skills',anchor:'#skills'},{title:'Lembrete',anchor:'#Experiências'}]
+ 
+    return (
+      <div> 
+        
+            <Container fluid> 
+              <Navbar light expand="lg" className="p-0"> 
+                  <NavbarBrand href="/"> 
+                      <Media object className="logo" src="/vini-logo.png" alt="Vini - Development" />
+                  </NavbarBrand> 
+                  <NavbarToggler className="border-0" onClick={toggle} />
+                    <Collapse  isOpen={isOpen} navbar> 
+                      <Nav className="ml-auto " navbar>
+
+                        <Anchor> 
+                          {navitens.map((navitens,index) => ( 
+                            <NavItem key={index}> 
+                                <Link href={navitens.anchor}  title={navitens.title} />
+                            </NavItem>  
+                          ))} 
+                        </Anchor>
+                        <a className="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://wa.me/+5511910451115?text=" > Fale Comigo  <i className="fab fa-whatsapp ml-2"></i></a>
+                          
+                          
+                        <div class="social-group">
+                          <a href="https://github.com/vadevlife?tab=repositories" target="_blank"><i class="fab fa-github-alt"></i></a>
+                          <a href="https://www.linkedin.com/in/vinicius-araujo-1418649b/"><i class="fab fa-linkedin-in" target="_blank"></i></a> 
+                        </div>
+                      
+                           
+                      </Nav> 
+                    </Collapse>
+              </Navbar>
+  
+          </Container>
+   
+   
+      </div>
+    );
+  } 

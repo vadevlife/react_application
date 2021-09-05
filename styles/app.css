@@ -1,10 +1,32 @@
 /* Primary #0000FE */
+
+
+/* COLORS */
+/* #0000FE blue */
+.redmain{
+    background-color: #EB5757;
+}
+.orange{
+    background-color: #f46f25;
+}
+.text-orange{
+ color: #f46f25;
+}
 body{ 
     font-family: 'Montserrat', sans-serif !important;
 }
-a {
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+    width: 95% !important;
+}
+a,p,a.btn {
     font-size: .8rem;
     margin: 2px 0;
+}
+.text-black {
+    color: black;
+    font-weight: 600;
+    font-size: .8rem;
+    
 }
 img.logo  { 
    height: 66px;
@@ -13,10 +35,20 @@ strong,.fw-600{
     font-weight: 600 !important;
 }
 
+.ant-anchor-link {
+    text-align: center;
+    padding: 5px;
+    color: black;
+
+}
 @media (min-width: 576px) {
   
     .navbar {
         padding: .9rem 0rem !important;
+    }
+    ul.ml-auto.navbar-nav {
+        display: flex;
+        align-items: center;
     }
 
     .jumbotron {
@@ -25,16 +57,39 @@ strong,.fw-600{
     .container-fluid {
         padding: 0 1.8rem !important;
         max-width: 1400px !important;
-
-
     }
+
+    .ant-anchor{
+        display: flex; 
+        align-items: center;
+    }
+    .ant-affix {
+        position: relative !important;
+    } 
+    
+    .ant-anchor-link a {
+        color: black;
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px){ 
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3.5rem !important;
+  
+}
+}
+
+.navbar-nav a.btn {
+    display: block !important;
+    width: 200px;
+    margin: auto;
 }
 
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0 0 0 / 100%);
     font-size: 13px;
-    
 }
 .navbar-light button{
     font-size: 13px;
@@ -46,26 +101,52 @@ strong,.fw-600{
     background-position: center;
     background-color: transparent !important;
 }
-h1{ 
+.tecnologies i {
+    font-size: 70px;
+}
+#cover{
+    background-color: reb;
+    position: relative;
+    height: 100%;
+}
+.bg-cover{
+    background: url('../public/img.png');
+    background-size: cover;
+    background-position: center;
+    background-color: transparent !important;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+.h1{ 
     font-size: 3.1rem !important; 
-    line-height: 1.1 !important;
-    font-weight: 600 !important; 
+    line-height: 1.1 !important;    
     color:black ;
 
 }
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 14px;
     margin: 15px auto;
     opacity: 0.8;
-}   
-.display-4 {
-    font-size: 3.1rem;
-    
+} 
+a.badge.first:before,a.before-hidden:before{
+    content: inherit !important;
+}  
+ 
+@media (max-width: 1024px){ 
+    .display-4 {
+        font-size: 2.0rem !important;
+        font-weight: 400 !important;
+        line-height: 1.2;
+    }
 }
-
 @media (min-width: 768px){
+    .display-4 { 
+        font-weight: 600 !important;
+        
+    }
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 2.3rem !important;
         padding-left: 2.3rem !important;
@@ -74,24 +155,39 @@ p {
         font-size: 4.5rem !important; 
     }
     h2,h3{ 
-        font-size: 4.5rem !important; 
-        font-weight: 400 !important;
+        font-size: 3.5rem !important; 
+        font-weight: 600 !important;
         color: #000; 
     
     }
+   
+  
+    a.badge:before {
+        content: '';
+        position: absolute;
+        left: -30px;
+        background-image: url('../public/element.png');
+        background-size: 40px;
+        height: 200px;
+        width: 151px;
+        z-index: -1;
+        background-repeat: no-repeat;
+        top: -20px;
+    
+        
+    }
 }
-.btn{
-    height: 35px;
-    padding: 0 20px; 
-}
+
 a.badge {
     height: 30px;
     padding: 0 20px;
-    display: inline-flex; 
+    display: inline-flex !important; 
     align-items: center;
     color: white; 
-
+    position: relative;
     margin: 10px auto 1rem;
+    display: flex;
+    align-items: center;
 }
 .card a.badge { 
     margin: 10px auto 2.8rem;
@@ -102,16 +198,28 @@ a.purple {
     border-color:#8D65FE;
 } 
 
-.badge{
-    
-font-weight: 600 !important;
+.badge-primary {
+    font-weight: 400;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    max-width: inherit;
+    justify-content: center;
+    border-radius: 33px;
+    margin: 0 auto 20px;
+    padding: 0 16px;
 }
+ 
 .badge-pink{
     background-color: #FE65B8;
     border-color: #FE65B8;
 }  
 
-
+.btn{
+    height: 35px;
+    padding: 0 20px; 
+    max-width: 160px;
+}
 .btn-primary,.badge-primary,.bg-primary { 
     color: white;
     background-color: #0000FE !important;
@@ -126,19 +234,7 @@ font-weight: 600 !important;
     border-color: #010080 !important;
 }
 
-.badge-primary {
-    font-weight: 400;
-    height: 30px;
-    display: inline-flex;
-    align-items: center;
-    max-width: inherit;
-    justify-content: center;
-    border-radius: 33px;
-    margin: 0 auto 20px;
-    padding: 0 16px;
-
-}
-
+/* //BADGE */
 
 
 /* //CARD */
@@ -151,8 +247,75 @@ font-weight: 600 !important;
 
 /* //SLIDE */
  
-.carousel-caption{
+.carousel-caption{ 
+    text-align: left !important; 
+    left: 5% !important;
+    max-width: 250px;
+    display: block !important; 
+    width: 100% !important;
+    min-width: 70%;
+    top: 45%;
+
+}
+.carousel-item .badge{ 
+    position: absolute;
+    top: 36%;
+    left: 5%;
+}
+.carousel-caption h3{ 
+    color: white !important;
+    line-height: 1.1;
+    font-size: 2rem !important;
+}
+
+
+
+/* // SOCIAL MEDIA */
+.social-group i{
+ color: #0000FE;
+}
+.social-group a {
+    padding: 0 20px;
+}
+.social-group a:last-child {
+    padding-right: 0;
+}
+.social_media a{   
+    margin:0 20px;
+}
+
+@media(max-width:1023px){
+    .social_media {  
+        max-width: 100px;
+        margin:10px auto;
+        justify-content: center;
+
+    }
+     
+}
+@media(min-width:1024px){
+    .social_media {   
+        margin:0px auto;
+        justify-content: flex-end;
+    }
+    .social_media a:last-child{   
+        margin-right:0px;
+    }
     
-    text-align: left;
-    left: 10%;
+     
+}
+
+
+
+/* //TEXT PATHERS */
+@media(min-width:1024px){ 
+    .title_pathers{
+        position: absolute;
+        left: 40%;
+        font-size: 120px;
+        font-weight: 800;
+        color: #d0d0d0;
+        bottom: 50px;
+        opacity: .1;
+    }
 }
