@@ -21,7 +21,7 @@ const items = [
   
 ];
 
-const Example = (props) => {
+const FullBanner = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -69,4 +69,4 @@ const Example = (props) => {
   );
 }
 
-export default Example;
+export default FullBanner;
