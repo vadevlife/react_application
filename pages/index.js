@@ -16,8 +16,8 @@ export default function home() {
         <Navbar/>
         <Jumbotron/>
         <Higlights/>
+        <Skills/> 
         <Experiencias/>   
-        <Skills/>
 
         <Footer/> 
 

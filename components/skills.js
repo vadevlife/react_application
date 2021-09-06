@@ -6,10 +6,8 @@ import {
   Row,
   Col,
   Card,
-  CardBody,
-  CardText,
-  CardTitle,
-  ListGroup
+  CardBody, 
+  CardTitle, 
 } from 'reactstrap'; 
 
 
