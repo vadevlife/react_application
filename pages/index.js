@@ -1,10 +1,8 @@
 import React from 'react'
 import Navbar from '../components/navbar'; 
 import Jumbotron from '../components/jumbotron'; 
-import Higlights from '../components/higlights'; 
-import Fullbanner from '../components/fullBanner'; 
-import Skills from '../components/skills'; 
-import Footer from '../components/footer'; 
+import Higlights from '../components/higlights';  
+import Skills from '../components/skills';  
 
  
  
