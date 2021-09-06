@@ -7,16 +7,7 @@ import Skills from '../components/skills';
 import Footer from '../components/footer'; 
 
  
-import {
-  Container,
-  Row,
-  Col,
-  Badge,
-  Card,
-  CardBody,
-  CardTitle,
-  CardText
-} from 'reactstrap';
+ 
 
 
 const cardContent=[{
@@ -88,7 +79,7 @@ export default function home() {
         <>
         <Navbar/>
         <Jumbotron/>
-        <Fullbanner/>
+        {/* <Fullbanner/> */}
         <Higlights/>
 
 
