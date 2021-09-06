@@ -21,7 +21,7 @@ const items = [
   
 ];
 
-const FullBanner = (props) => {
+const Fullbanner = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -69,4 +69,4 @@ const FullBanner = (props) => {
   );
 }
 
-export default FullBanner;
+export default Fullbanner;
