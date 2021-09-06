@@ -33,7 +33,7 @@ export default function NavBar() {
               <Col md={5} lg={3} className="d-none d-md-flex flex-column   justify-content-center">
                 <strong className="h4">2021</strong>
                 <h4 className="h6 fw-600">Por, Vinicius Araujo</h4>
-                <a href="javascript:void(0);" target="_blank">FrontEnd Dev. </a> 
+                <a href="#" target="_blank">FrontEnd Dev. </a> 
                 {/* <a href="https://charliekirk.com/" target="_blank">Charlie kirk</a> */}
               </Col>
             </Row> 

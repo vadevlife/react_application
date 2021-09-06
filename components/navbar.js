@@ -43,9 +43,9 @@ export default function NavBar() {
                         <a className="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://wa.me/+5511910451115?text=" > Fale Comigo  <i className="fab fa-whatsapp ml-2"></i></a>
                           
                           
-                        <div class="social-group">
-                          <a href="https://github.com/vadevlife?tab=repositories" target="_blank"><i class="fab fa-github-alt"></i></a>
-                          <a href="https://www.linkedin.com/in/vinicius-araujo-1418649b/"><i class="fab fa-linkedin-in" target="_blank"></i></a> 
+                        <div className="social-group">
+                          <a href="https://github.com/vadevlife?tab=repositories" target="_blank"><i className="fab fa-github-alt"></i></a>
+                          <a href="https://www.linkedin.com/in/vinicius-araujo-1418649b/"><i className="fab fa-linkedin-in" target="_blank"></i></a> 
                         </div>
                       
                            

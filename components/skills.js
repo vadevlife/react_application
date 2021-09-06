@@ -14,6 +14,7 @@ import {
 
 
 const cardContent=[{
+    key: '1', 
     nome:'Html5',
     cargo:'Posso desenvolver sites responsivos, Aplicações de E-commerce.', 
     desc:' - 4 anos de Experiência',
@@ -24,6 +25,7 @@ const cardContent=[{
     color:'warning',
     icon:'fab fa-html5 h3 text-warning'
   },{
+    key: '2',
     nome:'Css3',
     cargo:'Camadas em variaveis ajudam a otimizar seu app.', 
     desc:' - 4 anos de Experiência',
@@ -34,6 +36,7 @@ const cardContent=[{
     color:' ',
     icon:'fab fa-css3-alt h3 text-danger' 
   },{
+    key: '3',
     nome:'Javascript',
     cargo:'Posso desenvolver Site responsivos, Aplicações de E-commerce.', 
     desc:' - 4 anos de Experiência',
@@ -44,6 +47,7 @@ const cardContent=[{
     color:'warning',
     icon:'fab fa-js h3 text-warning' 
   },{
+    key: '4',
     nome:'Magento',
     cargo:'Front-end de Lojas Magento.', 
     desc:' - 2 anos de Experiência',
@@ -59,10 +63,7 @@ const cardContent=[{
   
   ]
   
-  const contentDesign = [{
-    icon:'fab fa-magento  h3 text-orange' 
-
-  }]
+ 
 export default function skills() {  
  
     
@@ -78,40 +79,40 @@ export default function skills() {
               </Row> 
             <Row className="p-4">
               <Col sm={4} md={4} lg={3} className="p-0">
-              <Card id="cover" className={cardContent.class}  > 
-                        <CardBody className="bg-cover">
-                            {/* <Badge href="#" color="" className="before-hidden">DOwnload</Badge> 
-                            <CardTitle tag="h5">Title</CardTitle>
-                            <CardText color="muted">Descrição</CardText>
-                            <p>paragrafo</p>  */}
-                        </CardBody> 
-                    </Card>   
+                <Card id="cover" className={cardContent.class}  > 
+                      <CardBody className="bg-cover">
+                          {/* <Badge href="#" color="" className="before-hidden">DOwnload</Badge> 
+                          <CardTitle tag="h5">Title</CardTitle>
+                          <CardText color="muted">Descrição</CardText>
+                          <p>paragrafo</p>  */}
+                      </CardBody> 
+                  </Card>   
               </Col>
               <Col md={8} className="d-flex flex-wrap p-0">
-                {cardContent.map((cardContent)=>( 
-                    <Card className={cardContent.class}  > 
-                        <CardBody>
-                            <Badge href="#" color={cardContent.color} className={cardContent.badge}>{cardContent.nome}</Badge> 
-                            <CardTitle tag="h5">{cardContent.cargo}</CardTitle> 
-                            <p>{cardContent.desc}</p> 
-                            <i className={cardContent.icon}></i>
-                        </CardBody> 
-                         
-                        
-                    </Card>   
-                ))}
+
+                <Row>  
+                  {cardContent.map((cardContent)=>(   
+                    
+                        <div className="col-md-6 col-lg-6 p-0" key={cardContent.key}> 
+                        <Card>  
+                            <CardBody>
+                                <Badge href="#" color={cardContent.color} className={cardContent.badge}>{cardContent.nome}</Badge> 
+                                <CardTitle tag="h5">{cardContent.cargo}</CardTitle> 
+                                <p>{cardContent.desc}</p> 
+                                <i className={cardContent.icon}></i>
+                            </CardBody> 
+                        </Card>    
+                          
+                      </div> 
+                  ))}
+
+                </Row>
             </Col>
             
             </Row> 
            
 
-           <Row>
-             {contentDesign.map((contentDesign)=>(
-               console.log(contentDesign)
-             ))
-
-             }
-           </Row>
+           
           </Container>
 
 

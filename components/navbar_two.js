@@ -41,20 +41,19 @@ export default function NavBar() {
                     <Collapse  isOpen={isOpen} navbar> 
                       <Nav className="ml-auto" navbar>
                         
-                        {navitens.map((navitens,index) => ( 
-                          <NavItem key={index}>
-                            <NavLink >{navitens.title}</NavLink>
-                          </NavItem> 
-                        ))}   
-                           
+                          {navitens.map((navitens,index) => ( 
+                            <NavItem key={index}>
+                              <NavLink >{navitens.title}</NavLink>
+                            </NavItem> 
+                          ))}   
   
                           <NavItem>
-                            <NavLink >Anchor</NavLink>
-                            {/* <Link to='/about#skills'>Skills</Link> */}
+                            <NavLink >Anchor</NavLink> 
                           </NavItem> 
+
                           <a href="https://wa.me/+5511910451115?text=" class="text-white"><i class="fab fa-whatsapp" style="font-size: 25px;"></i></a>
   
-                        <Button color="primary" className="rounded-pill">Fale Comigo</Button>{' '}
+                          <Button color="primary" className="rounded-pill">Fale Comigo</Button>{' '}
   
                       </Nav>
   

@@ -4,32 +4,24 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
-  Badge
+  CarouselCaption
 } from 'reactstrap';
 
-
-
 const items = [
-  { 
-    src: '/e-commerce.png',
-    altText: 'FrontEnd Development',
-    caption: 'Integrador de lojas virtuais, e recursos Ux para E-commerce.'
-  },
-  { 
-    src: '/web-sites.png', 
-    altText: 'FrontEnd Development',
-    caption: 'Sites de auto desempenho que se adaptam ao cliente.'
+  {
+    src: '/ecommerce.png',
+    altText: 'Sites dinamicos e de auto desempenho Aplicações que se adaptam ao cliente.',
+    caption: 'Sites dinamicos e de auto desempenho Aplicações que se adaptam ao cliente.'
   },
   {
-    
-    src: '/e-commerce.png', 
-    altText: 'FrontEnd Development',
-    caption: 'Integrador de lojas virtuais, e recursos Ux para E-commerce.'
-  }
+    src: '/websites.png',
+    altText: 'Sites dinamicos e de auto desempenho Aplicações que se adaptam ao cliente.',
+    caption: 'Sites dinamicos e de auto desempenho Aplicações que se adaptam ao cliente.'
+  },
+  
 ];
 
-const Slide = (props) => {
+const Example = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -57,10 +49,8 @@ const Slide = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-         
-       <Badge href="#" color="primary rounded-pill">{item.altText}</Badge>
         <img src={item.src} alt={item.altText} />
-        <CarouselCaption captionHeader={item.caption} />
+        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
   });
@@ -79,4 +69,4 @@ const Slide = (props) => {
   );
 }
 
-export default Slide;
+export default Example;
