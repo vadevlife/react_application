@@ -13,11 +13,11 @@ export default function highlights() {
            <section className='tecnologies section mt-5 mb-5 pt-3 pb-3'>
            <Container>
              <Row>
-               <Col md={1} className="d-flex align-items-center pb-2">
+               <Col md={12} lg={1} className="d-flex align-items-center pb-2">
                  <span className="text-black "> Tecnologias</span>
                </Col>
                <Col md={11} className="d-flex justify-content-around flex-wrap">
-                <i className="text-muted fab fa-html5 "></i>
+                <i className="text-muted fab fa-html5"></i>
                 <i className="text-muted fab fa-css3-alt"></i>
                 <i className="text-muted fab fa-js"></i>
                 <i className="text-muted fab fa-react "></i>

@@ -102,7 +102,9 @@ strong,.fw-600{
     background-color: transparent !important;
 }
 .tecnologies i {
-    font-size: 70px;
+    font-size: 70px;  
+    padding: 0 10px;
+     
 }
 #cover{
     background-color: reb;
