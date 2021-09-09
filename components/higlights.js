@@ -23,6 +23,7 @@ export default function highlights() {
                 <i className="text-muted fab fa-react "></i>
                 <i className="text-muted fab fa-npm "></i>
                 <i className="text-muted fab fa-git "></i>
+                <i class="text-muted fab fa-magento"></i>
                 {/* <Media object className="img-fluid p-5" src="/tecnologias.png" alt="Vini - Development" />  */}
                </Col>
              </Row>

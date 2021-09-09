@@ -112,7 +112,8 @@ strong,.fw-600{
     height: 100%;
 }
 .bg-cover{
-    background: url('../public/img.png');
+    background: url('../public/img2.png');
+    /* background: url('../public/img.png'); */
     background-size: cover;
     background-position: center;
     background-color: transparent !important;
@@ -251,7 +252,12 @@ a.purple {
 
 
 /* //SLIDE */
- 
+.carousel-caption.d-none.d-md-block {
+    display: block !important;
+}
+.carousel-caption.d-none.d-md-block p {
+    display: none;
+}
 .carousel-caption{ 
     text-align: left !important; 
     left: 5% !important;
@@ -260,7 +266,6 @@ a.purple {
     width: 100% !important;
     min-width: 70%;
     top: 45%;
-
 }
 .carousel-item .badge{ 
     position: absolute;
@@ -276,6 +281,18 @@ a.purple {
 
 
 /* // SOCIAL MEDIA */
+@media(max-width:768px){
+    .social-group {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .carousel-caption{ 
+        
+        top:30%;
+    }
+}
+
 .social-group i{
  color: #0000FE;
 }
@@ -323,4 +340,11 @@ a.purple {
         bottom: 50px;
         opacity: .1;
     }
+}
+
+
+/* //PORTFOLIO */
+
+#portfolio .card {
+    background-size: cover;
 }

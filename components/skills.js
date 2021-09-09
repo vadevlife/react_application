@@ -18,7 +18,7 @@ const cardContent=[{
     desc:' - 4 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 
-    class:'col-md-6 col-lg-6 ',
+    class:'col-md-6 col-lg-4 ',
     badge:'  rounded-pill before-hidden',
     color:'warning',
     icon:'fab fa-html5 h3 text-warning'
@@ -29,7 +29,7 @@ const cardContent=[{
     desc:' - 4 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 
-    class:'col-md-6 col-lg-6 ',
+    class:'col-md-6 col-lg-4',
     badge:'redmain rounded-pill before-hidden',
     color:' ',
     icon:'fab fa-css3-alt h3 text-danger' 
@@ -68,9 +68,9 @@ export default function skills() {
     return (
       <div id="skills" className='section mt-5 mb-5'> 
           <Container >
-              <Row>
+              <Row className="d-none d-lg-flex">
                 <Col md={9}>
-                  <span className="title_pathers d-none d-lg-flex">Habilidades</span>
+                  <span className="title_pathers">Habilidades</span>
                   <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
                   <h2 className="display-4">Skills que podem contribuir para seu projeto</h2>
                 </Col> 

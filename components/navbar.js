@@ -19,7 +19,21 @@ export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false); 
     const toggle = () => setIsOpen(!isOpen);
   
-    const navitens = [{title:'Experiências',anchor:'#experiencias'},{title:'Softwares Skills',anchor:'#skills'},{title:'Lembrete',anchor:'#Experiências'}]
+    const navitens = [{
+      title:'Experiências',
+      anchor:'#experiencias'
+    },
+    {
+      title:'Softwares Skills',
+      anchor:'#skills'},
+    {
+      title:'Lembrete',
+      anchor:'#Experiências'
+    },
+    {
+      title:'Portfólio',
+      anchor:'#portfolio'
+    }]
  
     return (
       <div> 
