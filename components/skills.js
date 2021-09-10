@@ -75,7 +75,7 @@ export default function skills() {
                   <h2 className="display-4">Skills que podem contribuir para seu projeto</h2>
                 </Col> 
               </Row> 
-            <Row className="p-4">
+            <Row className="p-md-4">
               <Col sm={4} md={4} lg={3} className="p-0">
                 <Card id="cover" className={cardContent.class}  > 
                       <CardBody className="bg-cover">
@@ -110,7 +110,7 @@ export default function skills() {
             
             </Row> 
 
-            <Row className="p-4">
+            <Row className="p-md-4">
               <Col md={9}> 
                   <h6 className="p-2"><strong>Design e Criação</strong></h6> 
                 </Col> 
@@ -120,7 +120,7 @@ export default function skills() {
                         <Badge href="#" className="before-hidden blue2 rounded-pill">Photoshop</Badge> 
                         <CardTitle tag="h5">Posso criar, materiais publicitários e design de interfaces web.</CardTitle> 
                         <p>4 anos de Expêriencia</p>  
-                        <img src="/ps.png" />
+                        <img widht="25" src="/ps.png" />
 
                     </CardBody> 
                 </Card> 

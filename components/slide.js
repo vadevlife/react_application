@@ -19,14 +19,14 @@ const items = [
     src: '/websites.png',
     altText: 'Sites dinâmico e de auto desempenho aplicações que se adaptam ao cliente.',
     caption: 'Sites dinâmico e de auto desempenho aplicações que se adaptam ao cliente',
-    badge:'',
+    badge:'Web Sites',
 
   },
   {
     src: '/uxdesign.png',
     altText: 'Posso ajuda-lo a criar a melhor interface para seu usuário',
     caption: 'Posso ajuda-lo a criar a melhor interface para seu usuário',
-    badge:'',
+    badge:'Ux Design',
 
   }
 ];

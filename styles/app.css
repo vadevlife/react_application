@@ -275,7 +275,7 @@ a.purple {
 }
 .carousel-item .badge{ 
     position: absolute;
-    top: 20%;
+    top: 36%;
     left: 5%;
 }
 .carousel-caption h3{ 
@@ -298,8 +298,11 @@ a.purple {
         margin: 20px auto;
     }
     .carousel-caption{ 
-        
         top:30%;
+    }
+    .carousel-item .badge{  
+        top: 20% !important; 
+       
     }
 }
 
