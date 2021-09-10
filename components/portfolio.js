@@ -34,7 +34,7 @@ export default function Portfolio(){
         <div id="portfolio" className='section mt-5 mb-5'>
          
             <Container > 
-                <Row className="p-4 "> 
+                <Row className=""> 
                     <Col md={9}>
                         <span className="title_pathers d-none d-lg-flex">Portfólio</span>
                         <Badge href="#" color="primary rounded-pill">Designer e Desenvolvedor</Badge>

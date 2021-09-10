@@ -8,7 +8,7 @@ import {
 export default function highlights() {
   return(
         <React.Fragment> 
-           <section className='tecnologies section mt-5 mb-5 pt-3 pb-3'>
+           <section className='tecnologies section pt-5 mb-5 pt-3 pb-3'>
            <Container>
              <Row>
                <Col md={12} lg={1} className="d-flex align-items-center pb-2">

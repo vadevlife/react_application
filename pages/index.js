@@ -19,13 +19,14 @@ export default function home() {
 
         <Jumbotron/>
         <Slide/>
-        <Higlights/>
-        <Skills/> 
-        <Experiencias/>   
-        <Portfolio/>
 
-        <Footer/> 
-
+        <div style={{background:'#fbfbfb'}}>
+          <Higlights/>
+          <Skills/> 
+          <Experiencias/>   
+          <Portfolio/> 
+          <Footer/> 
+        </div>
         </>
   )
     
