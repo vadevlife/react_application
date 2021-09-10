@@ -36,8 +36,8 @@ const cardContent=[{
   },{
     key: '3',
     nome:'Javascript',
-    cargo:'Posso desenvolver Site responsivos, Aplicações de E-commerce.', 
-    desc:' - 4 anos de Experiência',
+    cargo:'Dev de Recursos Javascript que otimizam a usabilidade de suas aplicações.', 
+    desc:' - 2 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 
     class:'col-md-6 col-lg-6 ',
@@ -108,6 +108,28 @@ export default function skills() {
             </Col>
             
             </Row> 
+
+            <Row>
+              <Col md={9}> 
+                  <h6 className="p-2"><strong>Design e Criação</strong></h6> 
+                </Col> 
+              <div className="col-md-6 col-lg-6 p-0 d-flex"> 
+                <Card>  
+                    <CardBody>
+                        <Badge href="#" color="primary" className="before-hidden">Photoshop</Badge> 
+                        <CardTitle tag="h5">Titulo</CardTitle> 
+                        <p>Desc</p>  
+                    </CardBody> 
+                </Card> 
+                <Card>  
+                    <CardBody>
+                        <Badge href="#" color="primary" className="before-hidden">Figma</Badge> 
+                        <CardTitle tag="h5">Titulo</CardTitle> 
+                        <p>Desc</p>  
+                    </CardBody> 
+                </Card>    
+              </div> 
+            </Row>
            
 
            

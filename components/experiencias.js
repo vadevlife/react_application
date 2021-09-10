@@ -20,7 +20,7 @@ const cardContent=[{
   desc:'Criação, prototipação e desenvolvimento de componentes responsivos, dia-a-dia com ferramentas client-side.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript', 
-  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3 bg-primary',
+  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3 ',
   badge:'before-hidden purple rounded-pill',
   color:'warning'
 },

@@ -264,7 +264,7 @@ a.purple {
     max-width: 250px;
     display: block !important; 
     width: 100% !important;
-    min-width: 70%;
+    min-width: 50%;
     top: 45%;
 }
 .carousel-item .badge{ 
@@ -277,8 +277,12 @@ a.purple {
     line-height: 1.1;
     font-size: 2rem !important;
 }
+.carousel-control-prev{
+    left:inherit !important;
+    right: 35px;
+}
 
-
+ 
 
 /* // SOCIAL MEDIA */
 @media(max-width:768px){
@@ -347,4 +351,9 @@ a.purple {
 
 #portfolio .card {
     background-size: cover;
+    border: 0;
+}
+a.badge {
+    display: none;
+    pointer-events: none;
 }

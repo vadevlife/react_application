@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+  Badge,
   Carousel,
   CarouselItem,
   CarouselControl,
@@ -11,17 +12,22 @@ const items = [
   {
     src: '/ecommerce.png',
     altText: 'Integrador de lojas virtuais, e recursos Ux para E-commerce.',
-    caption: 'Integrador de lojas virtuais, e recursos Ux para E-commerce.'
+    caption: 'Integrador de lojas virtuais, e recursos Ux para E-commerce.',
+    badge:'Profissional',
   },
   {
     src: '/websites.png',
     altText: 'Sites dinâmico e de auto desempenho aplicações que se adaptam ao cliente.',
-    caption: 'Sites dinamicos e de auto desempenho aplicações que se adaptam ao cliente'
+    caption: 'Sites dinâmico e de auto desempenho aplicações que se adaptam ao cliente',
+    badge:'',
+
   },
   {
     src: '/uxdesign.png',
     altText: 'Posso ajuda-lo a criar a melhor interface para seu usuário',
-    caption: 'Posso ajuda-lo a criar a melhor interface para seu usuário'
+    caption: 'Posso ajuda-lo a criar a melhor interface para seu usuário',
+    badge:'',
+
   }
 ];
 
@@ -54,6 +60,8 @@ const Slide = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} />
+        <Badge href="#" color="primary" className="rounded-pill">{item.badge}</Badge> 
+        
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
@@ -67,8 +75,8 @@ const Slide = (props) => {
     >
       <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
-      <CarouselControl direction="prev" className="d-none" directionText="Previous" onClickHandler={previous} />
-      <CarouselControl direction="next" className="d-none" directionText="Next" onClickHandler={next} />
+      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+      <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
   );
 }

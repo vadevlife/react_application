@@ -1,8 +1,6 @@
 import React, { useState } from 'react';     
 import {
-   
-  Badge,
-   
+  Badge,   
   Jumbotron, 
   Container,
   
@@ -33,7 +31,7 @@ export default function NavBar() {
               <Col md={5} lg={3} className="d-none d-md-flex flex-column   justify-content-center">
                 <strong className="h4">2021</strong>
                 <h4 className="h6 fw-600">Por, Vinicius Araujo</h4>
-                <a href="#" target="_blank">FrontEnd Dev. </a> 
+                <a href="https://www.linkedin.com/in/vinicius-araujo-1418649b/" target="_blank">FrontEnd Dev. </a> 
                 {/* <a href="https://charliekirk.com/" target="_blank">Charlie kirk</a> */}
               </Col>
             </Row> 
