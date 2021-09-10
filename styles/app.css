@@ -140,6 +140,10 @@ p {
     margin: 15px auto;
     opacity: 0.8;
 } 
+a.badge {
+    display: none;
+    pointer-events: none;
+}
 a.badge.first:before,a.before-hidden:before{
     content: inherit !important;
 }  
@@ -261,11 +265,9 @@ a.purple {
 
 
 /* //SLIDE */
-.carousel-caption.d-none.d-md-block {
-    display: block !important;
-}
-.carousel-caption.d-none.d-md-block p {
-    display: none;
+ 
+.carousel-caption  p {
+    display: none !important;
 }
 .carousel-caption{ 
     text-align: left !important; 
@@ -365,7 +367,6 @@ a.purple {
     background-size: cover;
     border: 0;
 }
-a.badge {
-    display: none;
-    pointer-events: none;
+.card-centr.card {
+    height: 270px;
 }

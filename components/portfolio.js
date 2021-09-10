@@ -17,14 +17,15 @@ const portfolio=[{
     logo:'/detranlogo.png',
     color:'light',
     bg:'url("/detran.png',
-    text:'Designer e Desenvolvedor de Builds importante do novo Portal PoupaTempo' 
+    text:'Designer e Prototipação de serviços do Portal PoupaTempo' 
 },{
     key:'2',
     nome:'Poupatempo',
     logo:'/personalhouselogo.png', 
     bg:'url("/personalhouse.png',  
     color:'light',
-    text:'Designer e Desenvolvedor de Builds importante do novo Portal PoupaTempo' 
+    text:'Designer e Prototipação de serviços do Portal PoupaTempo' 
+    
 }]
 
 export default function Portfolio(){
@@ -48,7 +49,8 @@ export default function Portfolio(){
                                 <Badge className="before-hidden rounded-pill" href="#" color="light"><img src="/poupatempologo.png"/></Badge> 
                                 <CardTitle tag="h5"></CardTitle>
                                 <CardText color="muted"></CardText>
-                                <p className="text-white">Designer e Desenvolvedor de Builds importante do novo Portal PoupaTempo</p> 
+    
+                                <p className="text-white">Designer e Prototipação de serviços do Portal PoupaTempo</p> 
                             </CardBody> 
                         </Card>     
                     </Col>
@@ -59,7 +61,7 @@ export default function Portfolio(){
             
                                     <div className="col-md-6 col-lg-12 p-0" key={portfolio.key}>  
                                     
-                                        <Card style={{backgroundImage:portfolio.bg}}> 
+                                        <Card className="card-centr" style={{backgroundImage:portfolio.bg}}> 
                                             <CardBody>
                                                 <Badge className="before-hidden rounded-pill" href="#" color={portfolio.color}><img src={portfolio.logo}/></Badge> 
                                                 <CardTitle tag="h5"></CardTitle>
