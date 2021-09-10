@@ -9,6 +9,12 @@
 .orange{
     background-color: #f46f25;
 }
+.blue2{
+    background-color: #2A4997 !important;
+}
+.black{
+    background-color: black !important;
+}
 .text-orange{
  color: #f46f25;
 }
@@ -269,7 +275,7 @@ a.purple {
 }
 .carousel-item .badge{ 
     position: absolute;
-    top: 36%;
+    top: 20%;
     left: 5%;
 }
 .carousel-caption h3{ 

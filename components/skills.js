@@ -15,18 +15,18 @@ const cardContent=[{
     key: '1', 
     nome:'Html5',
     cargo:'Posso desenvolver sites responsivos, Aplicações de E-commerce.', 
-    desc:' - 4 anos de Experiência',
+    desc:'4 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 
     class:'col-md-6 col-lg-4 ',
-    badge:'  rounded-pill before-hidden',
+    badge:'rounded-pill before-hidden',
     color:'warning',
     icon:'fab fa-html5 h3 text-warning'
   },{
     key: '2',
     nome:'Css3',
     cargo:'Camadas em variaveis ajudam a otimizar seu app.', 
-    desc:' - 4 anos de Experiência',
+    desc:'4 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 
     class:'col-md-6 col-lg-4',
@@ -37,7 +37,7 @@ const cardContent=[{
     key: '3',
     nome:'Javascript',
     cargo:'Dev de Recursos Javascript que otimizam a usabilidade de suas aplicações.', 
-    desc:' - 2 anos de Experiência',
+    desc:'2 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 
     class:'col-md-6 col-lg-6 ',
@@ -48,7 +48,7 @@ const cardContent=[{
     key: '4',
     nome:'Magento',
     cargo:'Front-end de Lojas Magento.', 
-    desc:' - 2 anos de Experiência',
+    desc:'2 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 
     class:'col-md-6 col-lg-6 ',
@@ -105,27 +105,32 @@ export default function skills() {
                   ))}
 
                 </Row>
-            </Col>
+                
+              </Col>
             
             </Row> 
 
-            <Row>
+            <Row className="p-4">
               <Col md={9}> 
                   <h6 className="p-2"><strong>Design e Criação</strong></h6> 
                 </Col> 
               <div className="col-md-6 col-lg-6 p-0 d-flex"> 
                 <Card>  
                     <CardBody>
-                        <Badge href="#" color="primary" className="before-hidden">Photoshop</Badge> 
-                        <CardTitle tag="h5">Titulo</CardTitle> 
-                        <p>Desc</p>  
+                        <Badge href="#" className="before-hidden blue2 rounded-pill">Photoshop</Badge> 
+                        <CardTitle tag="h5">Posso criar, materiais publicitários e design de interfaces web.</CardTitle> 
+                        <p>4 anos de Expêriencia</p>  
+                        <img src="/ps.png" />
+
                     </CardBody> 
                 </Card> 
                 <Card>  
                     <CardBody>
-                        <Badge href="#" color="primary" className="before-hidden">Figma</Badge> 
-                        <CardTitle tag="h5">Titulo</CardTitle> 
-                        <p>Desc</p>  
+                        <Badge href="#" className="before-hidden rounded-pill black">Figma</Badge> 
+                        <CardTitle tag="h5">Prototipação e Design de intefaces web e mobile.</CardTitle> 
+                        <p>1 ano de Expêriencia</p>  
+                        <img src="/figma.png" />
+                        
                     </CardBody> 
                 </Card>    
               </div> 
