@@ -370,3 +370,8 @@ a.purple {
 .card-centr.card {
     height: 270px;
 }
+
+#portfolio .card p{
+    max-width: 218px;
+    float: left;
+}

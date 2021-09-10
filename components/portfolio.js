@@ -17,14 +17,14 @@ const portfolio=[{
     logo:'/detranlogo.png',
     color:'light',
     bg:'url("/detran.png',
-    text:'Designer e Prototipação de serviços do Portal PoupaTempo' 
+    text:'Desenvolvedor Web de serviços do Portal Detran.' 
 },{
     key:'2',
-    nome:'Poupatempo',
+    nome:'PersonalHouse',
     logo:'/personalhouselogo.png', 
     bg:'url("/personalhouse.png',  
     color:'light',
-    text:'Designer e Prototipação de serviços do Portal PoupaTempo' 
+    text:'Desenvolvedor WordPress PersonalHouse / Colonial Village ||' 
     
 }]
 
@@ -38,7 +38,7 @@ export default function Portfolio(){
                     <Col md={9}>
                         <span className="title_pathers d-none d-lg-flex">Portfólio</span>
                         <Badge href="#" color="primary rounded-pill">Designer e Desenvolvedor</Badge>
-                        <h2 className="display-4 mb-5">Projetos que tive o prazer de fazer parte!</h2>
+                        <h2 className="display-4 mb-5">Projetos que tive o prazer trabalhar!</h2>
                     </Col>      
                 </Row>
                 <Row>
@@ -50,7 +50,7 @@ export default function Portfolio(){
                                 <CardTitle tag="h5"></CardTitle>
                                 <CardText color="muted"></CardText>
     
-                                <p className="text-white">Designer e Prototipação de serviços do Portal PoupaTempo</p> 
+                                <p className="text-white">Designer e desenvolvedor web para serviços do Portal PoupaTempo.</p> 
                             </CardBody> 
                         </Card>     
                     </Col>
@@ -81,10 +81,10 @@ export default function Portfolio(){
                     <Col md={4} className="p-0">
                         <Card style={{backgroundImage:'url("/charliekirk.png'}}> 
                             <CardBody>
-                                <Badge className="before-hidden rounded-pill" href="#" color="light"><img  src="/poupatempologo.png"/></Badge> 
+                                <Badge className="before-hidden rounded-pill" href="#" color="light"><img  src="/charliekirklogo.png"/></Badge> 
                                 <CardTitle tag="h5"></CardTitle>
                                 <CardText color="muted"></CardText>
-                                <p className="text-white">Designer e Desenvolvedor de Builds importante do novo Portal PoupaTempo</p> 
+                                <p className="text-white">Desenvolvedor WordPress do site CharlieKirk.</p> 
                             </CardBody> 
                         </Card>     
                     </Col>
