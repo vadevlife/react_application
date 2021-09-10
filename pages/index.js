@@ -22,7 +22,7 @@ export default function home() {
         <Higlights/>
         <Skills/> 
         <Experiencias/>   
-        {/* <Portfolio/> */}
+        <Portfolio/>
 
         <Footer/> 
 

@@ -75,14 +75,11 @@ export default function skills() {
                   <h2 className="display-4">Skills que podem contribuir para seu projeto</h2>
                 </Col> 
               </Row> 
-            <Row className="p-md-4">
-              <Col sm={4} md={4} lg={3} className="p-0">
+            <Row className="p-4">
+              <Col sm={4} md={4} lg={3} className="p-0 d-none d-sm-block">
                 <Card id="cover" className={cardContent.class}  > 
                       <CardBody className="bg-cover">
-                          {/* <Badge href="#" color="" className="before-hidden">DOwnload</Badge> 
-                          <CardTitle tag="h5">Title</CardTitle>
-                          <CardText color="muted">Descrição</CardText>
-                          <p>paragrafo</p>  */}
+                          
                       </CardBody> 
                   </Card>   
               </Col>
@@ -110,7 +107,7 @@ export default function skills() {
             
             </Row> 
 
-            <Row className="p-md-4">
+            <Row className="p-4">
               <Col md={9}> 
                   <h6 className="p-2"><strong>Design e Criação</strong></h6> 
                 </Col> 
