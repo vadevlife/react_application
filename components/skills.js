@@ -107,11 +107,17 @@ export default function skills() {
             
             </Row> 
 
-            <Row className="p-4">
-              <Col md={9}> 
+
+            <Row>
+            <Col md={9}> 
                   <h6 className="p-2"><strong>Design e Criação</strong></h6> 
-                </Col> 
-              <div className="col-md-6 col-lg-6 p-0 d-flex"> 
+              </Col> 
+            </Row>
+            <Row className="p-4">
+              
+            
+
+              <Col  sm={4} md={4} lg={3}  className="p-0">  
                 <Card>  
                     <CardBody>
                         <Badge href="#" className="before-hidden blue2 rounded-pill">Photoshop</Badge> 
@@ -121,7 +127,11 @@ export default function skills() {
 
                     </CardBody> 
                 </Card> 
-                <Card>  
+              </Col> 
+               
+              
+             <Col  sm={4} md={4} lg={3}  className="p-0">   
+              <Card>  
                     <CardBody>
                         <Badge href="#" className="before-hidden rounded-pill black">Figma</Badge> 
                         <CardTitle tag="h5">Prototipação e Design de intefaces web e mobile.</CardTitle> 
@@ -129,8 +139,9 @@ export default function skills() {
                         <img src="/figma.png" />
                         
                     </CardBody> 
-                </Card>    
-              </div> 
+                </Card> 
+              </Col> 
+                
             </Row>
            
 
