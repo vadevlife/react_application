@@ -21,8 +21,8 @@ const portfolio=[{
 },{
     key:'2',
     nome:'Poupatempo',
-    logo:'/detranlogo.png', 
-    bg:'url("/poupatempo.png',  
+    logo:'/personalhouselogo.png', 
+    bg:'url("/personalhouse.png',  
     color:'light',
     text:'Designer e Desenvolvedor de Builds importante do novo Portal PoupaTempo' 
 }]
@@ -79,7 +79,7 @@ export default function Portfolio(){
                     <Col md={4} className="p-0">
                         <Card style={{backgroundImage:'url("/charliekirk.png'}}> 
                             <CardBody>
-                                <Badge className="before-hidden rounded-pill" href="#" color="light"><img src="/poupatempologo.png"/></Badge> 
+                                <Badge className="before-hidden rounded-pill" href="#" color="light"><img  src="/poupatempologo.png"/></Badge> 
                                 <CardTitle tag="h5"></CardTitle>
                                 <CardText color="muted"></CardText>
                                 <p className="text-white">Designer e Desenvolvedor de Builds importante do novo Portal PoupaTempo</p> 

@@ -189,6 +189,9 @@ a.badge.first:before,a.before-hidden:before{
     }
 }
 
+.badge img {
+    max-width: 100px;
+}
 a.badge {
     height: 30px;
     padding: 0 20px;
