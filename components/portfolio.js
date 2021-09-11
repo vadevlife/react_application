@@ -110,7 +110,7 @@ export default function Portfolio(){
                                 <p className="text-white lead">Desenvolvedor WordPress do site CharlieKirk.</p> 
                             </CardBody> 
                             <div className="p-3">  
-                            <span class="text-black text-muted"> Tecnologias</span> 
+                            <span className="text-black text-muted"> Tecnologias</span> 
                                 <List type="unstyled">
                                     <ListInlineItem><i className="text-light h3 fab fa-html5"></i></ListInlineItem>
                                     <ListInlineItem><i className="text-light h3 fab fa-css3-alt"></i></ListInlineItem>
