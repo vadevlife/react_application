@@ -18,6 +18,11 @@
 .text-orange{
  color: #f46f25;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    min-width: 100%;
+}
 body{ 
     font-family: 'Montserrat', sans-serif !important;
 }

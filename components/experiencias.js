@@ -17,7 +17,7 @@ const cardContent=[{
   key:'1',
   nome:'Prodesp',
   cargo:'Desenvolvedor Front-End',
-  desc:'Criação, prototipação e desenvolvimento de componentes responsivos, dia-a-dia com ferramentas client-side.',
+  desc:'Design, prototipação e desenvolvimento de componentes responsivos para serviços digitais dos Portais PoupaTempo e Detran, dia-a-dia com ferramentas client-side.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript', 
   class:'bg-primary ',
@@ -68,17 +68,17 @@ const cardContent=[{
   badge:'before-hidden pink rounded-pill',
   color:'pink'
 },
-{
-  key:'6', 
-  nome:'Colonial Village ||',
-  cargo:'Desenvolvedor Front-End',
-  desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
-  periodo:'2019  / 2020  - Full-Time',
-  skills:'Javascript',
-  class:'bg-light',
-  badge:'before-hidden success rounded-pill',
-  color:'success'
-}
+// {
+//   key:'6', 
+//   nome:'Colonial Village ||',
+//   cargo:'Desenvolvedor Front-End',
+//   desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
+//   periodo:'2019  / 2020  - Full-Time',
+//   skills:'Javascript',
+//   class:'bg-light',
+//   badge:'before-hidden success rounded-pill',
+//   color:'success'
+// }
 
 
 ]
@@ -98,7 +98,7 @@ const cardContent=[{
                   
                 </Col>
               </Row> 
-              <Row className="p-4 ">
+              <Row className="p-4 p-lg-5">
                           
                   {cardContent.map((cardContent)=>( 
 

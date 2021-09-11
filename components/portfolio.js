@@ -53,7 +53,7 @@ export default function Portfolio(){
                                 <CardTitle tag="h5"></CardTitle>
                                 <CardText color="muted"></CardText>
     
-                                <p className="text-white">Designer e desenvolvedor web para serviços do Portal PoupaTempo.</p> 
+                                <p className="text-white lead">Designer e desenvolvedor web de serviços digitais do Portal PoupaTempo.</p> 
                             </CardBody> 
                         </Card>     
                     </Col>
@@ -69,7 +69,7 @@ export default function Portfolio(){
                                                 <Badge className="before-hidden rounded-pill" href={portfolio.url} color={portfolio.color}><img src={portfolio.logo}/></Badge> 
                                                 <CardTitle tag="h5"></CardTitle>
                                                 <CardText color="muted"></CardText>
-                                                <p className="text-white">{portfolio.text}</p> 
+                                                <p className="text-white lead">{portfolio.text}</p> 
                                             </CardBody> 
                                         </Card> 
                                         
@@ -87,7 +87,7 @@ export default function Portfolio(){
                                 <Badge className="before-hidden rounded-pill" href="#" color="light"><img  src="/charliekirklogo.png"/></Badge> 
                                 <CardTitle tag="h5"></CardTitle>
                                 <CardText color="muted"></CardText>
-                                <p className="text-white">Desenvolvedor WordPress do site CharlieKirk.</p> 
+                                <p className="text-white lead">Desenvolvedor WordPress do site CharlieKirk.</p> 
                             </CardBody> 
                         </Card>     
                     </Col>

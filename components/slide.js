@@ -59,7 +59,7 @@ const Slide = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img className="img-fluid" src={item.src} alt={item.altText} />
         <Badge href="#" color="primary" className="rounded-pill">{item.badge}</Badge> 
         
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
