@@ -17,8 +17,8 @@ const items = [
   },
   {
     src: '/websites.png',
-    altText: 'Sites dinâmico e de auto desempenho aplicações que se adaptam ao cliente.',
-    caption: 'Sites dinâmico e de auto desempenho aplicações que se adaptam ao cliente',
+    altText: 'Sites de auto desempenho, aplicações que se adaptam ao cliente.',
+    caption: 'Sites de auto desempenho, aplicações que se adaptam ao cliente',
     badge:'Web Sites',
 
   },

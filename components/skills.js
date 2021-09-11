@@ -25,7 +25,7 @@ const cardContent=[{
   },{
     key: '2',
     nome:'Css3',
-    cargo:'Camadas em variaveis ajudam a otimizar seu app.', 
+    cargo:'Camadas, variaveis economiza tempo, encurta o código e diminui a chance de erros..', 
     desc:'4 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 

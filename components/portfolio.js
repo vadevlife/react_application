@@ -17,14 +17,17 @@ const portfolio=[{
     logo:'/detranlogo.png',
     color:'light',
     bg:'url("/detran.png',
-    text:'Desenvolvedor Web de serviços do Portal Detran.' 
+    text:'Desenvolvedor Web de serviços do Portal Detran.', 
+    url:'http://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/servicos/servicosOnline'
 },{
     key:'2',
     nome:'PersonalHouse',
     logo:'/personalhouselogo.png', 
     bg:'url("/personalhouse.png',  
     color:'light',
-    text:'Desenvolvedor WordPress PersonalHouse / Colonial Village ||' 
+    text:'Desenvolvedor WordPress PersonalHouse / Colonial Village ||' ,
+    url:'https://colonialvillage.com.br/'
+
     
 }]
 
@@ -38,7 +41,7 @@ export default function Portfolio(){
                     <Col md={9}>
                         <span className="title_pathers d-none d-lg-flex">Portfólio</span>
                         <Badge href="#" color="primary rounded-pill">Designer e Desenvolvedor</Badge>
-                        <h2 className="display-4 mb-5">Projetos que tive o prazer trabalhar!</h2>
+                        <h2 className="display-4 mb-5">Projetos que tive o prazer contribuir e fazer parte!</h2>
                     </Col>      
                 </Row>
                 <Row>
@@ -46,7 +49,7 @@ export default function Portfolio(){
                     <Col md={3} className="p-0 ">
                         <Card style={{backgroundImage:'url("/poupatempo.png'}}> 
                             <CardBody>
-                                <Badge className="before-hidden rounded-pill" href="#" color="light"><img src="/poupatempologo.png"/></Badge> 
+                                <Badge className="before-hidden rounded-pill" target="_blank" href="https://www.poupatempo.sp.gov.br/" color="light"><img src="/poupatempologo.png"/></Badge> 
                                 <CardTitle tag="h5"></CardTitle>
                                 <CardText color="muted"></CardText>
     
@@ -63,7 +66,7 @@ export default function Portfolio(){
                                     
                                         <Card className="card-centr" style={{backgroundImage:portfolio.bg}}> 
                                             <CardBody>
-                                                <Badge className="before-hidden rounded-pill" href="#" color={portfolio.color}><img src={portfolio.logo}/></Badge> 
+                                                <Badge className="before-hidden rounded-pill" href={portfolio.url} color={portfolio.color}><img src={portfolio.logo}/></Badge> 
                                                 <CardTitle tag="h5"></CardTitle>
                                                 <CardText color="muted"></CardText>
                                                 <p className="text-white">{portfolio.text}</p> 

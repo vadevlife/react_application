@@ -23,7 +23,7 @@ class Footer extends React.Component {
                  </Col>
 
                  <Col xs={12} md={4} >
-                    <a href="#" className="text-muted text-center d-block"> Politica de Privacidade</a>
+                    <a href="#" className="text-muted text-center d-block"> © 2021 Vinicius Araujo - Portfólio</a>
                  </Col>
 
                  <Col xs={12} md={4} >

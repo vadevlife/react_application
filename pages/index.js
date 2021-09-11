@@ -20,7 +20,7 @@ export default function home() {
         <Jumbotron/>
         <Slide/>
 
-        <div style={{background:'#fbfbfb'}}>
+        <div style={{background:'#F4F4F4'}}>
           <Higlights/>
           <Skills/> 
           <Experiencias/>   

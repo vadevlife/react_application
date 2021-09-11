@@ -180,7 +180,7 @@ a.badge.first:before,a.before-hidden:before{
     a.badge:before {
         content: '';
         position: absolute;
-        left: -30px;
+        left: -49px;
         background-image: url('../public/element.png');
         background-size: 40px;
         height: 200px;
@@ -188,6 +188,7 @@ a.badge.first:before,a.before-hidden:before{
         z-index: -1;
         background-repeat: no-repeat;
         top: -20px;
+        z-index: 999;
     
         
     }
@@ -374,4 +375,7 @@ a.purple {
 #portfolio .card p{
     max-width: 218px;
     float: left;
+}
+#portfolio .card a.badge{ 
+    pointer-events: inherit !important;
 }

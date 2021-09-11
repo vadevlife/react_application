@@ -92,7 +92,7 @@ const cardContent=[{
                 <Col md={9}>
                   <span className="title_pathers d-none d-lg-flex">Experiências</span>
                   <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
-                  <h2 className="display-4">Experiências Profissionais e builds Legais</h2>
+                  <h2 className="display-4">Experiências Profissionais e builds</h2>
                 </Col>
                 <Col md={3} className="d-flex flex-column justify-content-center">
                   
