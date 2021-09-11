@@ -7,7 +7,9 @@ import {
    CardBody,
    CardText,
    CardTitle,
-   Badge 
+   Badge,
+   List,
+   ListInlineItem    
   } from 'reactstrap'; 
 
 
@@ -47,15 +49,25 @@ export default function Portfolio(){
                 <Row>
                     
                     <Col md={3} className="p-0 ">
+                        <a href="">
                         <Card style={{backgroundImage:'url("/poupatempo.png'}}> 
                             <CardBody>
                                 <Badge className="before-hidden rounded-pill" target="_blank" href="https://www.poupatempo.sp.gov.br/" color="light"><img src="/poupatempologo.png"/></Badge> 
                                 <CardTitle tag="h5"></CardTitle>
                                 <CardText color="muted"></CardText>
     
-                                <p className="text-white lead">Designer e desenvolvedor web de serviços digitais do Portal PoupaTempo.</p> 
+                                <p className="text-light lead">Designer e desenvolvedor web de serviços digitais do Portal PoupaTempo.</p> 
+                                
                             </CardBody> 
+                            <div className="p-3">   
+                                <List type="unstyled">
+                                    <ListInlineItem><i className="text-light h3 fab fa-html5"></i></ListInlineItem>
+                                    <ListInlineItem><i className="text-light h3 fab fa-css3-alt"></i></ListInlineItem>
+                                    <ListInlineItem><i className="text-light h3 fab fa-js"></i></ListInlineItem>
+                                </List>
+                            </div>
                         </Card>     
+                        </a>
                     </Col>
 
                     <Col>
@@ -63,6 +75,7 @@ export default function Portfolio(){
                             {portfolio.map((portfolio)=>( 
             
                                     <div className="col-md-6 col-lg-12 p-0" key={portfolio.key}>  
+                                    <a href="">
                                     
                                         <Card className="card-centr" style={{backgroundImage:portfolio.bg}}> 
                                             <CardBody>
@@ -70,9 +83,16 @@ export default function Portfolio(){
                                                 <CardTitle tag="h5"></CardTitle>
                                                 <CardText color="muted"></CardText>
                                                 <p className="text-white lead">{portfolio.text}</p> 
-                                            </CardBody> 
+                                            </CardBody>
+                                            <div className="d-flex justify-content-end sof-skills p-4">   
+                                                <List type="unstyled">
+                                                    <ListInlineItem><i className="text-light h3 fab fa-html5"></i></ListInlineItem>
+                                                    <ListInlineItem><i className="text-light h3 fab fa-css3-alt"></i></ListInlineItem>
+                                                    <ListInlineItem><i className="text-light h3 fab fa-js"></i></ListInlineItem>
+                                                </List>
+                                            </div>
                                         </Card> 
-                                        
+                                    </a>
                                     </div>
                                     
                                 ))}
@@ -89,6 +109,15 @@ export default function Portfolio(){
                                 <CardText color="muted"></CardText>
                                 <p className="text-white lead">Desenvolvedor WordPress do site CharlieKirk.</p> 
                             </CardBody> 
+                            <div className="p-3">  
+                            <span class="text-black text-muted"> Tecnologias</span> 
+                                <List type="unstyled">
+                                    <ListInlineItem><i className="text-light h3 fab fa-html5"></i></ListInlineItem>
+                                    <ListInlineItem><i className="text-light h3 fab fa-css3-alt"></i></ListInlineItem>
+                                    <ListInlineItem><i className="text-light h3 fab fa-js"></i></ListInlineItem>
+                                    <ListInlineItem><i className="text-light h3 fab fa-wordpress"></i></ListInlineItem>
+                                </List>
+                            </div>
                         </Card>     
                     </Col>
                     

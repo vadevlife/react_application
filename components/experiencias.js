@@ -20,7 +20,7 @@ const cardContent=[{
   desc:'Design, prototipação e desenvolvimento de componentes responsivos para serviços digitais dos Portais PoupaTempo e Detran, dia-a-dia com ferramentas client-side.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript', 
-  class:'bg-primary ',
+  class:'bg-primary p-md-4',
   badge:'before-hidden purple rounded-pill',
   color:'warning'
 },
@@ -28,21 +28,21 @@ const cardContent=[{
   key:'2',
   nome:'Fastcommerce',
   cargo:'E-commerce Dev. Front-End ',
-  desc:'Criação e desenvolvimento de componentes responsivos com ferramentas client-side',
+  desc:'Designer de Interfaces digitais para e-commerce, integração de mockups a recursos Plataforma de E-commerce',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript',
-  class:'bg-light',
+  class:'bg-light p-md-4',
   badge:'before-hidden rounded-pill',
   color:'primary'
 },
 {
   key:'3', 
   nome:'RioSlum Studio',
-  cargo:'E-commerce Dev. Front-End ',
+  cargo:'Wordpress Dev.Front-End ',
   desc:'Criação e desenvolvimento de componentes responsivos com ferramentas client-side',
-  periodo:'2019  / 2020  - Full-Time',
+  periodo:'2018  / 2019  - Freelancer',
   skills:'Javascript',
-  class:'bg-light',
+  class:'bg-light p-md-4',
   badge:'before-hidden purple rounded-pill',
   color:'purple primary'
 },
@@ -53,7 +53,7 @@ const cardContent=[{
   desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript',
-  class:'bg-light',
+  class:'bg-light p-md-4',
   badge:'before-hidden warning rounded-pill',
   color:'warning'
 },
@@ -64,7 +64,7 @@ const cardContent=[{
   desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript',
-  class:'bg-light',
+  class:'bg-light p-md-4',
   badge:'before-hidden pink rounded-pill',
   color:'pink'
 },
