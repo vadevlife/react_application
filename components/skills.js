@@ -36,7 +36,7 @@ const cardContent=[{
   },{
     key: '3',
     nome:'Javascript',
-    cargo:'Dev de Recursos Javascript que otimizam a usabilidade de suas aplicações.', 
+    cargo:'...', 
     desc:'2 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 

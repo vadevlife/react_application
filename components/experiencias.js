@@ -20,7 +20,7 @@ const cardContent=[{
   desc:'Criação, prototipação e desenvolvimento de componentes responsivos, dia-a-dia com ferramentas client-side.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript', 
-  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3 ',
+  class:'bg-primary ',
   badge:'before-hidden purple rounded-pill',
   color:'warning'
 },
@@ -31,7 +31,7 @@ const cardContent=[{
   desc:'Criação e desenvolvimento de componentes responsivos com ferramentas client-side',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript',
-  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  class:'bg-light',
   badge:'before-hidden rounded-pill',
   color:'primary'
 },
@@ -42,7 +42,7 @@ const cardContent=[{
   desc:'Criação e desenvolvimento de componentes responsivos com ferramentas client-side',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript',
-  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  class:'bg-light',
   badge:'before-hidden purple rounded-pill',
   color:'purple primary'
 },
@@ -53,7 +53,7 @@ const cardContent=[{
   desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript',
-  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  class:'bg-light',
   badge:'before-hidden warning rounded-pill',
   color:'warning'
 },
@@ -64,7 +64,7 @@ const cardContent=[{
   desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript',
-  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  class:'bg-light',
   badge:'before-hidden pink rounded-pill',
   color:'pink'
 },
@@ -75,7 +75,7 @@ const cardContent=[{
   desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript',
-  class:'col-xs-12 col-sm-6 col-md-4 col-lg-3',
+  class:'bg-light',
   badge:'before-hidden success rounded-pill',
   color:'success'
 }
@@ -103,7 +103,7 @@ const cardContent=[{
                   {cardContent.map((cardContent)=>( 
 
                    <div className="col-md-6 col-lg-4 p-0" key={cardContent.key}>  
-                      <Card> 
+                      <Card className={cardContent.class}> 
                           <CardBody>
                             <Badge href="#" color={cardContent.color} className={cardContent.badge}>{cardContent.nome}</Badge> 
                             <CardTitle tag="h5">{cardContent.cargo}</CardTitle>
