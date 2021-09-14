@@ -149,6 +149,9 @@ a.badge {
     display: none;
     pointer-events: none;
 }
+#cover .badge{
+    pointer-events: inherit !important;  
+}
 a.badge.first:before,a.before-hidden:before{
     content: inherit !important;
 }  

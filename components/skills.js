@@ -14,7 +14,7 @@ import {
 const cardContent=[{
     key: '1', 
     nome:'Html5',
-    cargo:'Posso desenvolver sites responsivos, fazer integrações de E-commerce.', 
+    cargo:'Posso desenvolver Sites Responsivos, fazer integrações de E-commerce.', 
     desc:'4 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 
@@ -79,7 +79,7 @@ export default function skills() {
               <Col sm={4} md={4} lg={3} className="p-0 d-none d-sm-block">
                 <Card id="cover" className={cardContent.class}  > 
                       <CardBody className="bg-cover">
-                      <CardTitle tag="h5" className="text-light">Faça download do curriculum se precidar fale comigo!</CardTitle> 
+                      <CardTitle tag="h5" className="text-light">Faça download do curriculum se precisar fale comigo!</CardTitle> 
                                 <p>{cardContent.desc}</p> 
                                 <i className={cardContent.icon}></i>
                                 <Badge href="/curriculum-va.pdf" color="light" className="before-hidden text-body rounded-pill">Curriculum 2021 <i className="fas fa-file-download text-body h6 ml-1 pt-1"></i></Badge> 
