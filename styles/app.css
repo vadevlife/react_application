@@ -347,7 +347,7 @@ a.purple {
         margin:0px auto;
         justify-content: flex-end;
     }
-    .social_media a:last-child{   
+    .footer .social_media a:last-child{   
         margin-right:0px;
     }
     

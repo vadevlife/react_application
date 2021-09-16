@@ -11,8 +11,8 @@ import {
 const items = [
   {
     src: '/ecommerce.png',
-    altText: 'Integrador de lojas virtuais, e recursos Ux para E-commerce.',
-    caption: 'Integrador de lojas virtuais, e recursos Ux para E-commerce.',
+    altText: 'Integrador de lojas virtuais e recursos Ux para E-commerce.',
+    caption: 'Integrador de lojas virtuais e recursos Ux para E-commerce.',
     badge:'Profissional',
   },
   {

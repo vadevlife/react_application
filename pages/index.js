@@ -6,7 +6,7 @@ import Experiencias from '../components/experiencias';
 import Slide from '../components/slide';  
 import Portfolio from '../components/portfolio';  
 import Skills from '../components/skills';  
-import Footer from '../components/footer';  
+import SocialMedia from '../components/social';  
 
  
  
@@ -15,18 +15,22 @@ import Footer from '../components/footer';
 export default function home() {
   return(
         <>
-        <Navbar/>
+       
+        <div style={{
+          background:'white',
+          display:'flex',
+          justifyContent:'center',
+          padding:'10px ',
+          paddingBottom:'15px ', 
+          flexDirection: 'column',
+          alignItems: 'center'
+          
+          }}>
+          Site em Desenvolvimento
+        <SocialMedia/>
 
-        <Jumbotron/>
-        <Slide/>
-
-        <div style={{background:'#F4F4F4'}}>
-          <Higlights/>
-          <Skills/> 
-          <Experiencias/>   
-          <Portfolio/> 
-          <Footer/> 
         </div>
+
         </>
   )
     
