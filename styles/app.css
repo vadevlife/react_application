@@ -52,6 +52,14 @@ strong,.fw-600{
     color: black;
 
 }
+.ant-affix {
+    position: relative !important;
+}
+.bg-cover.card-body > div {
+    position: absolute;
+    bottom: 0;
+}
+
 @media (min-width: 576px) {
   
     .navbar {
@@ -115,7 +123,7 @@ strong,.fw-600{
 .tecnologies i {
     font-size: 70px;  
     padding: 0 10px;
-     
+    margin: 5px;     
 }
 #cover{
     background-color: reb;
@@ -367,6 +375,10 @@ a.purple {
         bottom: 50px;
         opacity: .1;
     }
+    .card-centr.card {
+        height: 280px;
+    }
+    
 }
 
 
@@ -376,12 +388,9 @@ a.purple {
     background-size: cover;
     border: 0;
 }
-.card-centr.card {
-    height: 270px;
-}
 
 #portfolio .card p{
-    max-width: 218px;
+    /* max-width: 218px; */
     float: left;
 }
 #portfolio .card a.badge{ 

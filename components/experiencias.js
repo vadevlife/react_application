@@ -17,18 +17,21 @@ const cardContent=[{
   key:'1',
   nome:'Prodesp',
   cargo:'Desenvolvedor Front-End',
-  desc:'Design, prototipação e desenvolvimento de componentes responsivos para serviços digitais dos Portais PoupaTempo e Detran, dia-a-dia com ferramentas client-side.',
+  desc:'Em uma grande equipe, minha função foi criar e desenvolver atravez de fluxogramas, interfaces responsivas com frameworks e recursos JavaScript',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript', 
   class:'bg-primary p-md-4',
   badge:'before-hidden purple rounded-pill',
-  color:'warning'
+  color:'warning',
+  list: [{
+    icon:'nome',
+  }] 
 },
 {
   key:'2',
   nome:'Fastcommerce',
-  cargo:'E-commerce Dev. Front-End ',
-  desc:'Designer de Interfaces digitais para e-commerce, integração de mockups a recursos Plataforma de E-commerce.',
+  cargo:'Desenvolvedor Front-end',
+  desc:'Responsavel por integrações de novas lojas a recursos da Plataforma de E-commerce. Sempre focado em aplicações leves e de auto desempenho para aumentar a conversão.',
   periodo:'2019  / 2020  - Full-Time',
   skills:'Javascript',
   class:'bg-light p-md-4',
@@ -38,8 +41,8 @@ const cardContent=[{
 {
   key:'3', 
   nome:'RioSlum Studio',
-  cargo:'Wordpress Dev.Front-End ',
-  desc:'Criação e desenvolvimento de componentes responsivos com ferramentas client-side.',
+  cargo:'Desenvolvedor Front-end',
+  desc:'Trabalhei em Projetos para o CMS Wordpress e Plugins. Metedologias Agéis, desenvolvimento responsivo, automatizadores de tarefas, erem algumas das atividades do dia-a-dia.',
   periodo:'2018  / 2019  - Freelancer',
   skills:'Javascript',
   class:'bg-light p-md-4',
@@ -57,29 +60,18 @@ const cardContent=[{
   badge:'before-hidden warning rounded-pill',
   color:'warning'
 },
-// {
-//   key:'5', 
-//   nome:'HelloPay',
-//   cargo:'Desenvolvedor Front-End',
-//   desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
-//   periodo:'2019  / 2020  - Full-Time',
-//   skills:'Javascript',
-//   class:'bg-light p-md-4',
-//   badge:'before-hidden pink rounded-pill',
-//   color:'pink'
-// },
-// {
-//   key:'6', 
-//   nome:'Colonial Village ||',
-//   cargo:'Desenvolvedor Front-End',
-//   desc:'Implementação de Sites responsivos e recursos de interação Front-End com JavaScript.',
-//   periodo:'2019  / 2020  - Full-Time',
-//   skills:'Javascript',
-//   class:'bg-light',
-//   badge:'before-hidden success rounded-pill',
-//   color:'success'
-// }
-
+{
+  key:'5', 
+  nome:'E-commerce Express',
+  cargo:'Desenvolvedor Front-End',
+  desc:'Implementação de lojas virtuais responsivas JetNeo e Magento.',
+  periodo:'2019  / 2020  - Full-Time',
+  skills:'Javascript',
+  class:'bg-light p-md-4',
+  badge:'before-hidden pink rounded-pill',
+  color:'pink'
+},
+ 
 
 ]
 
@@ -92,7 +84,7 @@ const cardContent=[{
                 <Col md={9}>
                   <span className="title_pathers d-none d-lg-flex">Experiências</span>
                   <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
-                  <h2 className="display-4">Experiências Profissionais e builds</h2>
+                  <h2 className="display-4">Experiências Profissionais.</h2>
                 </Col>
                 <Col md={3} className="d-flex flex-column justify-content-center">
                   
@@ -108,7 +100,7 @@ const cardContent=[{
                             <Badge href="#" color={cardContent.color} className={cardContent.badge}>{cardContent.nome}</Badge> 
                             <CardTitle tag="h5">{cardContent.cargo}</CardTitle>
                             <CardText color="muted">{cardContent.desc}</CardText>
-                            <p>{cardContent.periodo}</p> 
+                            <CardText color="muted">{cardContent.periodo}</CardText>
                           </CardBody> 
                       </Card>   
                     </div>

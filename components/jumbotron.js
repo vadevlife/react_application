@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import {
   Badge,   
   Jumbotron, 
-  Container,
-  
+  Container, 
   Row,
   Col
 } from 'reactstrap'; 
@@ -19,7 +18,7 @@ export default function NavBar() {
           <Container fluid>
             <Row>
               <Col md={7} lg={9}>
-                <Badge href="#" color="primary rounded-pill first">PERFIL 2021</Badge>
+                <Badge href="#" color="primary rounded-pill first">Portfolio</Badge>
                 <h1 className="display-4">Desenvolvedor<br/> FrontEnd.</h1>
               </Col>
               <Col md={3} className="d-none flex-column justify-content-center"  >
@@ -28,7 +27,7 @@ export default function NavBar() {
                 <a href="https://www.poupatempo.sp.gov.br/" target="_blank">Novo Portal PoupaTempo </a> 
                 <a href="https://charliekirk.com/" target="_blank">Charlie kirk</a>
               </Col>
-              <Col md={5} lg={3} className="d-none d-md-flex flex-column   justify-content-center">
+              <Col md={5} lg={3} className="d-md-flex flex-column   justify-content-center">
                 <strong className="h4">2021</strong>
                 <h4 className="h6 fw-600">Por, Vinicius Araujo</h4>
                 <a href="https://www.linkedin.com/in/vinicius-araujo-1418649b/" target="_blank">FrontEnd Dev. </a> 

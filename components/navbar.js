@@ -26,10 +26,7 @@ export default function NavBar() {
     {
       title:'Softwares Skills',
       anchor:'#skills'},
-    {
-      title:'Lembrete',
-      anchor:'#Experiências'
-    },
+     
     {
       title:'Portfólio',
       anchor:'#portfolio'
@@ -54,7 +51,7 @@ export default function NavBar() {
                             </NavItem>  
                           ))} 
                         </Anchor>
-                        <a className="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://wa.me/+5511910451115?text=" > Fale Comigo  <i className="fab fa-whatsapp ml-2"></i></a>
+                        <a className="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://wa.me/+5512983069952?text=" > Fale Comigo  <i className="fab fa-whatsapp ml-2"></i></a>
                           
                           
                         <div className="social-group">

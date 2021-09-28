@@ -14,48 +14,52 @@ import {
 const cardContent=[{
     key: '1', 
     nome:'Html5',
-    cargo:'Posso desenvolver Sites Responsivos, integrações de APis e integração de E-commerce.', 
+    cargo:'Posso desenvolver aplicações responsivas, fazer integrações de APis e até mesmo integrações de lojas online e recursos pontuais para seu negócio digital.', 
     desc:'4 anos de Experiência',
     periodo:'2019  / 2020  - Full-Time',
     skills:'Javascript', 
     class:'col-md-6 col-lg-4 ',
     badge:'rounded-pill before-hidden',
     color:'warning',
-    icon:'fab fa-html5 h2 text-warning'
-  },{
-    key: '2',
-    nome:'Css3',
-    cargo:'Camadas, variaveis economizam tempo, encurta o código e diminui a chance de erros.', 
-    desc:'4 anos de Experiência',
-    periodo:'2019  / 2020  - Full-Time',
-    skills:'Javascript', 
-    class:'col-md-6 col-lg-4',
-    badge:'redmain rounded-pill before-hidden',
-    color:' ',
-    icon:'fab fa-css3-alt h2 text-danger' 
-  },{
-    key: '3',
-    nome:'Javascript',
-    cargo:'Recursos UX que otimizam a experiência do usuário.', 
-    desc:'2 anos de Experiência',
-    periodo:'2019  / 2020  - Full-Time',
-    skills:'Javascript', 
-    class:'col-md-6 col-lg-6 ',
-    badge:'purple rounded-pill before-hidden',
-    color:'warning',
-    icon:'fab fa-js h2 text-warning' 
-  },{
-    key: '4',
-    nome:'Magento',
-    cargo:'Front-end de Lojas Magento.', 
-    desc:'2 anos de Experiência',
-    periodo:'2019  / 2020  - Full-Time',
-    skills:'Javascript', 
-    class:'col-md-6 col-lg-6 ',
-    badge:'orange rounded-pill before-hidden',
-    color:' ',
-    icon:'fab fa-magento  h2 text-orange' 
-  },
+    icon:'fab fa-html5 h2 text-warning',
+    list:[{
+      item:'1'
+    }]
+   }
+  //,{
+  //   key: '2',
+  //   nome:'Css3',
+  //   cargo:'Camadas, variaveis economizam tempo, encurta o código e diminui a chance de erros.', 
+  //   desc:'4 anos de Experiência',
+  //   periodo:'2019  / 2020  - Full-Time',
+  //   skills:'Javascript', 
+  //   class:'col-md-6 col-lg-4',
+  //   badge:'redmain rounded-pill before-hidden',
+  //   color:' ',
+  //   icon:'fab fa-css3-alt h2 text-danger' 
+  // },{
+  //   key: '3',
+  //   nome:'Javascript',
+  //   cargo:'Recursos UX que otimizam a experiência do usuário.', 
+  //   desc:'2 anos de Experiência',
+  //   periodo:'2019  / 2020  - Full-Time',
+  //   skills:'Javascript', 
+  //   class:'col-md-6 col-lg-6 ',
+  //   badge:'purple rounded-pill before-hidden',
+  //   color:'warning',
+  //   icon:'fab fa-js h2 text-warning' 
+  // },{
+  //   key: '4',
+  //   nome:'Magento',
+  //   cargo:'Front-end de Lojas Magento.', 
+  //   desc:'2 anos de Experiência',
+  //   periodo:'2019  / 2020  - Full-Time',
+  //   skills:'Javascript', 
+  //   class:'col-md-6 col-lg-6 ',
+  //   badge:'orange rounded-pill before-hidden',
+  //   color:' ',
+  //   icon:'fab fa-magento  h2 text-orange' 
+  // },
  
  
   
@@ -68,11 +72,11 @@ export default function skills() {
     return (
       <div id="skills" className='section mt-5 mb-5'> 
           <Container >
-              <Row className="d-none d-lg-flex">
+              <Row>
                 <Col md={9}>
-                  <span className="title_pathers">Habilidades</span>
+                  <span className="title_pathers d-none d-lg-flex">Habilidades</span>
                   <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
-                  <h2 className="display-4">Skills que podem contribuir para seu projeto</h2>
+                  <h2 className="display-4">Skills que podem contribuir para seu projeto.</h2>
                 </Col> 
               </Row> 
             <Row className='p-4 p-lg-5'>
@@ -83,6 +87,7 @@ export default function skills() {
                             <CardTitle tag="h5" className="text-light">Faça download do curriculum se precisar fale comigo!</CardTitle> 
                             <p>{cardContent.desc}</p> 
                             <i className={cardContent.icon}></i>
+                            {console.log(cardContent[0].list[0].item)}
                             <Badge href="/curriculum-va.pdf" color="light" className="before-hidden text-body rounded-pill">Curriculum 2021 <i className="fas fa-file-download text-body h6 ml-1 pt-1"></i></Badge> 
                           </div>
                       </CardBody> 
@@ -96,7 +101,7 @@ export default function skills() {
                         <div className="col-md-6 col-lg-6 p-0" key={cardContent.key}> 
                         <Card>  
                             <CardBody>
-                                <Badge href="#" color={cardContent.color} className={cardContent.badge}>{cardContent.nome}</Badge> 
+                                {/* <Badge href="#" color={cardContent.color} className={cardContent.badge}>{cardContent.nome}</Badge>  */}
                                 <CardTitle tag="h5">{cardContent.cargo}</CardTitle> 
                                 <p>{cardContent.desc}</p> 
                                 <i className={cardContent.icon}></i>
@@ -118,7 +123,7 @@ export default function skills() {
                   <h6 className="p-2"><strong>Design e Criação</strong></h6> 
               </Col> 
             </Row>
-            <Row className="p-4 p-lg-5">
+            <Row className="p-4">
               
             
 

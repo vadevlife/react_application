@@ -118,7 +118,7 @@ export default function skills() {
                   <h6 className="p-2"><strong>Design e Criação</strong></h6> 
               </Col> 
             </Row>
-            <Row className="p-4 p-lg-5">
+            <Row className="p-4">
               
             
 
