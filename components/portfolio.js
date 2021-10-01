@@ -40,13 +40,13 @@ export default function Portfolio(){
                 <Row className=""> 
                     <Col md={9}>
                         <span className="title_pathers d-none d-lg-flex">Portfólio</span>
-                        <Badge href="#" color="primary rounded-pill">Designer e Desenvolvedor</Badge>
+                        <Badge href="#" color="primary rounded-pill">Design e Desenvolvimento</Badge>
                         <h2 className="display-4">Projetos que tive o prazer de fazer parte!</h2>
                     </Col>      
                 </Row>
-                <Row className='p-4 p-lg-5'>
+                <Row className='p-5'>
                     
-                    <Col sm={4} md={4} className="p-0">
+                    <Col sm={6} lg={4} className="p-0">
                         
                         <Card style={{backgroundImage:'url("/poupatempo.png'}}> 
                             <CardBody>
@@ -67,7 +67,7 @@ export default function Portfolio(){
                         
                     </Col>
 
-                    <Col md={4}>
+                    <Col md={6} lg={4}>
                         <Row>
                             {portfolio.map((portfolio)=>( 
             
@@ -99,7 +99,7 @@ export default function Portfolio(){
 
                    
 
-                    <Col md={4} className="p-0">
+                    <Col md={4} className="p-0 d-sm-none d-lg-block">
                         <Card style={{backgroundImage:'url("/charliekirk.png'}}> 
                             <CardBody>
                                 <Badge className="before-hidden rounded-pill" href="https://charliekirk.com" color="light"><img  src="/charliekirklogo.png"/></Badge> 

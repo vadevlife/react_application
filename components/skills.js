@@ -20,8 +20,8 @@ const cardContent=[{
     skills:'Javascript', 
     class:'col-md-6 col-lg-4 ',
     badge:'rounded-pill before-hidden',
-    color:'warning',
-    icon:'fab fa-html5 h2 text-warning'
+    color:'primary',
+    icon:'fab fa-html5 h2 text-primary'
   },{
     key: '2',
     nome:'Css3',
@@ -68,19 +68,19 @@ export default function skills() {
     return (
       <div id="skills" className='section mt-5 mb-5'> 
           <Container >
-              <Row className="d-none d-lg-flex">
+              <Row className="d-lg-flex">
                 <Col md={9}>
-                  <span className="title_pathers">Habilidades</span>
+                  <span className="d-none d-lg-flex title_pathers">Habilidades</span>
                   <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
                   <h2 className="display-4">Skills que podem contribuir para seu projeto</h2>
                 </Col> 
               </Row> 
-            <Row className='p-4 p-lg-5'>
+            <Row className='p-5 p-lg-5'>
               <Col sm={4} md={4} lg={3} className="p-0 d-none d-sm-block">
                 <Card id="cover" className={cardContent.class}  > 
                       <CardBody className="bg-cover">
                           <div>
-                            <CardTitle tag="h5" className="text-light">Faça download do curriculum se precisar fale comigo!</CardTitle> 
+                            <CardTitle tag="h5" className="text-light">Faça download do<br/> meu curriculum, e se precisar fale comigo!</CardTitle> 
                             <p>{cardContent.desc}</p> 
                             <i className={cardContent.icon}></i>
                             <Badge href="/curriculum-va.pdf" color="light" className="before-hidden text-body rounded-pill">Curriculum 2021 <i className="fas fa-file-download text-body h6 ml-1 pt-1"></i></Badge> 
@@ -118,7 +118,7 @@ export default function skills() {
                   <h6 className="p-2"><strong>Design e Criação</strong></h6> 
               </Col> 
             </Row>
-            <Row className="p-4 p-lg-5">
+            <Row className="p-5 p-lg-5">
               
             
 
