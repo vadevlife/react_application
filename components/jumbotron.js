@@ -18,7 +18,7 @@ export default function NavBar() {
           <Container fluid>
             <Row>
               <Col md={7} lg={9}>
-                <Badge href="#" color="primary rounded-pill first">Portfolio</Badge>
+                <Badge href="#" color="primary rounded-pill first">Portfólio</Badge>
                 <h1 className="display-4">Designer e Desenvolvedor<br/> FrontEnd.</h1>
               </Col>
               <Col md={3} className="d-none flex-column justify-content-center"  >
