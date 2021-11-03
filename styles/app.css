@@ -59,7 +59,9 @@ strong,.fw-600{
     position: absolute;
     bottom: 0;
 }
-
+ul.ml-auto.navbar-nav div[aria-hidden="true"] {
+    display: none;
+}
 @media (min-width: 576px) {
   
     .navbar {
