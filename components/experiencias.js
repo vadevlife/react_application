@@ -42,7 +42,7 @@ const cardContent=[{
   key:'3', 
   nome:'RioSlum Studio',
   cargo:'Desenvolvedor Front-end',
-  desc:'Trabalhei em Projetos para o CMS Wordpress e Plugins. Metodologias Agéis, desenvolvimento responsivo, automatizadores de tarefas, são algumas das atividades do dia-a-dia.',
+  desc:'Trabalhei em Projetos para o CMS Wordpress e Plugins. Metodologias Ágeis, desenvolvimento responsivo, automatizadores de tarefas, são algumas das atividades do dia-a-dia.',
   periodo:'2018  / 2019  - Freelancer',
   skills:'Javascript',
   class:'bg-light p-md-4',
