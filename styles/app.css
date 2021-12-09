@@ -15,6 +15,24 @@
 .black{
     background-color: black !important;
 }
+
+/* PORTFÓLIO */
+
+.overlay {
+    display: none;
+    background: #007bff;
+    color: white;
+    height: 280px;
+    position: absolute;
+    bottom: 0;
+}
+.card:hover .overlay{
+    display: block;
+}
+.overlay h5 {
+    background: #007bff;
+    color: white;
+}
 .text-orange{
  color: #f46f25;
 }
@@ -59,9 +77,8 @@ strong,.fw-600{
     position: absolute;
     bottom: 0;
 }
-ul.ml-auto.navbar-nav div[aria-hidden="true"] {
-    display: none;
-}
+
+
 @media (min-width: 576px) {
   
     .navbar {
@@ -389,15 +406,30 @@ section{
 
 /* //PORTFOLIO */
 
+ 
 #portfolio .card {
     background-size: cover;
-    border: 0;
+     border: 0;
 }
-
 #portfolio .card p{
     /* max-width: 218px; */
     float: left;
 }
 #portfolio .card a.badge{ 
     pointer-events: inherit !important;
+}
+
+@media(max-width:768px){
+    #portfolio .card {
+        background-size: cover;
+        border: 0;
+        height: 400px;
+        margin: 0 10px;
+        border-radius: 20px!important;
+    }
+   
+}
+#portfolio .card-body {
+    position: absolute;
+    bottom: 0;
 }
