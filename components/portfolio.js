@@ -1,20 +1,14 @@
 import React from 'react'
 import useMediaQuery from '/hooks/useMediaQuery'
-import PortfolioMobile from './mob-jobs'
-import PortfolioDesktop from './desk-jobs'
+import portfoliomobile from './mobjobs'
+import portfoliodesktop from './deskjobs'
 
 
 import {
    Container,
    Row,
-   Col,
-   Card,
-   CardBody,
-   CardText,
-   CardTitle,
-   Badge,
-   List,
-   ListInlineItem    
+   Col, 
+   Badge 
   } from 'reactstrap'; 
 
 
@@ -36,7 +30,7 @@ export default function Portfolio(){
                     </Col>      
                 </Row>
 
-                {isDesktop ?  <PortfolioDesktop/>  : <PortfolioMobile/>}
+                {isDesktop ?  <portfoliodesktop/>  : <portfoliomobile/>}
                 
                  
             </Container>
