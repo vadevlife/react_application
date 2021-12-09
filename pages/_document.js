@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-         <title>Portfólio - Development</title>   
+         <title>Portfólio - Vinicius Araujo</title>   
          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet"></link>
          <link rel="icon" href="/ico.png" type="image/x-icon" />
