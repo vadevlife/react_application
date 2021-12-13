@@ -1,7 +1,6 @@
 import React from 'react'
 // import useMediaQuery from '/hooks/useMediaQuery'
-// import portfoliomobile from './mobjobs'
-// import portfoliodesktop from './deskjobs'
+ 
 
 
 import {
@@ -30,8 +29,7 @@ export default function Portfolio(){
                     </Col>      
                 </Row>
 
-                
-                
+                  
                  
             </Container>
         </div>
