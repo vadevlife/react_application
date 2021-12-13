@@ -30,7 +30,7 @@ export default function Portfolio(){
                     </Col>      
                 </Row>
 
-                {isDesktop ?  <portfoliodesktop/>  : <portfoliomobile/>}
+                
                 
                  
             </Container>
