@@ -1,7 +1,7 @@
 import React from 'react'
-import useMediaQuery from '/hooks/useMediaQuery'
-import portfoliomobile from './mobjobs'
-import portfoliodesktop from './deskjobs'
+// import useMediaQuery from '/hooks/useMediaQuery'
+// import portfoliomobile from './mobjobs'
+// import portfoliodesktop from './deskjobs'
 
 
 import {
