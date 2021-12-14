@@ -27,7 +27,7 @@ export default function home() {
         <div style={style}>
           <Higlights/> 
           <Experiencias/>
-          {/* <Portfolio/> */}
+          <Portfolio/>
           <Skills/>
           <Footer/>
         </div>
