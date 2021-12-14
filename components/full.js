@@ -1,43 +1,17 @@
-
-import React from 'React'
-import {
-    Container,
+import React from 'react'
+import { 
     Row,
     Col,
     Card,
-    CardBody,
-    CardText,
-    CardTitle,
-    Badge,
-    List,
-    ListInlineItem    
+    CardBody 
    } from 'reactstrap'; 
  
-const portfolio=[{
-    key:'1',
-    nome:'Poupatempo',
-    logo:'/poupatempo.png',
-    color:'light',
-    bg:'url("/poupatempo.png',
-    text:'Desenvolvedor Web de serviços do Portal Detran.', 
-    url:'http://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/servicos/servicosOnline',
-},{
-    key:'2',
-    nome:'Portal Detran SP',
-    logo:'/detran.png', 
-    bg:'url("/detran.png',  
-    color:'light',
-    text:'Desenvolvedor WordPress PersonalHouse / Colonial Village ||' ,
-    url:'https://colonialvillage.com.br/', 
-}]
-
-
  
-export default function PortfolioDesktop(){
-   return(
-       <React.Fragment>
-           
-           <Row className='p-5'>
+
+export default function home() {
+  return(
+        <>
+         <Row className='p-5'>
                     
                     <Col sm={6} lg={4} className="p-0">
                         
@@ -87,6 +61,7 @@ export default function PortfolioDesktop(){
                     
                    
                 </Row>
-       </React.Fragment>
-   )
+        </>
+  )
+    
 }
