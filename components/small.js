@@ -1,21 +1,16 @@
 
-import React from 'React'
+import React from 'react'
 import {
-    
     Card,
-    CardBody,
-    
-     
+    CardBody 
    } from 'reactstrap'; 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
  
- 
 
-export default function mobile() {
-  return(
-        
-        <React.Fragment>
+export default function small(){
+   return(
+       <React.Fragment>
            <Swiper className="mt-4">
                 <SwiperSlide>
                 <Card style={{backgroundImage:'url("/e-nike-mob.png'}}> 
@@ -54,7 +49,5 @@ export default function mobile() {
                  
             </Swiper>
        </React.Fragment>
-        
-  )
-    
+   )
 }
