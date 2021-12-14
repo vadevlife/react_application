@@ -2,6 +2,7 @@ import React from 'react'
 import useMediaQuery from '/hooks/useMediaQuery'
 // import Desktop from './desktop'; 
 import Full from '../components/full'; 
+import Mob from '../components/mob'; 
 
 
  
@@ -34,7 +35,7 @@ export default function Portfolio(){
                 </Row>
 
                   
-                {isDesktop ? <Full/>  : <h2>teste</h2>}
+                {isDesktop ? <Full/>  : <Mob/>}
                  
             </Container>
         </div>
