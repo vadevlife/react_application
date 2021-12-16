@@ -1,11 +1,7 @@
 import React from 'react'
 import useMediaQuery from '/hooks/useMediaQuery'
-// import Desktop from './desktop'; 
 import Full from '../components/full'; 
-import Small from '../components/small'; 
-
-
- 
+import Small from '../components/small';  
 
 
 import {
@@ -13,9 +9,7 @@ import {
    Row,
    Col, 
    Badge 
-  } from 'reactstrap'; 
-
-
+  } from 'reactstrap';   
 
 
 export default function Portfolio(){

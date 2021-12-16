@@ -21,10 +21,15 @@
 .overlay {
     display: none;
     background: #007bff;
-    color: white;
-    height: 280px;
+    color: white; 
+    max-height: 100%;
     position: absolute;
     bottom: 0;
+    width: 100%;
+    background-color: #0000FE;
+}
+.card {
+    cursor: pointer;
 }
 .card:hover .overlay{
     display: block;
