@@ -72,7 +72,7 @@ export default function skills() {
                 <Col md={9}>
                   <span className="d-none d-lg-flex title_pathers">Habilidades</span>
                   <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
-                  <h2 className="display-4">Skills que podem contribuir para seu projeto</h2>
+                  <h2 className="display-4">Amor pela Criação e vontade de desenvolvimento.</h2>
                 </Col> 
               </Row> 
             <Row className='p-5 p-lg-5'>

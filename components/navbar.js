@@ -51,12 +51,13 @@ export default function NavBar() {
                             </NavItem>  
                           ))} 
                         </Anchor>
-                        <a className="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://wa.me/+5512981255741?text=" > Fale Comigo  <i className="fab fa-whatsapp ml-2"></i></a>
+                        {/* <a className="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://wa.me/+5512981255741?text=" > Fale Comigo  <i className="fab fa-whatsapp ml-2"></i></a> */}
+                        <a className="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://www.linkedin.com/in/vinicius-araujo-1418649b/"> Conecte-se <i className="fab fa-linkedin-in ml-2 h6" target="_blank"></i></a> 
                           
                           
                         <div className="social-group">
-                          <a href="https://github.com/vadevlife?tab=repositories" target="_blank"><i className="fab fa-github-alt"></i></a>
-                          <a href="https://www.linkedin.com/in/vinicius-araujo-1418649b/"><i className="fab fa-linkedin-in" target="_blank"></i></a> 
+                          <a href="https://github.com/vadevlife?tab=repositories" target="_blank"><i className="fab fa-github-alt h6"></i></a>
+                          {/* <a href="https://www.linkedin.com/in/vinicius-araujo-1418649b/"><i className="fab fa-linkedin-in" target="_blank"></i></a>  */}
                         </div>
                       
                            

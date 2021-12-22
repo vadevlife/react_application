@@ -6,12 +6,20 @@ import {
    } from 'reactstrap'; 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
  
 
 export default function small(){
    return(
-       <React.Fragment>
-           <Swiper className="mt-4">
+    <Tabs> 
+    <TabList>
+      <Tab>Web</Tab>
+      <Tab>Design</Tab>
+      <Tab>Outros</Tab>
+    </TabList>
+    <TabPanel>
+    <Swiper className="mt-4">
                 <SwiperSlide>
                 <Card style={{backgroundImage:'url("/e-nike-mob.png'}}> 
                             <CardBody>
@@ -48,6 +56,10 @@ export default function small(){
                
                  
             </Swiper>
-       </React.Fragment>
+    </TabPanel>
+    <TabPanel>item2</TabPanel>
+    <TabPanel>item3</TabPanel>
+    </Tabs>
+
    )
 }

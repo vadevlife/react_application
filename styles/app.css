@@ -28,6 +28,20 @@
     width: 100%;
     background-color: #0000FE;
 }
+.react-tabs__tab-list {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #eee !important;
+
+}.react-tabs__tab--selected {
+  
+    border-color: #e9ecef !important;
+    background-color: #0000FE !important;
+    color: white !important;
+
+   
+}
+ 
 .card {
     cursor: pointer;
 }
@@ -139,7 +153,7 @@ strong,.fw-600{
 }
 
 .jumbotron-fluid{
-    background: url('../public/back.png');
+    /* background: url('../public/back.png'); */
     background-size: cover;
     background-position: center;
     background-color: transparent !important;
@@ -180,6 +194,7 @@ p {
 a.badge {
     display: none;
     pointer-events: none;
+    font-weight: 400;
 }
 #cover .badge{
     pointer-events: inherit !important;  
@@ -206,9 +221,7 @@ a.badge.first:before,a.before-hidden:before{
         padding-right: 2.3rem !important;
         padding-left: 2.3rem !important;
     }
-    h1{ 
-        font-size: 4.5rem !important; 
-    }
+     
     h2,h3{ 
         font-size: 3.5rem !important; 
         font-weight: 600 !important;
@@ -255,7 +268,11 @@ a.purple {
     font-weight:600;
     background-color: #8D65FE;
     border-color:#8D65FE;
-} 
+}
+
+.jumbotron {
+    padding: 3rem 2rem !important;
+}
 
 .badge-primary {
     font-weight: 400;

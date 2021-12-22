@@ -22,7 +22,7 @@ export default function home() {
         <>
         <Navbar/>
         <Jumbotron/>
-        {/* <Slide/> */}
+        <Slide/>
         {/* <Slide/>  */}
         <div style={style}>
           <Higlights/> 

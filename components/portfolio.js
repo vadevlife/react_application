@@ -24,7 +24,7 @@ export default function Portfolio(){
                     <Col md={9}>
                         <span className="title_pathers d-none d-lg-flex">Portfólio</span>
                         <Badge href="#" color="primary rounded-pill">Design e Desenvolvimento</Badge>
-                        <h2 className="display-4">Projetos que tive o prazer de fazer parte!</h2>
+                        <h2 className="display-4">Aplicações fluídas e intuitivas veja recentes:w</h2>
                     </Col>      
                 </Row>
 

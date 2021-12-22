@@ -19,7 +19,8 @@ export default function NavBar() {
             <Row>
               <Col md={7} lg={9}>
                 <Badge href="#" color="primary rounded-pill first">Portfólio</Badge>
-                <h1 className="display-4">Designer e Desenvolvedor<br/> FrontEnd.</h1>
+                <h1 className="display-4">Transforme idéias <br/>em Experiências.</h1>
+                <p className='lead'>Profissional Designer UI e Desenvolvedor <br/> Front-end  de Lojas Virtuais e aplicações responsivas</p>
               </Col>
               <Col md={3} className="d-none flex-column justify-content-center"  >
                 <strong className="h4">02</strong>
