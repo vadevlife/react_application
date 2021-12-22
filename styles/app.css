@@ -433,10 +433,7 @@ section{
     background-size: cover;
      border: 0;
 }
-#portfolio .card p{
-    /* max-width: 218px; */
-    float: left;
-}
+ 
 #portfolio .card a.badge{ 
     pointer-events: inherit !important;
 }
