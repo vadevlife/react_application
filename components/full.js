@@ -139,7 +139,7 @@ export default function full() {
                                             <p className="text-light ">Anúncio da parceria entre B2W e Fastcommerce.</p> 
                                             <span>Adobe Photoshop</span>
                                             <div className="d-flex mt-3 justify-content-between">
-                                                <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="#"><i class="fas fa-image mr-2"></i>Ver Material</a>  
+                                                {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="#"><i class="fas fa-image mr-2"></i>Ver Material</a>   */}
                                                 {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href=" ">Saiba Mais<i class="fas fa-angle-right mr-2"></i> </a>   */}
                                             </div>
                                         </div>       
@@ -163,7 +163,7 @@ export default function full() {
                                             <p className="text-light ">Material publicitário para Redesign da Loja online Modo Saúde.</p> 
                                             <span>Adobe Photoshop.</span>
                                             <div className="d-flex mt-3 justify-content-between">
-                                            <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="#"><i class="fas fa-image mr-2"></i>Ver Material</a>  
+                                            {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="#"><i class="fas fa-image mr-2"></i>Ver Material</a>   */}
                                                  
                                                  
                                                 {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href=" ">Saiba Mais<i class="fas fa-angle-right mr-2"></i> </a>   */}
@@ -186,7 +186,7 @@ export default function full() {
                                             <p className="text-light d-block text-left">Anúncio de evento para mídias sociais.</p>  
                                             <span>Adobe Photoshop.</span>
                                             <div className="d-flex mt-3 justify-content-between">
-                                                <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="#"><i class="fas fa-image mr-2"></i>Ver Material</a>  
+                                                {/* <a class="btn btn-primary rounded-pill d-flex align-items-center d-none " target="_blank" href="#"><i class="fas fa-image mr-2"></i>Ver Material</a>   */}
                                               
                                                  {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href=" ">Saiba Mais<i class="fas fa-angle-right mr-2"></i> </a>   */}
                                             </div>
@@ -214,7 +214,7 @@ export default function full() {
                                     <p className="text-light">Redesign para Portal PoupaTempo.</p> 
                                     <span>Adobe XD.</span>
                                     <div className="d-flex mt-3 justify-content-between">
-                                    <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="#"><i class="fas fa-image mr-2"></i>Ver Material</a>  
+                                    {/* <a class="btn btn-primary rounded-pill d-flex align-items-center " target="_blank" href="#"><i class="fas fa-image mr-2"></i>Ver Material</a>   */}
 
                                     </div>
                                 </div>       
@@ -245,7 +245,7 @@ export default function full() {
                                     <p className="text-light">Aplicação responsiva para Modo Saude Loja de suplementos alimentares.</p> 
                                     <span>Html5, Css3, Javascript, Node.js, automatizadores de terefas.</span>
                                     <div className="d-flex mt-3 justify-content-between">
-                                        <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://vadevlife.github.io/niketheme/"><i class="fas fa-desktop mr-2"> </i>Ver Demo</a>  
+                                        {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://vadevlife.github.io/niketheme/"><i class="fas fa-desktop mr-2"> </i>Ver Demo</a>   */}
                                         {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="#">Saiba Mais<i class="fas fa-angle-right mr-2"></i> </a>   */}
                                     </div>
                                 </div>       
@@ -269,7 +269,7 @@ export default function full() {
                                             <p className="text-light ">Aplicação responsiva para Modo Saude Loja de suplementos alimentares.</p> 
                                             <span>Html5, Css3, Javascript, Node.js, automatizadores de terefas.</span>
                                             <div className="d-flex mt-3 justify-content-between">
-                                                <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://www.poupatempo.sp.gov.br/"><i class="fas fa-desktop mr-2"> </i>Ver Site</a>  
+                                                {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://www.poupatempo.sp.gov.br/"><i class="fas fa-desktop mr-2"> </i>Ver Site</a>   */}
                                                 {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href=" ">Saiba Mais<i class="fas fa-angle-right mr-2"></i> </a>   */}
                                             </div>
                                         </div>       
@@ -290,7 +290,7 @@ export default function full() {
                                             <p className="text-light ">Aplicação responsiva para Modo Saude Loja de suplementos alimentares.</p> 
                                             <span>Html5, Css3, Javascript, Node.js, automatizadores de terefas.</span>
                                             <div className="d-flex mt-3 justify-content-between">
-                                                <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://www.poupatempo.sp.gov.br/"><i class="fas fa-desktop mr-2"> </i>Ver Site</a>  
+                                                {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://www.poupatempo.sp.gov.br/"><i class="fas fa-desktop mr-2"> </i>Ver Site</a>   */}
                                                 {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href=" ">Saiba Mais<i class="fas fa-angle-right mr-2"></i> </a>   */}
                                             </div>
                                         </div>       
@@ -317,7 +317,7 @@ export default function full() {
                                     <p className="text-light">Web Site Wordpress para publicação de noticias de Charlie Kirk ativista conservador americano.</p> 
                                     <span>WordPress, Html5, Css3, Jquery.</span>
                                     <div className="d-flex mt-3 justify-content-between">
-                                        <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://colonialvillage.com.br/"><i class="fas fa-desktop mr-2"> </i>Ver Site</a>  
+                                        {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="https://colonialvillage.com.br/"><i class="fas fa-desktop mr-2"> </i>Ver Site</a>   */}
                                         {/* <a class="btn btn-primary rounded-pill d-flex align-items-center" target="_blank" href="#">Saiba Mais<i class="fas fa-angle-right mr-2"></i> </a>   */}
                                     </div>
                                 </div>       

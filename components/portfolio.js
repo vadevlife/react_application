@@ -17,10 +17,10 @@ export default function Portfolio(){
     
     return(
         <React.Fragment> 
-        <div id="portfolio" className='section mt-5 mb-5'>
+        <div id="portfolio" className='section pt-5 mb-5'>
          
             <Container > 
-                <Row className=""> 
+                <Row className="mb-5"> 
                     <Col md={9}>
                         <span className="title_pathers d-none d-lg-flex">Portfólio</span>
                         <Badge href="#" color="primary rounded-pill">Design e Desenvolvimento</Badge>

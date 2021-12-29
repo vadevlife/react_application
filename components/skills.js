@@ -68,14 +68,17 @@ export default function skills() {
     return (
       <div id="skills" className='section mt-5 mb-5'> 
           <Container >
-              <Row className="d-lg-flex">
-                <Col md={9}>
-                  <span className="d-none d-lg-flex title_pathers">Habilidades</span>
-                  <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
-                  <h2 className="display-4">Amor pela Criação e vontade de desenvolvimento.</h2>
-                </Col> 
-              </Row> 
+
+            <Row className="d-lg-flex">
+              <Col md={9}>
+                <span className="d-none d-lg-flex title_pathers">Habilidades</span>
+                <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
+                <h2 className="display-4">Amor pela Criação e vontade de desenvolvimento.</h2>
+              </Col> 
+            </Row> 
+
             <Row className='p-5 p-lg-5'>
+
               <Col sm={4} md={4} lg={3} className="p-0 d-none d-sm-block">
                 <Card id="cover" className={cardContent.class}  > 
                       <CardBody className="bg-cover">
@@ -88,75 +91,20 @@ export default function skills() {
                       </CardBody> 
                   </Card>   
               </Col>
-              <Col md={8} className="d-flex flex-wrap p-0">
 
-                <Row >  
-                  {cardContent.map((cardContent)=>(   
-                    
-                        <div className="col-md-6 col-lg-6 p-0" key={cardContent.key}> 
-                        <Card>  
-                            <CardBody>
-                                <Badge href="#" color={cardContent.color} className={cardContent.badge}>{cardContent.nome}</Badge> 
-                                <CardTitle tag="h5">{cardContent.cargo}</CardTitle> 
-                                <p>{cardContent.desc}</p> 
-                                <i className={cardContent.icon}></i>
-                            </CardBody> 
-                        </Card>    
-                          
-                      </div> 
-                  ))}
-
-                </Row>
-                
+              <Col md={8} className="d-flex flex-wrap p-0"> 
+                <Row>     
+                  <Card className='p-4'>  
+                    <CardBody>
+                    <CardTitle tag="h3">Sobre mim</CardTitle>  
+                    <p className='lead'>Designer Desenvolvedor de aplicações digitais, iniciei minha carreira em agências de Publicidade e criação, foi uma experiência incrivel fazer parte de projetos da Home Brasil e RioSlum.<br/> <br/>Me aprofundei no desenvolvimento web responsivo, ganhei experiência durante alguns anos na agência de desenvolvimento de e-commerce Zfast. Criei interfaces para lojas e contribuí para o desenvolvimento da Dashboard da Plataforma Fastcommerce. <br/> <br/> Há cerca de 4 anos, desenvolvo aplicações responsivas, e há pelo menos 3, trabalho no mercado de desenvolvimento de lojas virtuais utilizando diferentes plataformas.</p>
+                    </CardBody>
+                  </Card>     
+                </Row> 
               </Col>
             
-            </Row> 
-
-
-            <Row>
-            <Col md={9}> 
-                  <h6 className="p-2"><strong>Design e Criação</strong></h6> 
-              </Col> 
-            </Row>
-            <Row className="p-5 p-lg-5">
-              
-            
-
-              <Col  sm={4} md={4} lg={3}  className="p-0">  
-                <Card>  
-                    <CardBody>
-                        <Badge href="#" className="before-hidden blue2 rounded-pill">Photoshop</Badge> 
-                        <CardTitle tag="h5">Posso criar, materiais publicitários e design de interfaces web.</CardTitle> 
-                        <p>4 anos de Expêriencia</p>  
-                        <img widht="25" src="/ps.png" />
-
-                    </CardBody> 
-                </Card> 
-              </Col> 
-               
-              
-             <Col  sm={4} md={4} lg={3}  className="p-0">   
-              <Card>  
-                    <CardBody>
-                        <Badge href="#" className="before-hidden rounded-pill black">Figma</Badge> 
-                        <CardTitle tag="h5">Prototipação e Design de intefaces web e mobile.</CardTitle> 
-                        <p>1 ano de Expêriencia</p>  
-                        <img src="/figma.png" />
-                        
-                    </CardBody> 
-                </Card> 
-              </Col> 
-                
-            </Row>
-           
-
-           
-          </Container>
-
-
-
- 
-   
+            </Row>     
+          </Container>   
       </div>
     );
   } 

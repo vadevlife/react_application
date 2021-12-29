@@ -26,9 +26,10 @@ export default function home() {
         {/* <Slide/>  */}
         <div style={style}>
           {/* <Higlights/>  */}
-          <Experiencias/>
           <Portfolio/>
-          {/* <Skills/> */}
+          <Experiencias/>
+
+          <Skills/>
           <Footer/>
         </div>
 
