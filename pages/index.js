@@ -25,10 +25,10 @@ export default function home() {
         <Slide/>
         {/* <Slide/>  */}
         <div style={style}>
-          <Higlights/> 
+          {/* <Higlights/>  */}
           <Experiencias/>
           <Portfolio/>
-          <Skills/>
+          {/* <Skills/> */}
           <Footer/>
         </div>
 
