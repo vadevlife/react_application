@@ -74,8 +74,8 @@ export default function skills() {
           <Container >
               <Row>
                 <Col md={9}>
-                  <span className="title_pathers d-none d-lg-flex">Habilidades</span>
-                  <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
+                  <span className="title_pathers d-none d-lg-flex">Sobre</span>
+                  <Badge href="#" color="primary rounded-pill">Sobre mim</Badge>
                   <h2 className="display-4">Skills que podem contribuir para seu projeto.</h2>
                 </Col> 
               </Row> 

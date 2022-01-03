@@ -15,6 +15,11 @@ export default function small(){
    return(
        <React.Fragment>
            <Swiper
+           navigation={{
+            nextEl: '.review-swiper-button-next',
+            prevEl: '.review-swiper-button-prev',
+          }}
+          
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}

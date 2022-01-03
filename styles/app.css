@@ -15,7 +15,11 @@
 .black{
     background-color: black !important;
 }
-
+.lead {
+    font-size: 1.20rem !important; 
+    font-weight: 400 !important;
+    color: #525252 !important;
+}
 /* PORTFÓLIO */
 
 .overlay {
@@ -98,10 +102,57 @@ strong,.fw-600{
 }
 
 
+ .navbar {
+    position: inherit;
+}
+
+/* ul.ml-auto.navbar-nav {
+    background: white;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+} */
+/* .collapse:not(.show) {
+    display: block !important;
+} */
+/*
+.navbar-collapse {
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 100%;
+   
+    z-index: 9999;
+}
+.collapse:not(.show) {
+    display: block !important;
+} */
+.navbar ul li {
+    display: flex;
+    align-items: center; 
+}
+
+@media (max-width:576px){
+    .navbar ul li {
+        
+        border-bottom: 1px solid #eee;
+        padding: 15px 5px;
+        
+    }
+    .navbar-nav li a {
+        font-size: 16px;
+        
+    margin-left: 13px !important;
+    margin-left: 13px !important;
+    }
+}
+
 @media (min-width: 576px) {
-  
+    
     .navbar {
         padding: .9rem 0rem !important;
+        position: inherit;
     }
     ul.ml-auto.navbar-nav {
         display: flex;
@@ -126,7 +177,7 @@ strong,.fw-600{
     
     .ant-anchor-link a {
         color: black;
-        padding: 0 40px;
+        padding: 0 40px 0 0;
     }
 }
 

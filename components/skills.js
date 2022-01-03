@@ -71,13 +71,13 @@ export default function skills() {
 
             <Row className="d-lg-flex">
               <Col md={9}>
-                <span className="d-none d-lg-flex title_pathers">Habilidades</span>
-                <Badge href="#" color="primary rounded-pill">Agências e Startups</Badge>
+                <span className="d-none d-lg-flex title_pathers">Sobre</span>
+                <Badge href="#" color="primary rounded-pill">Vinicius Araujo</Badge>
                 <h2 className="display-4">Amor pela Criação e vontade de desenvolvimento.</h2>
               </Col> 
             </Row> 
 
-            <Row className='p-5 p-lg-5'>
+            <Row className='p-2 p-lg-5'>
 
               <Col sm={4} md={4} lg={3} className="p-0 d-none d-sm-block">
                 <Card id="cover" className={cardContent.class}  > 

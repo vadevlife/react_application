@@ -17,7 +17,7 @@ export default function NavBar() {
         <Jumbotron fluid className="mb-0">
           <Container fluid>
             <Row>
-              <Col md={7} lg={9}>
+              <Col md={7} lg={9} className="p-0">
                 <Badge href="#" color="primary rounded-pill first">Portfólio</Badge>
                 <h1 className="display-4">Transforme idéias <br/>em Experiências.</h1>
                 <p className='lead'>Profissional Designer UI e Desenvolvedor <br/> Front-end  de Lojas Digitais e aplicações responsivas.</p>
@@ -30,7 +30,7 @@ export default function NavBar() {
               </Col>
               <Col md={5} lg={3} className="d-md-flex flex-column   justify-content-center">
                 <strong className="h4">2021</strong>
-                <h4 className="h6 fw-600">Por, Vinicius Araujo</h4>
+                <h4 className="h6 fw-600">By, Vinicius Araujo</h4>
                 <a className="d-none d-md-block" href="https://www.linkedin.com/in/vinicius-araujo-1418649b/" target="_blank">FrontEnd Dev. </a> 
                 {/* <a href="https://charliekirk.com/" target="_blank">Charlie kirk</a> */}
               </Col>

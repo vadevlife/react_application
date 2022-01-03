@@ -1,5 +1,6 @@
 import React, { useState } from 'react';     
 import { Anchor } from 'antd'; 
+
 import {
   Collapse,
   Navbar,
@@ -21,16 +22,22 @@ export default function NavBar() {
   
     const navitens = [{
       title:'Experiências',
-      anchor:'#experiencias'
+      anchor:'#experiencias',
+      icon:'fas fa-chalkboard-teacher text-primary'
     },
     {
-      title:'Softwares Skills',
-      anchor:'#skills'},
+      title:'Sobre',
+      anchor:'#skills',
+      icon:'fas fa-layer-group text-primary'
+    },
      
     {
       title:'Portfólio',
-      anchor:'#portfolio'
+      anchor:'#portfolio',
+      icon:'far fa-clone text-primary'
+
     }]
+    
  
     return (
       <div> 
@@ -47,6 +54,7 @@ export default function NavBar() {
                         <Anchor> 
                           {navitens.map((navitens,index) => ( 
                             <NavItem key={index}> 
+                                 <i className={navitens.icon}></i>
                                 <Link href={navitens.anchor}  title={navitens.title} />
                             </NavItem>  
                           ))} 
